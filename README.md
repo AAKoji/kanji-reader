@@ -15,7 +15,7 @@ https://kanji-reader-gamma.vercel.app/?user=alex&level=N3
 ```
 
 - `user` — identifies you; your saved words are stored under this name
-- `level` — your JLPT level (N5–N1). Words above your level show as grey hiragana; click them to see the meaning. Omit to show all kanji.
+- `level` — your JLPT level (N5–N1). Words above your level show as hiragana; click them to see the meaning. Omit to show all kanji.
 
 Each person gets their own vocab list. Bookmark your personal URL.
 
@@ -37,7 +37,7 @@ scripts/
   generate_article.py   # Calls Claude API to produce a new article.js
 .github/
   workflows/
-    daily-article.yml   # Runs generate_article.py daily at 3am UTC (noon JST)
+    daily-article.yml   # Runs generate_article.py daily at 7pm UTC (4am JST)
 setup.sql               # Run once in Supabase to create tables
 .env.example            # Copy to .env.local and fill in your keys
 ```
@@ -46,7 +46,7 @@ setup.sql               # Run once in Supabase to create tables
 
 ## Daily article generation
 
-A GitHub Actions workflow runs every day at 3am UTC (noon Japan time):
+A GitHub Actions workflow runs every day at 7pm UTC (4am JST):
 
 1. Calls the Claude API (`claude-opus-4-8`) with a rotating topic
 2. Validates the output (JLPT tags, required fields)
@@ -79,3 +79,19 @@ npm run dev
 | GitHub Actions | Runs the daily article generation script |
 | Anthropic API | Powers article generation (`claude-opus-4-8`) |
 | Vercel Analytics | Usage analytics (injected in `main.jsx`) |
+
+---
+
+## Status — June 2026
+
+Currently in personal testing phase. The core loop is complete and working:
+- Daily article drops at 4am JST, Vercel redeploys automatically
+- Level filter (`?level=`) is live and working
+- Vocab saving persists to Supabase per user
+
+**If daily usage picks up, next steps would be:**
+- User accounts (auth) so the level preference saves automatically instead of living in the URL
+- Article history — browse past days instead of only today's
+- Word review mode — flashcard-style review of saved vocab
+- Topic preferences — let users pick categories they care about
+- Mobile layout improvements
