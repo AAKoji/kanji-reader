@@ -26,6 +26,7 @@ function useToast() {
 export default function App() {
   const params = new URLSearchParams(window.location.search)
   const userName = params.get('user')?.toLowerCase().trim()
+  const userLevel = params.get('level')?.toUpperCase().trim() || null
 
   const [tab, setTab] = useState('read')
   const [savedWords, setSavedWords] = useState({})
@@ -135,7 +136,7 @@ export default function App() {
       <div className="header">
         <div className="header-left">
           <span className="user-badge">👤 {userName}</span>
-          <span className="jlpt-badge">N3</span>
+          {userLevel && <span className="jlpt-badge">{userLevel}</span>}
         </div>
         <span className="date-label">{TODAY}</span>
       </div>
@@ -174,6 +175,11 @@ export default function App() {
                       {seg.text.includes('\n') ? <><br /><br /></> : seg.text}
                     </span>
                   )
+                }
+                const aboveLevel = userLevel && seg.jlpt &&
+                  parseInt(seg.jlpt[1]) < parseInt(userLevel[1])
+                if (aboveLevel) {
+                  return <span key={i} className="word-above-level">{seg.reading}</span>
                 }
                 const saved = savedWords[seg.text]
                 const cls = saved

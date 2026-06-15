@@ -113,6 +113,7 @@ body {
 .word:hover { background: #eeedfe; }
 .word.saved-vocab { border-bottom: 2.5px solid #7f77dd; }
 .word.saved-reading { border-bottom: 2.5px solid #1d9e75; }
+.word-above-level { color: #888; }
 
 /* Popup */
 .popup-overlay {
