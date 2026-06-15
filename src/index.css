@@ -113,7 +113,8 @@ body {
 .word:hover { background: #eeedfe; }
 .word.saved-vocab { border-bottom: 2.5px solid #7f77dd; }
 .word.saved-reading { border-bottom: 2.5px solid #1d9e75; }
-.word-above-level { color: #888; }
+.word-above-level { color: #888; cursor: pointer; border-radius: 3px; padding: 0 1px; transition: background 0.1s; }
+.word-above-level:hover { background: #f0f0f0; }
 
 /* Popup */
 .popup-overlay {

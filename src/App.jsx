@@ -179,7 +179,11 @@ export default function App() {
                 const aboveLevel = userLevel && seg.jlpt &&
                   parseInt(seg.jlpt[1]) < parseInt(userLevel[1])
                 if (aboveLevel) {
-                  return <span key={i} className="word-above-level">{seg.reading}</span>
+                  return (
+                    <span key={i} className="word-above-level" onClick={() => setActiveWord(seg)}>
+                      {seg.reading}
+                    </span>
+                  )
                 }
                 const saved = savedWords[seg.text]
                 const cls = saved
