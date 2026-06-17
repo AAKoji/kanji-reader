@@ -2,7 +2,7 @@ name: Daily Article Generation
 
 on:
   schedule:
-    - cron: '0 19 * * *'   # 7pm UTC = 4am JST
+    - cron: '0 18 * * *'   # 6pm UTC = 3am JST
   workflow_dispatch:        # allow manual trigger for testing
 
 env:
