@@ -3,10 +3,24 @@ import { supabase } from './supabase'
 import { ARTICLE } from './article'
 import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
+import SettingsSheet from './components/SettingsSheet'
 
 const TODAY = new Date().toLocaleDateString('ja-JP', {
   year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'
 })
+
+function SlidersIcon() {
+  return (
+    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round">
+      <line x1="2" y1="4.5" x2="15" y2="4.5" />
+      <line x1="2" y1="8.5" x2="15" y2="8.5" />
+      <line x1="2" y1="12.5" x2="15" y2="12.5" />
+      <circle cx="6"  cy="4.5"  r="1.6" fill="var(--bg-page)" />
+      <circle cx="11" cy="8.5"  r="1.6" fill="var(--bg-page)" />
+      <circle cx="6"  cy="12.5" r="1.6" fill="var(--bg-page)" />
+    </svg>
+  )
+}
 
 function useToast() {
   const [msg, setMsg] = useState('')
@@ -23,6 +37,15 @@ function useToast() {
   return { msg, visible, show }
 }
 
+function loadSettings() {
+  try {
+    const saved = localStorage.getItem('kanji-reader-settings')
+    return saved ? JSON.parse(saved) : { theme: 'paper', fontSize: 'md', darkMode: false }
+  } catch {
+    return { theme: 'paper', fontSize: 'md', darkMode: false }
+  }
+}
+
 export default function App() {
   const params = new URLSearchParams(window.location.search)
   const userName = params.get('user')?.toLowerCase().trim()
@@ -32,7 +55,26 @@ export default function App() {
   const [savedWords, setSavedWords] = useState({})
   const [loading, setLoading] = useState(true)
   const [activeWord, setActiveWord] = useState(null)
+  const [settingsOpen, setSettingsOpen] = useState(false)
+  const [settings, setSettings] = useState(loadSettings)
   const toast = useToast()
+
+  // Apply theme / font-size / dark-mode to <html>
+  useEffect(() => {
+    const html = document.documentElement
+    html.setAttribute('data-theme', settings.theme)
+    html.setAttribute('data-fontsize', settings.fontSize)
+    if (settings.darkMode) {
+      html.classList.add('dark')
+    } else {
+      html.classList.remove('dark')
+    }
+  }, [settings])
+
+  function updateSettings(next) {
+    setSettings(next)
+    localStorage.setItem('kanji-reader-settings', JSON.stringify(next))
+  }
 
   // Load this user's saved words on mount
   useEffect(() => {
@@ -41,7 +83,7 @@ export default function App() {
     async function loadWords() {
       const { data, error } = await supabase
         .from('user_words')
-        .select('word_text, save_type, words(reading, meaning)')
+        .select('word_text, save_type, words(reading, meaning, jlpt_level)')
         .eq('user_name', userName)
 
       if (error) {
@@ -56,6 +98,7 @@ export default function App() {
           save_type: row.save_type,
           reading: row.words?.reading,
           meaning: row.words?.meaning,
+          jlpt: row.words?.jlpt_level,
         }
       })
       setSavedWords(map)
@@ -68,7 +111,6 @@ export default function App() {
   async function handleSave(word, saveType) {
     setActiveWord(null)
 
-    // Upsert into words table first (ignore if exists)
     await supabase.from('words').upsert({
       text: word.text,
       reading: word.reading,
@@ -76,7 +118,6 @@ export default function App() {
       jlpt_level: word.jlpt || null,
     }, { onConflict: 'text', ignoreDuplicates: true })
 
-    // Upsert user_word
     const { error } = await supabase.from('user_words').upsert({
       user_name: userName,
       word_text: word.text,
@@ -90,7 +131,7 @@ export default function App() {
 
     setSavedWords(prev => ({
       ...prev,
-      [word.text]: { save_type: saveType, reading: word.reading, meaning: word.meaning }
+      [word.text]: { save_type: saveType, reading: word.reading, meaning: word.meaning, jlpt: word.jlpt },
     }))
     toast.show(saveType === 'vocab' ? `「${word.text}」を語彙として保存しました` : `「${word.text}」の読み方を保存しました`)
   }
@@ -138,7 +179,12 @@ export default function App() {
           <span className="user-badge">👤 {userName}</span>
           {userLevel && <span className="jlpt-badge">{userLevel}</span>}
         </div>
-        <span className="date-label">{TODAY}</span>
+        <div className="header-right">
+          <span className="date-label">{TODAY}</span>
+          <button className="settings-btn" onClick={() => setSettingsOpen(true)} aria-label="設定">
+            <SlidersIcon />
+          </button>
+        </div>
       </div>
 
       <div className="nav-tabs">
@@ -217,6 +263,14 @@ export default function App() {
           onSave={handleSave}
           onDelete={handleDelete}
           onClose={() => setActiveWord(null)}
+        />
+      )}
+
+      {settingsOpen && (
+        <SettingsSheet
+          settings={settings}
+          onChange={updateSettings}
+          onClose={() => setSettingsOpen(false)}
         />
       )}
 
