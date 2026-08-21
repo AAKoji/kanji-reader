@@ -1,159 +1,33 @@
 export const ARTICLE = {
-  title: "音楽とアートが出会う新しい展覧会",
-  subtitle: "文化 · 読み時間 約4分",
+  title: "睡眠と運動が健康なライフスタイルの鍵",
+  subtitle: "健康 · 読み時間 約3分",
   segments: [
   {
-    "text": "東京",
-    "reading": "とうきょう",
-    "meaning": "Tokyo",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "美術館",
-    "reading": "びじゅつかん",
-    "meaning": "art museum",
+    "text": "最近",
+    "reading": "さいきん",
+    "meaning": "recently",
     "jlpt": "N4"
   },
   {
-    "text": "で",
-    "reading": null,
-    "meaning": null
-  },
-  {
     "text": "、",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "音楽",
-    "reading": "おんがく",
-    "meaning": "music",
-    "jlpt": "N5"
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "アート",
-    "reading": "アート",
-    "meaning": "art",
+    "text": "健康",
+    "reading": "けんこう",
+    "meaning": "health",
     "jlpt": "N4"
   },
   {
-    "text": "を",
+    "text": "な",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "組み合わせた",
-    "reading": "くみあわせた",
-    "meaning": "combined",
-    "jlpt": "N2"
-  },
-  {
-    "text": "新しい",
-    "reading": "あたらしい",
-    "meaning": "new",
-    "jlpt": "N5"
-  },
-  {
-    "text": "展覧会",
-    "reading": "てんらんかい",
-    "meaning": "exhibition",
-    "jlpt": "N2"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "始まりました",
-    "reading": "はじまりました",
-    "meaning": "has started",
-    "jlpt": "N5"
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "この",
-    "reading": "この",
-    "meaning": "this",
-    "jlpt": "N5"
-  },
-  {
-    "text": "展覧会",
-    "reading": "てんらんかい",
-    "meaning": "exhibition",
-    "jlpt": "N2"
-  },
-  {
-    "text": "では",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "来場者",
-    "reading": "らいじょうしゃ",
-    "meaning": "visitor",
-    "jlpt": "N1"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "絵",
-    "reading": "え",
-    "meaning": "picture",
-    "jlpt": "N5"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "近づく",
-    "reading": "ちかづく",
-    "meaning": "to approach",
-    "jlpt": "N3"
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "自動的",
-    "reading": "じどうてき",
-    "meaning": "automatic",
+    "text": "ライフスタイル",
+    "reading": "ライフスタイル",
+    "meaning": "lifestyle",
     "jlpt": "N2"
   },
   {
@@ -162,418 +36,16 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "音",
-    "reading": "おと",
-    "meaning": "sound",
-    "jlpt": "N5"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "流れます",
-    "reading": "ながれます",
-    "meaning": "plays / flows",
-    "jlpt": "N3"
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "それぞれ",
-    "reading": "それぞれ",
-    "meaning": "each",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "作品",
-    "reading": "さくひん",
-    "meaning": "work (of art)",
-    "jlpt": "N3"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "合った",
-    "reading": "あった",
-    "meaning": "matching",
-    "jlpt": "N4"
-  },
-  {
-    "text": "メロディー",
-    "reading": "メロディー",
-    "meaning": "melody",
+    "text": "注目",
+    "reading": "ちゅうもく",
+    "meaning": "attention",
     "jlpt": "N2"
   },
   {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "用意",
-    "reading": "ようい",
-    "meaning": "preparation",
-    "jlpt": "N3"
-  },
-  {
-    "text": "されて",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "います",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "主催者",
-    "reading": "しゅさいしゃ",
-    "meaning": "organizer",
-    "jlpt": "N1"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "よると",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "色",
-    "reading": "いろ",
-    "meaning": "color",
+    "text": "する",
+    "reading": "する",
+    "meaning": "to do",
     "jlpt": "N5"
-  },
-  {
-    "text": "や",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "形",
-    "reading": "かたち",
-    "meaning": "shape",
-    "jlpt": "N4"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "音",
-    "reading": "おと",
-    "meaning": "sound",
-    "jlpt": "N5"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "変える",
-    "reading": "かえる",
-    "meaning": "to change",
-    "jlpt": "N4"
-  },
-  {
-    "text": "技術",
-    "reading": "ぎじゅつ",
-    "meaning": "technology",
-    "jlpt": "N3"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "使って",
-    "reading": "つかって",
-    "meaning": "using",
-    "jlpt": "N5"
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "目",
-    "reading": "め",
-    "meaning": "eyes",
-    "jlpt": "N5"
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "耳",
-    "reading": "みみ",
-    "meaning": "ears",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "両方",
-    "reading": "りょうほう",
-    "meaning": "both",
-    "jlpt": "N3"
-  },
-  {
-    "text": "で",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "楽しめる",
-    "reading": "たのしめる",
-    "meaning": "can enjoy",
-    "jlpt": "N4"
-  },
-  {
-    "text": "そうです",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "訪れた",
-    "reading": "おとずれた",
-    "meaning": "visited",
-    "jlpt": "N2"
-  },
-  {
-    "text": "若者",
-    "reading": "わかもの",
-    "meaning": "young people",
-    "jlpt": "N3"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "「",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "絵",
-    "reading": "え",
-    "meaning": "picture",
-    "jlpt": "N5"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "見ながら",
-    "reading": "みながら",
-    "meaning": "while watching",
-    "jlpt": "N5"
-  },
-  {
-    "text": "音楽",
-    "reading": "おんがく",
-    "meaning": "music",
-    "jlpt": "N5"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "聞く",
-    "reading": "きく",
-    "meaning": "to listen",
-    "jlpt": "N5"
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "気持ち",
-    "reading": "きもち",
-    "meaning": "feeling",
-    "jlpt": "N4"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "落ち着きます",
-    "reading": "おちつきます",
-    "meaning": "to calm down",
-    "jlpt": "N2"
-  },
-  {
-    "text": "」",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "話しました",
-    "reading": "はなしました",
-    "meaning": "said",
-    "jlpt": "N5"
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "この",
-    "reading": "この",
-    "meaning": "this",
-    "jlpt": "N5"
-  },
-  {
-    "text": "展覧会",
-    "reading": "てんらんかい",
-    "meaning": "exhibition",
-    "jlpt": "N2"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "来月",
-    "reading": "らいげつ",
-    "meaning": "next month",
-    "jlpt": "N5"
-  },
-  {
-    "text": "まで",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "開かれ",
-    "reading": "ひらかれ",
-    "meaning": "held / open",
-    "jlpt": "N3"
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "入場料",
-    "reading": "にゅうじょうりょう",
-    "meaning": "admission fee",
-    "jlpt": "N2"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "無料",
-    "reading": "むりょう",
-    "meaning": "free of charge",
-    "jlpt": "N3"
-  },
-  {
-    "text": "です",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "多く",
-    "reading": "おおく",
-    "meaning": "many",
-    "jlpt": "N4"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
   },
   {
     "text": "人",
@@ -587,15 +59,77 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "訪れる",
-    "reading": "おとずれる",
-    "meaning": "to visit",
+    "text": "増えて",
+    "reading": "ふえて",
+    "meaning": "increasing",
+    "jlpt": "N4"
+  },
+  {
+    "text": "います",
+    "reading": "います",
+    "meaning": "to be (polite)",
+    "jlpt": "N5"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "専門家",
+    "reading": "せんもんか",
+    "meaning": "expert",
     "jlpt": "N2"
   },
   {
-    "text": "こと",
+    "text": "に",
     "reading": null,
     "meaning": null
+  },
+  {
+    "text": "よると",
+    "reading": "よると",
+    "meaning": "according to",
+    "jlpt": "N3"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "良い",
+    "reading": "よい",
+    "meaning": "good",
+    "jlpt": "N5"
+  },
+  {
+    "text": "睡眠",
+    "reading": "すいみん",
+    "meaning": "sleep",
+    "jlpt": "N2"
+  },
+  {
+    "text": "と",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "適度",
+    "reading": "てきど",
+    "meaning": "moderation",
+    "jlpt": "N1"
+  },
+  {
+    "text": "な",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "運動",
+    "reading": "うんどう",
+    "meaning": "exercise",
+    "jlpt": "N4"
   },
   {
     "text": "が",
@@ -603,20 +137,550 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "期待",
-    "reading": "きたい",
-    "meaning": "expectation",
+    "text": "重要",
+    "reading": "じゅうよう",
+    "meaning": "important",
     "jlpt": "N3"
   },
   {
-    "text": "されて",
+    "text": "だ",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "います",
+    "text": "そうです",
+    "reading": "そうです",
+    "meaning": "it is said",
+    "jlpt": "N4"
+  },
+  {
+    "text": "。",
     "reading": null,
     "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "特に",
+    "reading": "とくに",
+    "meaning": "especially",
+    "jlpt": "N3"
+  },
+  {
+    "text": "睡眠",
+    "reading": "すいみん",
+    "meaning": "sleep",
+    "jlpt": "N2"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "体",
+    "reading": "からだ",
+    "meaning": "body",
+    "jlpt": "N5"
+  },
+  {
+    "text": "と",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "心",
+    "reading": "こころ",
+    "meaning": "mind",
+    "jlpt": "N4"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "回復",
+    "reading": "かいふく",
+    "meaning": "recovery",
+    "jlpt": "N1"
+  },
+  {
+    "text": "させる",
+    "reading": "させる",
+    "meaning": "to cause",
+    "jlpt": "N4"
+  },
+  {
+    "text": "ため",
+    "reading": "ため",
+    "meaning": "for the sake of",
+    "jlpt": "N3"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "欠かせません",
+    "reading": "かかせません",
+    "meaning": "indispensable",
+    "jlpt": "N1"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "毎日",
+    "reading": "まいにち",
+    "meaning": "every day",
+    "jlpt": "N5"
+  },
+  {
+    "text": "七",
+    "reading": "なな",
+    "meaning": "seven",
+    "jlpt": "N5"
+  },
+  {
+    "text": "時間",
+    "reading": "じかん",
+    "meaning": "hours",
+    "jlpt": "N5"
+  },
+  {
+    "text": "から",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "八",
+    "reading": "はち",
+    "meaning": "eight",
+    "jlpt": "N5"
+  },
+  {
+    "text": "時間",
+    "reading": "じかん",
+    "meaning": "hours",
+    "jlpt": "N5"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "睡眠",
+    "reading": "すいみん",
+    "meaning": "sleep",
+    "jlpt": "N2"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "取る",
+    "reading": "とる",
+    "meaning": "to take",
+    "jlpt": "N4"
+  },
+  {
+    "text": "こと",
+    "reading": "こと",
+    "meaning": "thing",
+    "jlpt": "N5"
+  },
+  {
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "勧められて",
+    "reading": "すすめられて",
+    "meaning": "recommended",
+    "jlpt": "N3"
+  },
+  {
+    "text": "います",
+    "reading": "います",
+    "meaning": "to be",
+    "jlpt": "N5"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "運動",
+    "reading": "うんどう",
+    "meaning": "exercise",
+    "jlpt": "N4"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "ついては",
+    "reading": "については",
+    "meaning": "regarding",
+    "jlpt": "N3"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "激しい",
+    "reading": "はげしい",
+    "meaning": "intense",
+    "jlpt": "N2"
+  },
+  {
+    "text": "運動",
+    "reading": "うんどう",
+    "meaning": "exercise",
+    "jlpt": "N4"
+  },
+  {
+    "text": "より",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "散歩",
+    "reading": "さんぽ",
+    "meaning": "walk",
+    "jlpt": "N4"
+  },
+  {
+    "text": "や",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "軽い",
+    "reading": "かるい",
+    "meaning": "light",
+    "jlpt": "N4"
+  },
+  {
+    "text": "体操",
+    "reading": "たいそう",
+    "meaning": "gymnastics",
+    "jlpt": "N2"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "続ける",
+    "reading": "つづける",
+    "meaning": "to continue",
+    "jlpt": "N4"
+  },
+  {
+    "text": "方が",
+    "reading": "ほうが",
+    "meaning": "more",
+    "jlpt": "N4"
+  },
+  {
+    "text": "効果的",
+    "reading": "こうかてき",
+    "meaning": "effective",
+    "jlpt": "N2"
+  },
+  {
+    "text": "だ",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "と",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "言われて",
+    "reading": "いわれて",
+    "meaning": "is said",
+    "jlpt": "N4"
+  },
+  {
+    "text": "います",
+    "reading": "います",
+    "meaning": "to be",
+    "jlpt": "N5"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "また",
+    "reading": "また",
+    "meaning": "also",
+    "jlpt": "N4"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "バランス",
+    "reading": "バランス",
+    "meaning": "balance",
+    "jlpt": "N2"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "良い",
+    "reading": "よい",
+    "meaning": "good",
+    "jlpt": "N5"
+  },
+  {
+    "text": "食事",
+    "reading": "しょくじ",
+    "meaning": "meal",
+    "jlpt": "N4"
+  },
+  {
+    "text": "も",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "大切",
+    "reading": "たいせつ",
+    "meaning": "important",
+    "jlpt": "N5"
+  },
+  {
+    "text": "です",
+    "reading": "です",
+    "meaning": "is",
+    "jlpt": "N5"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "野菜",
+    "reading": "やさい",
+    "meaning": "vegetables",
+    "jlpt": "N5"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "多く",
+    "reading": "おおく",
+    "meaning": "a lot",
+    "jlpt": "N4"
+  },
+  {
+    "text": "食べ",
+    "reading": "たべ",
+    "meaning": "eat",
+    "jlpt": "N5"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "水分",
+    "reading": "すいぶん",
+    "meaning": "water/moisture",
+    "jlpt": "N2"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "しっかり",
+    "reading": "しっかり",
+    "meaning": "firmly",
+    "jlpt": "N3"
+  },
+  {
+    "text": "取る",
+    "reading": "とる",
+    "meaning": "to take",
+    "jlpt": "N4"
+  },
+  {
+    "text": "こと",
+    "reading": "こと",
+    "meaning": "thing",
+    "jlpt": "N5"
+  },
+  {
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "体調",
+    "reading": "たいちょう",
+    "meaning": "physical condition",
+    "jlpt": "N2"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "整えます",
+    "reading": "ととのえます",
+    "meaning": "to arrange/regulate",
+    "jlpt": "N2"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "小さな",
+    "reading": "ちいさな",
+    "meaning": "small",
+    "jlpt": "N5"
+  },
+  {
+    "text": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "habit",
+    "jlpt": "N3"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "積み重ね",
+    "reading": "つみかさね",
+    "meaning": "accumulation",
+    "jlpt": "N1"
+  },
+  {
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "将来",
+    "reading": "しょうらい",
+    "meaning": "future",
+    "jlpt": "N3"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "健康",
+    "reading": "けんこう",
+    "meaning": "health",
+    "jlpt": "N4"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "つながる",
+    "reading": "つながる",
+    "meaning": "to lead to",
+    "jlpt": "N3"
+  },
+  {
+    "text": "と",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "専門家",
+    "reading": "せんもんか",
+    "meaning": "expert",
+    "jlpt": "N2"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "話して",
+    "reading": "はなして",
+    "meaning": "talk",
+    "jlpt": "N5"
+  },
+  {
+    "text": "います",
+    "reading": "います",
+    "meaning": "to be",
+    "jlpt": "N5"
   },
   {
     "text": "。",
