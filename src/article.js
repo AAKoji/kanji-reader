@@ -1,6 +1,6 @@
 export const ARTICLE = {
-  title: "日本の探査機、月の裏側で新発見",
-  subtitle: "科学 · 読み時間 約3分",
+  title: "日本の探査機が新しい惑星を発見",
+  subtitle: "科学ニュース · 読み時間 約3分",
   segments: [
   {
     "text": "日本",
@@ -16,39 +16,28 @@ export const ARTICLE = {
   {
     "text": "宇宙",
     "reading": "うちゅう",
-    "meaning": "space, universe",
+    "meaning": "space",
     "jlpt": "N3"
   },
   {
-    "text": "探査機",
-    "reading": "たんさき",
-    "meaning": "space probe",
-    "jlpt": "N1"
+    "text": "研究",
+    "reading": "けんきゅう",
+    "meaning": "research",
+    "jlpt": "N3"
   },
   {
-    "text": "が",
+    "text": "チーム",
+    "reading": "チーム",
+    "meaning": "team",
+    "jlpt": "N4"
+  },
+  {
+    "text": "は",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "月",
-    "reading": "つき",
-    "meaning": "moon",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "裏側",
-    "reading": "うらがわ",
-    "meaning": "far side, back",
-    "jlpt": "N2"
-  },
-  {
-    "text": "で",
+    "text": "、",
     "reading": null,
     "meaning": null
   },
@@ -59,10 +48,10 @@ export const ARTICLE = {
     "jlpt": "N5"
   },
   {
-    "text": "発見",
-    "reading": "はっけん",
-    "meaning": "discovery",
-    "jlpt": "N3"
+    "text": "惑星",
+    "reading": "わくせい",
+    "meaning": "planet",
+    "jlpt": "N2"
   },
   {
     "text": "を",
@@ -70,10 +59,15 @@ export const ARTICLE = {
     "meaning": null
   },
   {
+    "text": "発見",
+    "reading": "はっけん",
+    "meaning": "discovery",
+    "jlpt": "N3"
+  },
+  {
     "text": "した",
-    "reading": "した",
-    "meaning": "did",
-    "jlpt": "N5"
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "と",
@@ -87,10 +81,70 @@ export const ARTICLE = {
     "jlpt": "N3"
   },
   {
-    "text": "されました",
-    "reading": "されました",
-    "meaning": "was made",
-    "jlpt": "N4"
+    "text": "しました",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "この",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "惑星",
+    "reading": "わくせい",
+    "meaning": "planet",
+    "jlpt": "N2"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "地球",
+    "reading": "ちきゅう",
+    "meaning": "Earth",
+    "jlpt": "N3"
+  },
+  {
+    "text": "から",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "約",
+    "reading": "やく",
+    "meaning": "approximately",
+    "jlpt": "N3"
+  },
+  {
+    "text": "百二十",
+    "reading": "ひゃくにじゅう",
+    "meaning": "120",
+    "jlpt": "N5"
+  },
+  {
+    "text": "光年",
+    "reading": "こうねん",
+    "meaning": "light-year",
+    "jlpt": "N1"
+  },
+  {
+    "text": "離れて",
+    "reading": "はなれて",
+    "meaning": "apart",
+    "jlpt": "N3"
+  },
+  {
+    "text": "います",
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "。",
@@ -99,96 +153,6 @@ export const ARTICLE = {
   },
   {
     "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "この",
-    "reading": "この",
-    "meaning": "this",
-    "jlpt": "N5"
-  },
-  {
-    "text": "探査機",
-    "reading": "たんさき",
-    "meaning": "space probe",
-    "jlpt": "N1"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "去年",
-    "reading": "きょねん",
-    "meaning": "last year",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "冬",
-    "reading": "ふゆ",
-    "meaning": "winter",
-    "jlpt": "N5"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "打ち上げられ",
-    "reading": "うちあげられ",
-    "meaning": "was launched",
-    "jlpt": "N2"
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "半年",
-    "reading": "はんとし",
-    "meaning": "half a year",
-    "jlpt": "N4"
-  },
-  {
-    "text": "かけて",
-    "reading": "かけて",
-    "meaning": "taking (time)",
-    "jlpt": "N3"
-  },
-  {
-    "text": "月",
-    "reading": "つき",
-    "meaning": "moon",
-    "jlpt": "N5"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "到着",
-    "reading": "とうちゃく",
-    "meaning": "arrival",
-    "jlpt": "N3"
-  },
-  {
-    "text": "しました",
-    "reading": "しました",
-    "meaning": "did",
-    "jlpt": "N5"
-  },
-  {
-    "text": "。",
     "reading": null,
     "meaning": null
   },
@@ -200,20 +164,34 @@ export const ARTICLE = {
   },
   {
     "text": "たち",
-    "reading": "たち",
-    "meaning": "(plural)",
-    "jlpt": "N4"
-  },
-  {
-    "text": "は",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "地表",
-    "reading": "ちひょう",
-    "meaning": "surface of the earth",
-    "jlpt": "N1"
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "よると",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "この",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "星",
+    "reading": "ほし",
+    "meaning": "star",
+    "jlpt": "N4"
   },
   {
     "text": "の",
@@ -221,52 +199,13 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "岩石",
-    "reading": "がんせき",
-    "meaning": "rock",
-    "jlpt": "N1"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "詳しく",
-    "reading": "くわしく",
-    "meaning": "in detail",
+    "text": "表面",
+    "reading": "ひょうめん",
+    "meaning": "surface",
     "jlpt": "N2"
   },
   {
-    "text": "調べました",
-    "reading": "しらべました",
-    "meaning": "investigated",
-    "jlpt": "N4"
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "その",
-    "reading": "その",
-    "meaning": "that",
-    "jlpt": "N5"
-  },
-  {
-    "text": "結果",
-    "reading": "けっか",
-    "meaning": "result",
-    "jlpt": "N3"
-  },
-  {
-    "text": "、",
+    "text": "に",
     "reading": null,
     "meaning": null
   },
@@ -277,38 +216,26 @@ export const ARTICLE = {
     "jlpt": "N5"
   },
   {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "成分",
-    "reading": "せいぶん",
-    "meaning": "component",
-    "jlpt": "N1"
-  },
-  {
     "text": "が",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "含まれて",
-    "reading": "ふくまれて",
-    "meaning": "is contained",
+    "text": "存在",
+    "reading": "そんざい",
+    "meaning": "existence",
     "jlpt": "N2"
   },
   {
-    "text": "いる",
-    "reading": "いる",
-    "meaning": "exists",
-    "jlpt": "N5"
+    "text": "する",
+    "reading": null,
+    "meaning": null
   },
   {
-    "text": "こと",
-    "reading": "こと",
-    "meaning": "thing (fact)",
-    "jlpt": "N4"
+    "text": "可能性",
+    "reading": "かのうせい",
+    "meaning": "possibility",
+    "jlpt": "N2"
   },
   {
     "text": "が",
@@ -316,10 +243,15 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "分かりました",
-    "reading": "わかりました",
-    "meaning": "became clear",
+    "text": "高い",
+    "reading": "たかい",
+    "meaning": "high",
     "jlpt": "N5"
+  },
+  {
+    "text": "そうです",
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "。",
@@ -327,9 +259,9 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "これ",
-    "reading": "これ",
-    "meaning": "this",
+    "text": "水",
+    "reading": "みず",
+    "meaning": "water",
     "jlpt": "N5"
   },
   {
@@ -338,30 +270,18 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "将来",
-    "reading": "しょうらい",
-    "meaning": "future",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "月面",
-    "reading": "げつめん",
-    "meaning": "lunar surface",
-    "jlpt": "N1"
-  },
-  {
-    "text": "基地",
-    "reading": "きち",
-    "meaning": "base",
+    "text": "生命",
+    "reading": "せいめい",
+    "meaning": "life",
     "jlpt": "N2"
   },
   {
     "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "とって",
     "reading": null,
     "meaning": null
   },
@@ -378,14 +298,139 @@ export const ARTICLE = {
     "jlpt": "N3"
   },
   {
-    "text": "だ",
+    "text": "です",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "そうです",
-    "reading": "そうです",
-    "meaning": "it is said",
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "探査機",
+    "reading": "たんさき",
+    "meaning": "probe",
+    "jlpt": "N1"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "特別",
+    "reading": "とくべつ",
+    "meaning": "special",
+    "jlpt": "N3"
+  },
+  {
+    "text": "な",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "望遠鏡",
+    "reading": "ぼうえんきょう",
+    "meaning": "telescope",
+    "jlpt": "N1"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "使って",
+    "reading": "つかって",
+    "meaning": "using",
+    "jlpt": "N5"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "惑星",
+    "reading": "わくせい",
+    "meaning": "planet",
+    "jlpt": "N2"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "大気",
+    "reading": "たいき",
+    "meaning": "atmosphere",
+    "jlpt": "N1"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "調べました",
+    "reading": "しらべました",
+    "meaning": "investigated",
+    "jlpt": "N4"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "その",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "結果",
+    "reading": "けっか",
+    "meaning": "result",
+    "jlpt": "N3"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "酸素",
+    "reading": "さんそ",
+    "meaning": "oxygen",
+    "jlpt": "N1"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "信号",
+    "reading": "しんごう",
+    "meaning": "signal",
+    "jlpt": "N2"
+  },
+  {
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "見つかりました",
+    "reading": "みつかりました",
+    "meaning": "was found",
     "jlpt": "N4"
   },
   {
@@ -399,13 +444,29 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "専門家",
-    "reading": "せんもんか",
-    "meaning": "expert",
-    "jlpt": "N2"
+    "text": "チーム",
+    "reading": "チーム",
+    "meaning": "team",
+    "jlpt": "N4"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "リーダー",
+    "reading": "リーダー",
+    "meaning": "leader",
+    "jlpt": "N3"
   },
   {
     "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
     "reading": null,
     "meaning": null
   },
@@ -415,43 +476,19 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "人類",
-    "reading": "じんるい",
-    "meaning": "humankind",
-    "jlpt": "N2"
-  },
-  {
-    "text": "が",
+    "text": "これ",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "再び",
-    "reading": "ふたたび",
-    "meaning": "again",
-    "jlpt": "N2"
-  },
-  {
-    "text": "月",
-    "reading": "つき",
-    "meaning": "moon",
-    "jlpt": "N5"
-  },
-  {
-    "text": "に",
+    "text": "は",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "住む",
-    "reading": "すむ",
-    "meaning": "to live",
-    "jlpt": "N5"
-  },
-  {
-    "text": "夢",
-    "reading": "ゆめ",
-    "meaning": "dream",
+    "text": "歴史",
+    "reading": "れきし",
+    "meaning": "history",
     "jlpt": "N4"
   },
   {
@@ -460,10 +497,21 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "近づいた",
-    "reading": "ちかづいた",
-    "meaning": "came closer",
+    "text": "残る",
+    "reading": "のこる",
+    "meaning": "to remain",
     "jlpt": "N3"
+  },
+  {
+    "text": "発見",
+    "reading": "はっけん",
+    "meaning": "discovery",
+    "jlpt": "N3"
+  },
+  {
+    "text": "だ",
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "」",
@@ -498,15 +546,15 @@ export const ARTICLE = {
     "jlpt": "N2"
   },
   {
-    "text": "も",
+    "text": "、",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "世界",
-    "reading": "せかい",
-    "meaning": "world",
-    "jlpt": "N5"
+    "text": "世界中",
+    "reading": "せかいじゅう",
+    "meaning": "all over the world",
+    "jlpt": "N3"
   },
   {
     "text": "の",
@@ -517,7 +565,7 @@ export const ARTICLE = {
     "text": "科学者",
     "reading": "かがくしゃ",
     "meaning": "scientist",
-    "jlpt": "N3"
+    "jlpt": "N2"
   },
   {
     "text": "が",
@@ -532,9 +580,8 @@ export const ARTICLE = {
   },
   {
     "text": "して",
-    "reading": "して",
-    "meaning": "doing",
-    "jlpt": "N5"
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "、",
@@ -542,21 +589,15 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "宇宙",
-    "reading": "うちゅう",
-    "meaning": "space",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
+    "text": "この",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "謎",
-    "reading": "なぞ",
-    "meaning": "mystery",
-    "jlpt": "N1"
+    "text": "惑星",
+    "reading": "わくせい",
+    "meaning": "planet",
+    "jlpt": "N2"
   },
   {
     "text": "を",
@@ -564,16 +605,33 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "解き明かす",
-    "reading": "ときあかす",
-    "meaning": "to unravel",
-    "jlpt": "N1"
+    "text": "さらに",
+    "reading": "さらに",
+    "meaning": "further",
+    "jlpt": "N2"
+  },
+  {
+    "text": "詳しく",
+    "reading": "くわしく",
+    "meaning": "in detail",
+    "jlpt": "N2"
+  },
+  {
+    "text": "研究",
+    "reading": "けんきゅう",
+    "meaning": "research",
+    "jlpt": "N3"
+  },
+  {
+    "text": "する",
+    "reading": null,
+    "meaning": null
   },
   {
     "text": "予定",
     "reading": "よてい",
     "meaning": "plan",
-    "jlpt": "N4"
+    "jlpt": "N3"
   },
   {
     "text": "です",
