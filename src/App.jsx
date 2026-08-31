@@ -38,11 +38,12 @@ function useToast() {
 }
 
 function loadSettings() {
+  const defaults = { theme: 'paper', fontSize: 'md', darkMode: false, boundaryColor: 'blue' }
   try {
     const saved = localStorage.getItem('kanji-reader-settings')
-    return saved ? JSON.parse(saved) : { theme: 'paper', fontSize: 'md', darkMode: false }
+    return saved ? { ...defaults, ...JSON.parse(saved) } : defaults
   } catch {
-    return { theme: 'paper', fontSize: 'md', darkMode: false }
+    return defaults
   }
 }
 
@@ -64,6 +65,7 @@ export default function App() {
     const html = document.documentElement
     html.setAttribute('data-theme', settings.theme)
     html.setAttribute('data-fontsize', settings.fontSize)
+    html.setAttribute('data-boundary-color', settings.boundaryColor)
     if (settings.darkMode) {
       html.classList.add('dark')
     } else {
@@ -225,8 +227,11 @@ export default function App() {
                 const aboveLevel = userLevel && seg.jlpt &&
                   parseInt(seg.jlpt[1]) < parseInt(userLevel[1])
                 if (aboveLevel) {
+                  const boundaryActive =
+                    (userLevel === 'N4' || userLevel === 'N5') && settings.boundaryColor !== 'off'
+                  const cls = boundaryActive ? 'word-above-level word-boundary' : 'word-above-level'
                   return (
-                    <span key={i} className="word-above-level" onClick={() => setActiveWord(seg)}>
+                    <span key={i} className={cls} onClick={() => setActiveWord(seg)}>
                       {seg.reading}
                     </span>
                   )

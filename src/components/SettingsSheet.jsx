@@ -14,6 +14,14 @@ const FONT_SIZES = [
   { id: 'xl', label: '特大' },
 ]
 
+const BOUNDARY_COLORS = [
+  { id: 'off',   label: 'オフ',     color: null },
+  { id: 'grey',  label: 'グレー',   color: '#6b6b68' },
+  { id: 'blue',  label: 'ブルー',   color: '#4d6da8' },
+  { id: 'brown', label: 'ブラウン', color: '#8a5a3f' },
+  { id: 'red',   label: 'レッド',   color: '#a8524a' },
+]
+
 export default function SettingsSheet({ settings, onChange, onClose }) {
   useEffect(() => {
     document.body.style.overflow = 'hidden'
@@ -53,6 +61,27 @@ export default function SettingsSheet({ settings, onChange, onClose }) {
                 onClick={() => onChange({ ...settings, fontSize: s.id })}
               >
                 {s.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="sheet-section">
+          <div className="sheet-label">ひらがな置換語の色</div>
+          <div className="theme-swatches">
+            {BOUNDARY_COLORS.map(c => (
+              <button
+                key={c.id}
+                className={`theme-swatch ${settings.boundaryColor === c.id ? 'active' : ''}`}
+                onClick={() => onChange({ ...settings, boundaryColor: c.id })}
+              >
+                <span
+                  className="swatch-dot"
+                  style={c.color
+                    ? { background: c.color }
+                    : { background: 'transparent', border: '1px dashed var(--border-2)' }}
+                />
+                <span className="swatch-label">{c.label}</span>
               </button>
             ))}
           </div>
