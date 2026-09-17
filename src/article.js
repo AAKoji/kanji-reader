@@ -1,106 +1,7 @@
 export const ARTICLE = {
-  title: "オリンピックとスポーツの未来",
-  subtitle: "スポーツ · 読み時間 約3分",
+  title: "日本の歴史を学ぶ旅",
+  subtitle: "文化 · 読み時間 約4分",
   segments: [
-  {
-    "text": "来年",
-    "reading": "らいねん",
-    "meaning": "next year",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "オリンピック",
-    "reading": "オリンピック",
-    "meaning": "Olympics",
-    "jlpt": "N4"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "向けて",
-    "reading": "むけて",
-    "meaning": "toward",
-    "jlpt": "N3"
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "世界中",
-    "reading": "せかいじゅう",
-    "meaning": "all over the world",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "選手",
-    "reading": "せんしゅ",
-    "meaning": "athlete",
-    "jlpt": "N3"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "厳しい",
-    "reading": "きびしい",
-    "meaning": "strict, tough",
-    "jlpt": "N4"
-  },
-  {
-    "text": "練習",
-    "reading": "れんしゅう",
-    "meaning": "practice",
-    "jlpt": "N5"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "続けて",
-    "reading": "つづけて",
-    "meaning": "continue",
-    "jlpt": "N4"
-  },
-  {
-    "text": "います",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "特に",
-    "reading": "とくに",
-    "meaning": "especially",
-    "jlpt": "N3"
-  },
   {
     "text": "日本",
     "reading": "にほん",
@@ -113,15 +14,9 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "代表",
-    "reading": "だいひょう",
-    "meaning": "representative",
-    "jlpt": "N2"
-  },
-  {
-    "text": "チーム",
-    "reading": "チーム",
-    "meaning": "team",
+    "text": "歴史",
+    "reading": "れきし",
+    "meaning": "history",
     "jlpt": "N4"
   },
   {
@@ -130,9 +25,147 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "水泳",
-    "reading": "すいえい",
-    "meaning": "swimming",
+    "text": "とても",
+    "reading": "とても",
+    "meaning": "very",
+    "jlpt": "N5"
+  },
+  {
+    "text": "長く",
+    "reading": "ながく",
+    "meaning": "long",
+    "jlpt": "N5"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "面白い",
+    "reading": "おもしろい",
+    "meaning": "interesting",
+    "jlpt": "N5"
+  },
+  {
+    "text": "物語",
+    "reading": "ものがたり",
+    "meaning": "story",
+    "jlpt": "N3"
+  },
+  {
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "たくさん",
+    "reading": "たくさん",
+    "meaning": "many",
+    "jlpt": "N5"
+  },
+  {
+    "text": "あります",
+    "reading": "あります",
+    "meaning": "there is",
+    "jlpt": "N5"
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "昔",
+    "reading": "むかし",
+    "meaning": "long ago",
+    "jlpt": "N4"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "人々",
+    "reading": "ひとびと",
+    "meaning": "people",
+    "jlpt": "N3"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "米",
+    "reading": "こめ",
+    "meaning": "rice",
+    "jlpt": "N4"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "作り",
+    "reading": "つくり",
+    "meaning": "to make",
+    "jlpt": "N5"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "村",
+    "reading": "むら",
+    "meaning": "village",
+    "jlpt": "N4"
+  },
+  {
+    "text": "で",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "生活",
+    "reading": "せいかつ",
+    "meaning": "life",
+    "jlpt": "N4"
+  },
+  {
+    "text": "して",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "いました",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "奈良",
+    "reading": "なら",
+    "meaning": "Nara",
+    "jlpt": "N3"
+  },
+  {
+    "text": "時代",
+    "reading": "じだい",
+    "meaning": "era",
     "jlpt": "N3"
   },
   {
@@ -141,81 +174,38 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "体操",
-    "reading": "たいそう",
-    "meaning": "gymnastics",
+    "text": "平安",
+    "reading": "へいあん",
+    "meaning": "Heian",
     "jlpt": "N2"
   },
   {
-    "text": "で",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "メダル",
-    "reading": "メダル",
-    "meaning": "medal",
+    "text": "時代",
+    "reading": "じだい",
+    "meaning": "era",
     "jlpt": "N3"
   },
   {
-    "text": "を",
+    "text": "には",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "目指して",
-    "reading": "めざして",
-    "meaning": "aim for",
-    "jlpt": "N2"
-  },
-  {
-    "text": "います",
+    "text": "、",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "。",
-    "reading": null,
-    "meaning": null
+    "text": "美しい",
+    "reading": "うつくしい",
+    "meaning": "beautiful",
+    "jlpt": "N4"
   },
   {
-    "text": "監督",
-    "reading": "かんとく",
-    "meaning": "coach, director",
-    "jlpt": "N2"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "「",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "若い",
-    "reading": "わかい",
-    "meaning": "young",
-    "jlpt": "N5"
-  },
-  {
-    "text": "選手",
-    "reading": "せんしゅ",
-    "meaning": "athlete",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "成長",
-    "reading": "せいちょう",
-    "meaning": "growth",
-    "jlpt": "N3"
+    "text": "文化",
+    "reading": "ぶんか",
+    "meaning": "culture",
+    "jlpt": "N4"
   },
   {
     "text": "が",
@@ -223,31 +213,10 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "楽しみ",
-    "reading": "たのしみ",
-    "meaning": "looking forward to",
+    "text": "生まれました",
+    "reading": "うまれました",
+    "meaning": "was born",
     "jlpt": "N4"
-  },
-  {
-    "text": "だ",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "」",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "と",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "話しました",
-    "reading": "はなしました",
-    "meaning": "said",
-    "jlpt": "N5"
   },
   {
     "text": "。",
@@ -255,91 +224,31 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "\n\n",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "最近",
-    "reading": "さいきん",
-    "meaning": "recently",
-    "jlpt": "N4"
-  },
-  {
-    "text": "は",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "新しい",
-    "reading": "あたらしい",
-    "meaning": "new",
-    "jlpt": "N5"
-  },
-  {
-    "text": "技術",
-    "reading": "ぎじゅつ",
-    "meaning": "technology",
-    "jlpt": "N3"
-  },
-  {
-    "text": "も",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "注目",
-    "reading": "ちゅうもく",
-    "meaning": "attention",
-    "jlpt": "N2"
-  },
-  {
-    "text": "されて",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "います",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "。",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "人工知能",
-    "reading": "じんこうちのう",
-    "meaning": "artificial intelligence",
+    "text": "貴族",
+    "reading": "きぞく",
+    "meaning": "nobility",
     "jlpt": "N1"
   },
   {
-    "text": "を",
+    "text": "は",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "使って",
-    "reading": "つかって",
-    "meaning": "using",
-    "jlpt": "N5"
+    "text": "和歌",
+    "reading": "わか",
+    "meaning": "waka poem",
+    "jlpt": "N1"
   },
   {
-    "text": "体",
-    "reading": "からだ",
-    "meaning": "body",
-    "jlpt": "N5"
-  },
-  {
-    "text": "の",
+    "text": "や",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "動き",
-    "reading": "うごき",
-    "meaning": "movement",
+    "text": "物語",
+    "reading": "ものがたり",
+    "meaning": "story",
     "jlpt": "N3"
   },
   {
@@ -348,64 +257,10 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "分析",
-    "reading": "ぶんせき",
-    "meaning": "analysis",
-    "jlpt": "N2"
-  },
-  {
-    "text": "し",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "、",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "けが",
-    "reading": "けが",
-    "meaning": "injury",
-    "jlpt": "N4"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "防ぐ",
-    "reading": "ふせぐ",
-    "meaning": "prevent",
-    "jlpt": "N2"
-  },
-  {
-    "text": "方法",
-    "reading": "ほうほう",
-    "meaning": "method",
-    "jlpt": "N4"
-  },
-  {
-    "text": "が",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "研究",
-    "reading": "けんきゅう",
-    "meaning": "research",
-    "jlpt": "N4"
-  },
-  {
-    "text": "されて",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "います",
-    "reading": null,
-    "meaning": null
+    "text": "楽しみました",
+    "reading": "たのしみました",
+    "meaning": "enjoyed",
+    "jlpt": "N5"
   },
   {
     "text": "。",
@@ -418,10 +273,16 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "また",
-    "reading": "また",
-    "meaning": "also",
+    "text": "その",
+    "reading": "その",
+    "meaning": "that",
     "jlpt": "N5"
+  },
+  {
+    "text": "後",
+    "reading": "あと",
+    "meaning": "after",
+    "jlpt": "N4"
   },
   {
     "text": "、",
@@ -429,10 +290,10 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "多く",
-    "reading": "おおく",
-    "meaning": "many",
-    "jlpt": "N4"
+    "text": "武士",
+    "reading": "ぶし",
+    "meaning": "samurai",
+    "jlpt": "N2"
   },
   {
     "text": "の",
@@ -440,9 +301,9 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "ファン",
-    "reading": "ファン",
-    "meaning": "fan",
+    "text": "時代",
+    "reading": "じだい",
+    "meaning": "era",
     "jlpt": "N3"
   },
   {
@@ -451,54 +312,10 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "応援",
-    "reading": "おうえん",
-    "meaning": "support, cheering",
-    "jlpt": "N3"
-  },
-  {
-    "text": "の",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "ため",
-    "reading": "ため",
-    "meaning": "for the sake of",
-    "jlpt": "N4"
-  },
-  {
-    "text": "に",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "会場",
-    "reading": "かいじょう",
-    "meaning": "venue",
-    "jlpt": "N2"
-  },
-  {
-    "text": "を",
-    "reading": null,
-    "meaning": null
-  },
-  {
-    "text": "訪れる",
-    "reading": "おとずれる",
-    "meaning": "visit",
-    "jlpt": "N2"
-  },
-  {
-    "text": "予定",
-    "reading": "よてい",
-    "meaning": "plan",
-    "jlpt": "N4"
-  },
-  {
-    "text": "です",
-    "reading": null,
-    "meaning": null
+    "text": "始まりました",
+    "reading": "はじまりました",
+    "meaning": "began",
+    "jlpt": "N5"
   },
   {
     "text": "。",
@@ -506,10 +323,10 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "スポーツ",
-    "reading": "スポーツ",
-    "meaning": "sports",
-    "jlpt": "N5"
+    "text": "彼ら",
+    "reading": "かれら",
+    "meaning": "they",
+    "jlpt": "N4"
   },
   {
     "text": "は",
@@ -523,14 +340,204 @@ export const ARTICLE = {
     "jlpt": "N5"
   },
   {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "守る",
+    "reading": "まもる",
+    "meaning": "to protect",
+    "jlpt": "N3"
+  },
+  {
+    "text": "ために",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "戦い",
+    "reading": "たたかい",
+    "meaning": "battle",
+    "jlpt": "N3"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "強い",
+    "reading": "つよい",
+    "meaning": "strong",
+    "jlpt": "N5"
+  },
+  {
+    "text": "精神",
+    "reading": "せいしん",
+    "meaning": "spirit",
+    "jlpt": "N2"
+  },
+  {
+    "text": "を",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "大切",
+    "reading": "たいせつ",
+    "meaning": "important",
+    "jlpt": "N4"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "しました",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "明治",
+    "reading": "めいじ",
+    "meaning": "Meiji",
+    "jlpt": "N2"
+  },
+  {
+    "text": "時代",
+    "reading": "じだい",
+    "meaning": "era",
+    "jlpt": "N3"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "なると",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "日本",
+    "reading": "にほん",
+    "meaning": "Japan",
+    "jlpt": "N5"
+  },
+  {
+    "text": "は",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "世界",
+    "reading": "せかい",
+    "meaning": "world",
+    "jlpt": "N5"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "開き",
+    "reading": "ひらき",
+    "meaning": "to open",
+    "jlpt": "N4"
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "急速",
+    "reading": "きゅうそく",
+    "meaning": "rapid",
+    "jlpt": "N2"
+  },
+  {
+    "text": "に",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "発展",
+    "reading": "はってん",
+    "meaning": "development",
+    "jlpt": "N2"
+  },
+  {
+    "text": "しました",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "。",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "\n\n",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "今",
+    "reading": "いま",
+    "meaning": "now",
+    "jlpt": "N5"
+  },
+  {
+    "text": "でも",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "、",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "古い",
+    "reading": "ふるい",
+    "meaning": "old",
+    "jlpt": "N5"
+  },
+  {
+    "text": "お寺",
+    "reading": "おてら",
+    "meaning": "temple",
+    "jlpt": "N4"
+  },
+  {
     "text": "や",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "文化",
-    "reading": "ぶんか",
-    "meaning": "culture",
+    "text": "城",
+    "reading": "しろ",
+    "meaning": "castle",
     "jlpt": "N3"
   },
   {
@@ -539,32 +546,36 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "こえて",
-    "reading": "こえて",
-    "meaning": "go beyond",
+    "text": "訪れる",
+    "reading": "おとずれる",
+    "meaning": "to visit",
     "jlpt": "N2"
   },
   {
-    "text": "人々",
-    "reading": "ひとびと",
-    "meaning": "people",
-    "jlpt": "N3"
-  },
-  {
-    "text": "を",
+    "text": "と",
     "reading": null,
     "meaning": null
   },
   {
-    "text": "結ぶ",
-    "reading": "むすぶ",
-    "meaning": "connect, tie",
-    "jlpt": "N2"
+    "text": "、",
+    "reading": null,
+    "meaning": null
   },
   {
-    "text": "力",
-    "reading": "ちから",
-    "meaning": "power",
+    "text": "日本",
+    "reading": "にほん",
+    "meaning": "Japan",
+    "jlpt": "N5"
+  },
+  {
+    "text": "の",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "歴史",
+    "reading": "れきし",
+    "meaning": "history",
     "jlpt": "N4"
   },
   {
@@ -573,13 +584,24 @@ export const ARTICLE = {
     "meaning": null
   },
   {
-    "text": "持って",
-    "reading": "もって",
-    "meaning": "have",
+    "text": "感じる",
+    "reading": "かんじる",
+    "meaning": "to feel",
+    "jlpt": "N4"
+  },
+  {
+    "text": "こと",
+    "reading": "こと",
+    "meaning": "thing",
     "jlpt": "N5"
   },
   {
-    "text": "います",
+    "text": "が",
+    "reading": null,
+    "meaning": null
+  },
+  {
+    "text": "できます",
     "reading": null,
     "meaning": null
   },
