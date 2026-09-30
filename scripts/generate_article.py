@@ -1,6 +1,6 @@
 """
 Daily kanji article generator.
-Calls the Claude API to produce a new src/article.js with JLPT-tagged segments.
+Calls the Claude API to produce a new src/article.json with JLPT-tagged segments.
 Run via GitHub Actions; requires ANTHROPIC_API_KEY env var.
 """
 
@@ -10,6 +10,11 @@ import os
 import random
 import sys
 from datetime import date
+from pathlib import Path
+
+# Resolved from this file so the script works regardless of the caller's cwd.
+REPO_ROOT = Path(__file__).resolve().parent.parent
+ARTICLE_PATH = REPO_ROOT / "src" / "article.json"
 
 TOPICS = [
     "日本の伝統文化",
@@ -86,16 +91,6 @@ def validate(article: dict) -> None:
             assert seg["jlpt"] in valid_jlpt, f"segment {i} has invalid jlpt: {seg['jlpt']}"
 
 
-def to_js(article: dict) -> str:
-    segments_json = json.dumps(article["segments"], ensure_ascii=False, indent=2)
-    return f"""export const ARTICLE = {{
-  title: {json.dumps(article["title"], ensure_ascii=False)},
-  subtitle: {json.dumps(article["subtitle"], ensure_ascii=False)},
-  segments: {segments_json},
-}}
-"""
-
-
 def main() -> None:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -109,11 +104,9 @@ def main() -> None:
     article = generate(client, topic)
     validate(article)
 
-    out_path = os.path.join(os.path.dirname(__file__), "..", "src", "article.js")
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(to_js(article))
+    ARTICLE_PATH.write_text(json.dumps(article, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
 
-    print(f"Written {len(article['segments'])} segments to src/article.js")
+    print(f"Written {len(article['segments'])} segments to {ARTICLE_PATH.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

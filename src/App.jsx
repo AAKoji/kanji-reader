@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { supabase } from './supabase'
-import { ARTICLE } from './article'
+import ARTICLE from './article.json'
 import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SettingsSheet from './components/SettingsSheet'

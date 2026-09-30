@@ -27,14 +27,14 @@ Each person gets their own vocab list. Bookmark your personal URL.
 src/
   main.jsx              # Entry point
   App.jsx               # Main app logic
-  article.js            # Today's article (auto-replaced daily by GitHub Actions)
+  article.json          # Today's article (auto-replaced daily by GitHub Actions)
   supabase.js           # Supabase client
   index.css             # All styles
   components/
     WordPopup.jsx       # Click popup (save / delete)
     VocabList.jsx       # 単語リスト tab
 scripts/
-  generate_article.py   # Calls Claude API to produce a new article.js
+  generate_article.py   # Calls Claude API to produce a new article.json
 .github/
   workflows/
     daily-article.yml   # Runs generate_article.py daily at 7pm UTC (4am JST)
@@ -50,7 +50,7 @@ A GitHub Actions workflow runs every day at 7pm UTC (4am JST):
 
 1. Calls the Claude API (`claude-opus-4-8`) with a rotating topic
 2. Validates the output (JLPT tags, required fields)
-3. Writes `src/article.js` and commits it to the repo
+3. Writes `src/article.json` and commits it to the repo
 4. Vercel auto-deploys on the new commit
 
 To trigger manually: **Actions → Daily Article Generation → Run workflow**
