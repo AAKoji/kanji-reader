@@ -37,7 +37,7 @@ scripts/
   generate_article.py   # Calls Claude API to produce a new article.json
 .github/
   workflows/
-    daily-article.yml   # Runs generate_article.py daily at 7pm UTC (4am JST)
+    daily-article.yml   # Runs generate_article.py daily at 6pm UTC (3am JST)
 setup.sql               # Run once in Supabase to create tables
 .env.example            # Copy to .env.local and fill in your keys
 ```
@@ -46,7 +46,7 @@ setup.sql               # Run once in Supabase to create tables
 
 ## Daily article generation
 
-A GitHub Actions workflow runs every day at 7pm UTC (4am JST):
+A GitHub Actions workflow runs every day at 6pm UTC (3am JST):
 
 1. Calls the Claude API (`claude-opus-4-8`) with a rotating topic
 2. Validates the output (JLPT tags, required fields)
@@ -85,7 +85,7 @@ npm run dev
 ## Status — June 2026
 
 Currently in personal testing phase. The core loop is complete and working:
-- Daily article drops at 4am JST, Vercel redeploys automatically
+- Daily article drops at 3am JST, Vercel redeploys automatically
 - Level filter (`?level=`) is live and working
 - Vocab saving persists to Supabase per user
 
