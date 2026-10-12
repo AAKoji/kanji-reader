@@ -1,4 +1,5 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { MIN_PASSWORD_LENGTH } from '../auth'
 
 const THEMES = [
   { id: 'paper', label: 'ペーパー', color: '#fafaf9' },
@@ -14,6 +15,16 @@ const FONT_SIZES = [
   { id: 'xl', label: '特大' },
 ]
 
+// null = no level set: every word shows in kanji
+const JLPT_LEVELS = [
+  { id: null, label: 'なし' },
+  { id: 'N5', label: 'N5' },
+  { id: 'N4', label: 'N4' },
+  { id: 'N3', label: 'N3' },
+  { id: 'N2', label: 'N2' },
+  { id: 'N1', label: 'N1' },
+]
+
 const BOUNDARY_COLORS = [
   { id: 'off',   label: 'オフ',     color: null },
   { id: 'grey',  label: 'グレー',   color: '#6b6b68' },
@@ -22,7 +33,50 @@ const BOUNDARY_COLORS = [
   { id: 'red',   label: 'レッド',   color: '#a8524a' },
 ]
 
-export default function SettingsSheet({ settings, onChange, onClose }) {
+function PasswordForm({ onPasswordChange }) {
+  const [password, setPassword] = useState('')
+  const [isBusy, setIsBusy] = useState(false)
+  const [errorText, setErrorText] = useState('')
+
+  async function handleSubmit(e) {
+    e.preventDefault()
+    setIsBusy(true)
+    setErrorText('')
+    const isChanged = await onPasswordChange(password)
+    setIsBusy(false)
+    if (isChanged) {
+      setPassword('')
+    } else {
+      setErrorText('変更できませんでした。別のパスワードをお試しください。')
+    }
+  }
+
+  return (
+    <form className="password-form" onSubmit={handleSubmit}>
+      <p className="password-hint">
+        {MIN_PASSWORD_LENGTH}文字以上で、<strong>動物の名前</strong>を1つ含めてください（例: neko, penguin）。
+      </p>
+      <input
+        className="login-input"
+        type="password"
+        autoComplete="new-password"
+        minLength={MIN_PASSWORD_LENGTH}
+        placeholder="新しいパスワード"
+        value={password}
+        onChange={e => setPassword(e.target.value)}
+        required
+      />
+      <button className="popup-btn login-submit" type="submit" disabled={isBusy}>
+        {isBusy ? '変更中…' : 'パスワードを変更'}
+      </button>
+      {errorText && <p className="login-error">{errorText}</p>}
+    </form>
+  )
+}
+
+export default function SettingsSheet({
+  settings, onChange, jlptLevel, onLevelChange, onPasswordChange, onSignOut, onClose,
+}) {
   useEffect(() => {
     document.body.style.overflow = 'hidden'
     return () => { document.body.style.overflow = '' }
@@ -34,6 +88,21 @@ export default function SettingsSheet({ settings, onChange, onClose }) {
       <div className="sheet" role="dialog" aria-modal="true" aria-label="設定">
         <div className="sheet-handle" />
         <div className="sheet-title">設定</div>
+
+        <div className="sheet-section">
+          <div className="sheet-label">JLPTレベル</div>
+          <div className="size-chips">
+            {JLPT_LEVELS.map(l => (
+              <button
+                key={l.label}
+                className={`size-chip ${jlptLevel === l.id ? 'active' : ''}`}
+                onClick={() => onLevelChange(l.id)}
+              >
+                {l.label}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <div className="sheet-section">
           <div className="sheet-label">テーマ</div>
@@ -95,6 +164,17 @@ export default function SettingsSheet({ settings, onChange, onClose }) {
             aria-label="ダークモード切り替え"
           >
             <span className="toggle-thumb" />
+          </button>
+        </div>
+
+        <div className="sheet-section">
+          <div className="sheet-label">パスワード</div>
+          <PasswordForm onPasswordChange={onPasswordChange} />
+        </div>
+
+        <div className="sheet-section">
+          <button className="popup-btn danger sheet-signout" onClick={onSignOut}>
+            ログアウト
           </button>
         </div>
       </div>
