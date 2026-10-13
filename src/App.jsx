@@ -1,9 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import { supabase } from './supabase'
+import { useSession, emailToUsername } from './auth'
 import ARTICLE from './article.json'
 import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SettingsSheet from './components/SettingsSheet'
+import LoginScreen from './components/LoginScreen'
 
 const TODAY = new Date().toLocaleDateString('ja-JP', {
   year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'
@@ -48,10 +50,13 @@ function loadSettings() {
 }
 
 export default function App() {
-  const params = new URLSearchParams(window.location.search)
-  const userName = params.get('user')?.toLowerCase().trim()
-  const userLevel = params.get('level')?.toUpperCase().trim() || null
+  const { session, isLoading: isSessionLoading } = useSession()
+  const userId = session?.user.id ?? null
+  const userEmail = session?.user.email ?? null
 
+  // undefined = not loaded yet
+  const [profile, setProfile] = useState(undefined)
+  const [isProfileError, setIsProfileError] = useState(false)
   const [tab, setTab] = useState('read')
   const [savedWords, setSavedWords] = useState({})
   const [loading, setLoading] = useState(true)
@@ -59,6 +64,7 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [settings, setSettings] = useState(loadSettings)
   const toast = useToast()
+  const showToast = toast.show
 
   // Apply theme / font-size / dark-mode to <html>
   useEffect(() => {
@@ -78,18 +84,53 @@ export default function App() {
     localStorage.setItem('kanji-reader-settings', JSON.stringify(next))
   }
 
-  // Load this user's saved words on mount
+  // Reset and reload everything user-specific whenever the signed-in user changes
   useEffect(() => {
-    if (!userName) { setLoading(false); return }
+    setProfile(undefined)
+    setIsProfileError(false)
+    setSavedWords({})
+    setLoading(true)
+    if (!userId) return
 
+    let isActive = true
+
+    async function loadProfile() {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('display_name, jlpt_level')
+        .eq('id', userId)
+        .maybeSingle()
+      if (!isActive) return
+      if (error) {
+        setIsProfileError(true)
+        return
+      }
+      if (data) {
+        setProfile(data)
+        return
+      }
+
+      // First sign-in of an account created in the dashboard: start with the username as name
+      const created = { display_name: emailToUsername(userEmail), jlpt_level: null }
+      const { error: insertError } = await supabase.from('profiles').insert({ id: userId, ...created })
+      if (!isActive) return
+      if (insertError) {
+        setIsProfileError(true)
+        return
+      }
+      setProfile(created)
+    }
+
+    // RLS already limits user_words to the signed-in user; the filter just makes that explicit.
     async function loadWords() {
       const { data, error } = await supabase
         .from('user_words')
         .select('word_text, save_type, words(reading, meaning, jlpt_level)')
-        .eq('user_name', userName)
+        .eq('user_id', userId)
+      if (!isActive) return
 
       if (error) {
-        console.error(error)
+        showToast('単語リストを読み込めませんでした')
         setLoading(false)
         return
       }
@@ -107,8 +148,31 @@ export default function App() {
       setLoading(false)
     }
 
+    loadProfile()
     loadWords()
-  }, [userName])
+    return () => { isActive = false }
+  }, [userId, userEmail, showToast])
+
+  async function handleLevelChange(jlptLevel) {
+    const { error } = await supabase.from('profiles').update({ jlpt_level: jlptLevel }).eq('id', userId)
+    if (error) {
+      toast.show('エラーが発生しました')
+      return
+    }
+    setProfile(prev => ({ ...prev, jlpt_level: jlptLevel }))
+  }
+
+  async function handlePasswordChange(password) {
+    const { error } = await supabase.auth.updateUser({ password })
+    if (error) return false
+    toast.show('パスワードを変更しました')
+    return true
+  }
+
+  async function handleSignOut() {
+    setSettingsOpen(false)
+    await supabase.auth.signOut()
+  }
 
   async function handleSave(word, saveType) {
     setActiveWord(null)
@@ -121,10 +185,10 @@ export default function App() {
     }, { onConflict: 'text', ignoreDuplicates: true })
 
     const { error } = await supabase.from('user_words').upsert({
-      user_name: userName,
+      user_id: userId,
       word_text: word.text,
       save_type: saveType,
-    }, { onConflict: 'user_name,word_text' })
+    }, { onConflict: 'user_id,word_text' })
 
     if (error) {
       toast.show('エラーが発生しました')
@@ -144,7 +208,7 @@ export default function App() {
     const { error } = await supabase
       .from('user_words')
       .delete()
-      .eq('user_name', userName)
+      .eq('user_id', userId)
       .eq('word_text', wordText)
 
     if (error) {
@@ -160,25 +224,27 @@ export default function App() {
     toast.show(`「${wordText}」を削除しました`)
   }
 
-  if (!userName) {
+  if (isSessionLoading) return <div className="loading">読み込み中…</div>
+  if (!session) return <LoginScreen />
+  if (isProfileError) {
     return (
-      <div className="no-user">
-        <h1>リンクにユーザー名が必要です</h1>
-        <p>
-          URLに <code>?user=あなたの名前</code> を追加してください。<br />
-          例: <code>yourapp.vercel.app/?user=alex</code>
-        </p>
+      <div className="login">
+        <h1>読み込みに失敗しました</h1>
+        <p className="login-text">通信状況を確認して、再読み込みしてください。</p>
+        <button className="login-link" onClick={handleSignOut}>ログアウト</button>
       </div>
     )
   }
+  if (profile === undefined) return <div className="loading">読み込み中…</div>
 
+  const userLevel = profile.jlpt_level
   const vocabCount = Object.keys(savedWords).length
 
   return (
     <>
       <div className="header">
         <div className="header-left">
-          <span className="user-badge">👤 {userName}</span>
+          <span className="user-badge">👤 {profile.display_name}</span>
           {userLevel && <span className="jlpt-badge">{userLevel}</span>}
         </div>
         <div className="header-right">
@@ -275,6 +341,10 @@ export default function App() {
         <SettingsSheet
           settings={settings}
           onChange={updateSettings}
+          jlptLevel={userLevel}
+          onLevelChange={handleLevelChange}
+          onPasswordChange={handlePasswordChange}
+          onSignOut={handleSignOut}
           onClose={() => setSettingsOpen(false)}
         />
       )}

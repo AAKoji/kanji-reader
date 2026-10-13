@@ -516,15 +516,42 @@ html.dark[data-boundary-color="red"]   { --boundary-color: #d98f87; }
 .toast.show { opacity: 1; }
 
 /* ── No-user screen ──────────────────────────────────────────── */
-.no-user {
-  text-align: center;
+.login {
+  max-width: 360px;
+  margin: 0 auto;
   padding: 5rem 1rem;
+  text-align: center;
 }
-.no-user h1 { font-size: 22px; font-weight: 500; margin-bottom: 12px; }
-.no-user p { font-size: 15px; color: var(--text-2); line-height: 1.7; }
-.no-user code {
-  background: var(--bg-muted);
-  border-radius: 6px;
-  padding: 2px 8px;
-  font-size: 14px;
+.login h1 { font-size: 22px; font-weight: 500; margin-bottom: 12px; }
+.login-text { font-size: 15px; color: var(--text-2); line-height: 1.7; margin-bottom: 1.5rem; }
+.login-form { display: flex; flex-direction: column; gap: 10px; }
+.login-input {
+  padding: 11px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-2);
+  background: var(--bg-card);
+  color: var(--text-1);
+  /* 16px or larger stops iOS Safari from zooming in when the field gets focus */
+  font-size: 16px;
+  font-family: inherit;
 }
+.login-input:focus { outline: 2px solid var(--text-2); outline-offset: 1px; }
+.login-submit { justify-content: center; text-align: center; }
+.login-submit:disabled { opacity: 0.6; cursor: default; }
+.login-error { margin-top: 12px; font-size: 14px; color: #a32d2d; }
+.login-link {
+  margin-top: 1.5rem;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--text-3);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+.login-note { margin-top: 2rem; font-size: 12px; color: var(--text-3); }
+.password-form { display: flex; flex-direction: column; gap: 8px; }
+.password-hint { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+.password-form .login-error { margin-top: 0; }
+.sheet-signout { width: 100%; justify-content: center; }
