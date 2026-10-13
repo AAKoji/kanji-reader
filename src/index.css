@@ -552,6 +552,6 @@ html.dark[data-boundary-color="red"]   { --boundary-color: #d98f87; }
 }
 .login-note { margin-top: 2rem; font-size: 12px; color: var(--text-3); }
 .password-form { display: flex; flex-direction: column; gap: 8px; }
-.password-hint { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+.password-hint, .sheet-hint { font-size: 13px; color: var(--text-2); line-height: 1.6; }
 .password-form .login-error { margin-top: 0; }
 .sheet-signout { width: 100%; justify-content: center; }
