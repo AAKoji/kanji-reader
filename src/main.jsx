@@ -4,6 +4,11 @@ import { Analytics } from '@vercel/analytics/react'
 import App from './App.jsx'
 import './index.css'
 
+// Needed for push notifications; the worker itself lives in public/sw.js.
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js')
+}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

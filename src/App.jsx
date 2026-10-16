@@ -6,6 +6,7 @@ import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SettingsSheet from './components/SettingsSheet'
 import LoginScreen from './components/LoginScreen'
+import { resyncPushSubscription, unsubscribeFromPush } from './push'
 
 const TODAY = new Date().toLocaleDateString('ja-JP', {
   year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'
@@ -150,6 +151,7 @@ export default function App() {
 
     loadProfile()
     loadWords()
+    resyncPushSubscription(userId)
     return () => { isActive = false }
   }, [userId, userEmail, showToast])
 
@@ -171,6 +173,13 @@ export default function App() {
 
   async function handleSignOut() {
     setSettingsOpen(false)
+    // While still signed in: RLS only lets the owner delete the row, and the next user on
+    // this device shouldn't receive the previous user's reminders.
+    try {
+      await unsubscribeFromPush()
+    } catch {
+      // Never block signing out on a push cleanup failure.
+    }
     await supabase.auth.signOut()
   }
 
@@ -339,6 +348,7 @@ export default function App() {
 
       {settingsOpen && (
         <SettingsSheet
+          userId={userId}
           settings={settings}
           onChange={updateSettings}
           jlptLevel={userLevel}

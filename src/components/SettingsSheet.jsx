@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { MIN_PASSWORD_LENGTH } from '../auth'
+import NotificationToggle from './NotificationToggle'
 
 const THEMES = [
   { id: 'paper', label: 'ペーパー', color: '#fafaf9' },
@@ -75,7 +76,7 @@ function PasswordForm({ onPasswordChange }) {
 }
 
 export default function SettingsSheet({
-  settings, onChange, jlptLevel, onLevelChange, onPasswordChange, onSignOut, onClose,
+  userId, settings, onChange, jlptLevel, onLevelChange, onPasswordChange, onSignOut, onClose,
 }) {
   useEffect(() => {
     document.body.style.overflow = 'hidden'
@@ -166,6 +167,8 @@ export default function SettingsSheet({
             <span className="toggle-thumb" />
           </button>
         </div>
+
+        <NotificationToggle userId={userId} />
 
         <div className="sheet-section">
           <div className="sheet-label">パスワード</div>
