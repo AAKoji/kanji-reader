@@ -1,12 +1,151 @@
 {
-  "title": "日本の観光地が人気",
-  "subtitle": "旅行 · 読み時間 約3分",
+  "title": "オリンピックへの道、若い選手たちの挑戦",
+  "subtitle": "スポーツ · 読み時間 約3分",
   "segments": [
     {
-      "text": "最近",
-      "reading": "さいきん",
-      "meaning": "recently",
+      "text": "来年",
+      "reading": "らいねん",
+      "meaning": "next year",
+      "jlpt": "N5"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "オリンピック",
+      "reading": "オリンピック",
+      "meaning": "Olympics",
+      "jlpt": "N3"
+    },
+    {
+      "text": "に",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "向けて",
+      "reading": "むけて",
+      "meaning": "towards",
+      "jlpt": "N3"
+    },
+    {
+      "text": "、",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "多く",
+      "reading": "おおく",
+      "meaning": "many",
       "jlpt": "N4"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "若い",
+      "reading": "わかい",
+      "meaning": "young",
+      "jlpt": "N5"
+    },
+    {
+      "text": "選手",
+      "reading": "せんしゅ",
+      "meaning": "athlete",
+      "jlpt": "N3"
+    },
+    {
+      "text": "たち",
+      "reading": "たち",
+      "meaning": "(plural)",
+      "jlpt": "N4"
+    },
+    {
+      "text": "が",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day",
+      "jlpt": "N5"
+    },
+    {
+      "text": "厳しい",
+      "reading": "きびしい",
+      "meaning": "strict, tough",
+      "jlpt": "N3"
+    },
+    {
+      "text": "練習",
+      "reading": "れんしゅう",
+      "meaning": "practice",
+      "jlpt": "N5"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "続けて",
+      "reading": "つづけて",
+      "meaning": "continue",
+      "jlpt": "N4"
+    },
+    {
+      "text": "います",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "特に",
+      "reading": "とくに",
+      "meaning": "especially",
+      "jlpt": "N3"
+    },
+    {
+      "text": "水泳",
+      "reading": "すいえい",
+      "meaning": "swimming",
+      "jlpt": "N3"
+    },
+    {
+      "text": "と",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "陸上",
+      "reading": "りくじょう",
+      "meaning": "track and field",
+      "jlpt": "N2"
+    },
+    {
+      "text": "競技",
+      "reading": "きょうぎ",
+      "meaning": "competition",
+      "jlpt": "N2"
+    },
+    {
+      "text": "では",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "、",
@@ -25,9 +164,9 @@
       "meaning": null
     },
     {
-      "text": "観光地",
-      "reading": "かんこうち",
-      "meaning": "tourist spot",
+      "text": "代表",
+      "reading": "だいひょう",
+      "meaning": "representative",
       "jlpt": "N2"
     },
     {
@@ -36,207 +175,44 @@
       "meaning": null
     },
     {
-      "text": "世界中",
-      "reading": "せかいじゅう",
-      "meaning": "all over the world",
-      "jlpt": "N3"
-    },
-    {
-      "text": "で",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "とても",
-      "reading": "とても",
-      "meaning": "very",
+      "text": "世界",
+      "reading": "せかい",
+      "meaning": "world",
       "jlpt": "N5"
     },
     {
-      "text": "人気",
-      "reading": "にんき",
-      "meaning": "popularity",
-      "jlpt": "N4"
-    },
-    {
-      "text": "です",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "especially",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "京都",
-      "reading": "きょうと",
-      "meaning": "Kyoto",
-      "jlpt": "N5"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "古い",
-      "reading": "ふるい",
-      "meaning": "old",
-      "jlpt": "N5"
-    },
-    {
-      "text": "お寺",
-      "reading": "おてら",
-      "meaning": "temple",
-      "jlpt": "N5"
-    },
-    {
-      "text": "や",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "神社",
-      "reading": "じんじゃ",
-      "meaning": "shrine",
-      "jlpt": "N3"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "多く",
-      "reading": "おおく",
-      "meaning": "many",
-      "jlpt": "N4"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "伝統的",
-      "reading": "でんとうてき",
-      "meaning": "traditional",
+      "text": "記録",
+      "reading": "きろく",
+      "meaning": "record",
       "jlpt": "N2"
     },
     {
-      "text": "な",
+      "text": "に",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "文化",
-      "reading": "ぶんか",
-      "meaning": "culture",
-      "jlpt": "N3"
+      "text": "近い",
+      "reading": "ちかい",
+      "meaning": "close",
+      "jlpt": "N5"
     },
     {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "楽しむ",
-      "reading": "たのしむ",
-      "meaning": "to enjoy",
-      "jlpt": "N4"
-    },
-    {
-      "text": "こと",
-      "reading": "こと",
-      "meaning": "thing",
-      "jlpt": "N4"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "できます",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "外国人",
-      "reading": "がいこくじん",
-      "meaning": "foreigner",
-      "jlpt": "N4"
-    },
-    {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "観光客",
-      "reading": "かんこうきゃく",
-      "meaning": "tourist",
+      "text": "成績",
+      "reading": "せいせき",
+      "meaning": "results",
       "jlpt": "N2"
     },
     {
-      "text": "も",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "着物",
-      "reading": "きもの",
-      "meaning": "kimono",
-      "jlpt": "N4"
-    },
-    {
       "text": "を",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "着て",
-      "reading": "きて",
-      "meaning": "to wear",
-      "jlpt": "N5"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "町",
-      "reading": "まち",
-      "meaning": "town",
-      "jlpt": "N5"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "歩いて",
-      "reading": "あるいて",
-      "meaning": "to walk",
-      "jlpt": "N5"
+      "text": "残して",
+      "reading": "のこして",
+      "meaning": "leave behind",
+      "jlpt": "N3"
     },
     {
       "text": "います",
@@ -254,21 +230,27 @@
       "meaning": null
     },
     {
-      "text": "一方",
-      "reading": "いっぽう",
-      "meaning": "on the other hand",
-      "jlpt": "N2"
+      "text": "ある",
+      "reading": "ある",
+      "meaning": "a certain",
+      "jlpt": "N5"
     },
     {
-      "text": "、",
+      "text": "18歳",
+      "reading": "じゅうはっさい",
+      "meaning": "18 years old",
+      "jlpt": "N5"
+    },
+    {
+      "text": "の",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "北海道",
-      "reading": "ほっかいどう",
-      "meaning": "Hokkaido",
-      "jlpt": "N5"
+      "text": "選手",
+      "reading": "せんしゅ",
+      "meaning": "athlete",
+      "jlpt": "N3"
     },
     {
       "text": "は",
@@ -276,92 +258,14 @@
       "meaning": null
     },
     {
-      "text": "美しい",
-      "reading": "うつくしい",
-      "meaning": "beautiful",
-      "jlpt": "N3"
-    },
-    {
-      "text": "自然",
-      "reading": "しぜん",
-      "meaning": "nature",
-      "jlpt": "N3"
-    },
-    {
-      "text": "と",
+      "text": "「",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "おいしい",
-      "reading": "おいしい",
-      "meaning": "delicious",
-      "jlpt": "N5"
-    },
-    {
-      "text": "料理",
-      "reading": "りょうり",
-      "meaning": "cuisine",
-      "jlpt": "N5"
-    },
-    {
-      "text": "で",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "有名",
-      "reading": "ゆうめい",
-      "meaning": "famous",
-      "jlpt": "N5"
-    },
-    {
-      "text": "です",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "冬",
-      "reading": "ふゆ",
-      "meaning": "winter",
-      "jlpt": "N5"
-    },
-    {
-      "text": "には",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "雪祭り",
-      "reading": "ゆきまつり",
-      "meaning": "snow festival",
-      "jlpt": "N3"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "開かれ",
-      "reading": "ひらかれ",
-      "meaning": "to be held",
-      "jlpt": "N3"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "多く",
-      "reading": "おおく",
-      "meaning": "many",
+      "text": "自分",
+      "reading": "じぶん",
+      "meaning": "oneself",
       "jlpt": "N4"
     },
     {
@@ -370,21 +274,75 @@
       "meaning": null
     },
     {
-      "text": "人",
-      "reading": "ひと",
-      "meaning": "people",
-      "jlpt": "N5"
+      "text": "力",
+      "reading": "ちから",
+      "meaning": "strength",
+      "jlpt": "N4"
     },
     {
-      "text": "が",
+      "text": "を",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "訪れます",
-      "reading": "おとずれます",
-      "meaning": "to visit",
+      "text": "信じて",
+      "reading": "しんじて",
+      "meaning": "believe",
+      "jlpt": "N3"
+    },
+    {
+      "text": "、",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "金",
+      "reading": "きん",
+      "meaning": "gold",
+      "jlpt": "N4"
+    },
+    {
+      "text": "メダル",
+      "reading": "メダル",
+      "meaning": "medal",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "目指し",
+      "reading": "めざし",
+      "meaning": "aim for",
       "jlpt": "N2"
+    },
+    {
+      "text": "たい",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "」",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "と",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "話して",
+      "reading": "はなして",
+      "meaning": "talk",
+      "jlpt": "N5"
+    },
+    {
+      "text": "いました",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "。",
@@ -397,10 +355,15 @@
       "meaning": null
     },
     {
-      "text": "しかし",
-      "reading": "しかし",
-      "meaning": "however",
-      "jlpt": "N4"
+      "text": "専門家",
+      "reading": "せんもんか",
+      "meaning": "expert",
+      "jlpt": "N2"
+    },
+    {
+      "text": "は",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "、",
@@ -408,10 +371,33 @@
       "meaning": null
     },
     {
-      "text": "観光客",
-      "reading": "かんこうきゃく",
-      "meaning": "tourist",
-      "jlpt": "N2"
+      "text": "最近",
+      "reading": "さいきん",
+      "meaning": "recently",
+      "jlpt": "N4"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "科学",
+      "reading": "かがく",
+      "meaning": "science",
+      "jlpt": "N4"
+    },
+    {
+      "text": "的な",
+      "reading": "てきな",
+      "meaning": "-like",
+      "jlpt": "N3"
+    },
+    {
+      "text": "トレーニング",
+      "reading": "トレーニング",
+      "meaning": "training",
+      "jlpt": "N3"
     },
     {
       "text": "が",
@@ -419,10 +405,91 @@
       "meaning": null
     },
     {
-      "text": "増えすぎて",
-      "reading": "ふえすぎて",
-      "meaning": "to increase too much",
+      "text": "選手",
+      "reading": "せんしゅ",
+      "meaning": "athlete",
       "jlpt": "N3"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "能力",
+      "reading": "のうりょく",
+      "meaning": "ability",
+      "jlpt": "N2"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "大きく",
+      "reading": "おおきく",
+      "meaning": "greatly",
+      "jlpt": "N5"
+    },
+    {
+      "text": "伸ばして",
+      "reading": "のばして",
+      "meaning": "extend, improve",
+      "jlpt": "N3"
+    },
+    {
+      "text": "いる",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "と",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "指摘",
+      "reading": "してき",
+      "meaning": "point out",
+      "jlpt": "N1"
+    },
+    {
+      "text": "しています",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "大会",
+      "reading": "たいかい",
+      "meaning": "tournament",
+      "jlpt": "N3"
+    },
+    {
+      "text": "が",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "近づく",
+      "reading": "ちかづく",
+      "meaning": "approach",
+      "jlpt": "N3"
+    },
+    {
+      "text": "につれて",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "、",
@@ -430,9 +497,9 @@
       "meaning": null
     },
     {
-      "text": "地元",
-      "reading": "じもと",
-      "meaning": "local area",
+      "text": "国民",
+      "reading": "こくみん",
+      "meaning": "citizens",
       "jlpt": "N2"
     },
     {
@@ -441,9 +508,69 @@
       "meaning": null
     },
     {
-      "text": "生活",
-      "reading": "せいかつ",
-      "meaning": "daily life",
+      "text": "期待",
+      "reading": "きたい",
+      "meaning": "expectation",
+      "jlpt": "N3"
+    },
+    {
+      "text": "も",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "高まって",
+      "reading": "たかまって",
+      "meaning": "rise, heighten",
+      "jlpt": "N2"
+    },
+    {
+      "text": "います",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "応援",
+      "reading": "おうえん",
+      "meaning": "support, cheering",
+      "jlpt": "N3"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "声",
+      "reading": "こえ",
+      "meaning": "voice",
+      "jlpt": "N5"
+    },
+    {
+      "text": "が",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "選手",
+      "reading": "せんしゅ",
+      "meaning": "athlete",
+      "jlpt": "N3"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "力",
+      "reading": "ちから",
+      "meaning": "strength",
       "jlpt": "N4"
     },
     {
@@ -452,138 +579,13 @@
       "meaning": null
     },
     {
-      "text": "問題",
-      "reading": "もんだい",
-      "meaning": "problem",
+      "text": "なる",
+      "reading": "なる",
+      "meaning": "become",
       "jlpt": "N5"
     },
     {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "起きて",
-      "reading": "おきて",
-      "meaning": "to occur",
-      "jlpt": "N4"
-    },
-    {
-      "text": "いる",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "地域",
-      "reading": "ちいき",
-      "meaning": "region",
-      "jlpt": "N2"
-    },
-    {
-      "text": "も",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "あります",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "これから",
-      "reading": "これから",
-      "meaning": "from now on",
-      "jlpt": "N4"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "観光",
-      "reading": "かんこう",
-      "meaning": "tourism",
-      "jlpt": "N3"
-    },
-    {
-      "text": "と",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "環境",
-      "reading": "かんきょう",
-      "meaning": "environment",
-      "jlpt": "N2"
-    },
-    {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "バランス",
-      "reading": "バランス",
-      "meaning": "balance",
-      "jlpt": "N2"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "考える",
-      "reading": "かんがえる",
-      "meaning": "to think about",
-      "jlpt": "N4"
-    },
-    {
-      "text": "こと",
-      "reading": "こと",
-      "meaning": "thing",
-      "jlpt": "N4"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "大切",
-      "reading": "たいせつ",
-      "meaning": "important",
-      "jlpt": "N5"
-    },
-    {
-      "text": "だ",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "と",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "言われて",
-      "reading": "いわれて",
-      "meaning": "to be said",
-      "jlpt": "N4"
-    },
-    {
-      "text": "います",
+      "text": "でしょう",
       "reading": null,
       "meaning": null
     },
