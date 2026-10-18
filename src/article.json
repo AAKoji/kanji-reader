@@ -1,6 +1,6 @@
 {
-  "title": "日本の歴史を学ぶ",
-  "subtitle": "文化 · 読み時間 約4分",
+  "title": "日本の探査機が小惑星で新発見",
+  "subtitle": "科学 · 読み時間 約3分",
   "segments": [
     {
       "text": "日本",
@@ -14,30 +14,69 @@
       "meaning": null
     },
     {
-      "text": "歴史",
-      "reading": "れきし",
-      "meaning": "history",
-      "jlpt": "N4"
+      "text": "宇宙",
+      "reading": "うちゅう",
+      "meaning": "space, universe",
+      "jlpt": "N3"
     },
     {
-      "text": "は",
+      "text": "探査機",
+      "reading": "たんさき",
+      "meaning": "space probe",
+      "jlpt": "N1"
+    },
+    {
+      "text": "が",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "とても",
-      "reading": "とても",
-      "meaning": "very",
+      "text": "遠い",
+      "reading": "とおい",
+      "meaning": "far",
       "jlpt": "N5"
     },
     {
-      "text": "長い",
-      "reading": "ながい",
-      "meaning": "long",
-      "jlpt": "N5"
+      "text": "小惑星",
+      "reading": "しょうわくせい",
+      "meaning": "asteroid",
+      "jlpt": "N1"
     },
     {
-      "text": "です",
+      "text": "から",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "重要",
+      "reading": "じゅうよう",
+      "meaning": "important",
+      "jlpt": "N3"
+    },
+    {
+      "text": "な",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "データ",
+      "reading": "データ",
+      "meaning": "data",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "送って",
+      "reading": "おくって",
+      "meaning": "send",
+      "jlpt": "N4"
+    },
+    {
+      "text": "きました",
       "reading": null,
       "meaning": null
     },
@@ -47,10 +86,15 @@
       "meaning": null
     },
     {
-      "text": "今日",
-      "reading": "きょう",
-      "meaning": "today",
-      "jlpt": "N5"
+      "text": "研究者",
+      "reading": "けんきゅうしゃ",
+      "meaning": "researcher",
+      "jlpt": "N2"
+    },
+    {
+      "text": "たち",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "は",
@@ -58,41 +102,19 @@
       "meaning": null
     },
     {
-      "text": "その",
-      "reading": "その",
-      "meaning": "that",
-      "jlpt": "N5"
-    },
-    {
-      "text": "歴史",
-      "reading": "れきし",
-      "meaning": "history",
+      "text": "大変",
+      "reading": "たいへん",
+      "meaning": "very, greatly",
       "jlpt": "N4"
     },
     {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "簡単",
-      "reading": "かんたん",
-      "meaning": "simple",
+      "text": "驚いて",
+      "reading": "おどろいて",
+      "meaning": "be surprised",
       "jlpt": "N4"
     },
     {
-      "text": "に",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "紹介",
-      "reading": "しょうかい",
-      "meaning": "introduction",
-      "jlpt": "N4"
-    },
-    {
-      "text": "します",
+      "text": "います",
       "reading": null,
       "meaning": null
     },
@@ -107,217 +129,47 @@
       "meaning": null
     },
     {
-      "text": "昔",
-      "reading": "むかし",
-      "meaning": "long ago",
-      "jlpt": "N4"
-    },
-    {
-      "text": "、",
+      "text": "この",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "人々",
-      "reading": "ひとびと",
-      "meaning": "people",
-      "jlpt": "N3"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "米",
-      "reading": "こめ",
-      "meaning": "rice",
-      "jlpt": "N4"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "作り",
-      "reading": "つくり",
-      "meaning": "to make",
-      "jlpt": "N5"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "村",
-      "reading": "むら",
-      "meaning": "village",
-      "jlpt": "N4"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "作りました",
-      "reading": "つくりました",
-      "meaning": "made",
-      "jlpt": "N5"
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "やがて",
-      "reading": "やがて",
-      "meaning": "before long",
-      "jlpt": "N2"
-    },
-    {
-      "text": "天皇",
-      "reading": "てんのう",
-      "meaning": "emperor",
-      "jlpt": "N2"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "中心",
-      "reading": "ちゅうしん",
-      "meaning": "center",
-      "jlpt": "N3"
-    },
-    {
-      "text": "と",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "する",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "国家",
-      "reading": "こっか",
-      "meaning": "nation",
-      "jlpt": "N2"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "生まれました",
-      "reading": "うまれました",
-      "meaning": "was born",
-      "jlpt": "N4"
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "中世",
-      "reading": "ちゅうせい",
-      "meaning": "medieval period",
+      "text": "小惑星",
+      "reading": "しょうわくせい",
+      "meaning": "asteroid",
       "jlpt": "N1"
     },
     {
-      "text": "に",
+      "text": "の",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "なる",
-      "reading": "なる",
-      "meaning": "to become",
-      "jlpt": "N5"
-    },
-    {
-      "text": "と",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "武士",
-      "reading": "ぶし",
-      "meaning": "samurai",
+      "text": "表面",
+      "reading": "ひょうめん",
+      "meaning": "surface",
       "jlpt": "N2"
     },
     {
-      "text": "が",
+      "text": "から",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "力",
-      "reading": "ちから",
-      "meaning": "power",
-      "jlpt": "N4"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "持ち",
-      "reading": "もち",
-      "meaning": "to hold",
+      "text": "水",
+      "reading": "みず",
+      "meaning": "water",
       "jlpt": "N5"
     },
     {
-      "text": "、",
+      "text": "の",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "政治",
-      "reading": "せいじ",
-      "meaning": "politics",
-      "jlpt": "N3"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "動かしました",
-      "reading": "うごかしました",
-      "meaning": "moved/controlled",
-      "jlpt": "N3"
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "将軍",
-      "reading": "しょうぐん",
-      "meaning": "shogun",
+      "text": "成分",
+      "reading": "せいぶん",
+      "meaning": "component",
       "jlpt": "N1"
     },
     {
@@ -326,33 +178,10 @@
       "meaning": null
     },
     {
-      "text": "長い",
-      "reading": "ながい",
-      "meaning": "long",
-      "jlpt": "N5"
-    },
-    {
-      "text": "間",
-      "reading": "あいだ",
-      "meaning": "period",
+      "text": "見つかりました",
+      "reading": "みつかりました",
+      "meaning": "was found",
       "jlpt": "N4"
-    },
-    {
-      "text": "国",
-      "reading": "くに",
-      "meaning": "country",
-      "jlpt": "N5"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "治めました",
-      "reading": "おさめました",
-      "meaning": "governed",
-      "jlpt": "N1"
     },
     {
       "text": "。",
@@ -360,24 +189,7 @@
       "meaning": null
     },
     {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "明治",
-      "reading": "めいじ",
-      "meaning": "Meiji era",
-      "jlpt": "N1"
-    },
-    {
-      "text": "時代",
-      "reading": "じだい",
-      "meaning": "era",
-      "jlpt": "N4"
-    },
-    {
-      "text": "に",
+      "text": "これ",
       "reading": null,
       "meaning": null
     },
@@ -387,25 +199,20 @@
       "meaning": null
     },
     {
-      "text": "、",
+      "text": "地球",
+      "reading": "ちきゅう",
+      "meaning": "Earth",
+      "jlpt": "N3"
+    },
+    {
+      "text": "の",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "日本",
-      "reading": "にほん",
-      "meaning": "Japan",
-      "jlpt": "N5"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "西洋",
-      "reading": "せいよう",
-      "meaning": "the West",
+      "text": "生命",
+      "reading": "せいめい",
+      "meaning": "life",
       "jlpt": "N2"
     },
     {
@@ -414,141 +221,10 @@
       "meaning": null
     },
     {
-      "text": "技術",
-      "reading": "ぎじゅつ",
-      "meaning": "technology",
-      "jlpt": "N3"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "取り入れ",
-      "reading": "とりいれ",
-      "meaning": "to adopt",
-      "jlpt": "N2"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "急速",
-      "reading": "きゅうそく",
-      "meaning": "rapid",
-      "jlpt": "N2"
-    },
-    {
-      "text": "に",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "発展",
-      "reading": "はってん",
-      "meaning": "development",
-      "jlpt": "N3"
-    },
-    {
-      "text": "しました",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "現在",
-      "reading": "げんざい",
-      "meaning": "the present",
-      "jlpt": "N3"
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "日本",
-      "reading": "にほん",
-      "meaning": "Japan",
-      "jlpt": "N5"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "伝統",
-      "reading": "でんとう",
-      "meaning": "tradition",
-      "jlpt": "N2"
-    },
-    {
-      "text": "と",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "現代",
-      "reading": "げんだい",
-      "meaning": "modern times",
-      "jlpt": "N3"
-    },
-    {
-      "text": "文化",
-      "reading": "ぶんか",
-      "meaning": "culture",
-      "jlpt": "N4"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "共存",
-      "reading": "きょうぞん",
-      "meaning": "coexistence",
+      "text": "起源",
+      "reading": "きげん",
+      "meaning": "origin",
       "jlpt": "N1"
-    },
-    {
-      "text": "する",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "国",
-      "reading": "くに",
-      "meaning": "country",
-      "jlpt": "N5"
-    },
-    {
-      "text": "です",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "歴史",
-      "reading": "れきし",
-      "meaning": "history",
-      "jlpt": "N4"
     },
     {
       "text": "を",
@@ -562,19 +238,114 @@
       "jlpt": "N5"
     },
     {
-      "text": "と",
+      "text": "ための",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "、",
+      "text": "大切",
+      "reading": "たいせつ",
+      "meaning": "important",
+      "jlpt": "N5"
+    },
+    {
+      "text": "な",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "今",
-      "reading": "いま",
-      "meaning": "now",
+      "text": "手がかり",
+      "reading": "てがかり",
+      "meaning": "clue",
+      "jlpt": "N1"
+    },
+    {
+      "text": "です",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "探査機",
+      "reading": "たんさき",
+      "meaning": "space probe",
+      "jlpt": "N1"
+    },
+    {
+      "text": "は",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "約",
+      "reading": "やく",
+      "meaning": "approximately",
+      "jlpt": "N3"
+    },
+    {
+      "text": "三",
+      "reading": "さん",
+      "meaning": "three",
+      "jlpt": "N5"
+    },
+    {
+      "text": "年間",
+      "reading": "ねんかん",
+      "meaning": "period of years",
+      "jlpt": "N4"
+    },
+    {
+      "text": "かけて",
+      "reading": "かけて",
+      "meaning": "spending (time)",
+      "jlpt": "N3"
+    },
+    {
+      "text": "長い",
+      "reading": "ながい",
+      "meaning": "long",
+      "jlpt": "N5"
+    },
+    {
+      "text": "旅",
+      "reading": "たび",
+      "meaning": "journey",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "続けました",
+      "reading": "つづけました",
+      "meaning": "continued",
+      "jlpt": "N4"
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "そして",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "少し",
+      "reading": "すこし",
+      "meaning": "a little",
       "jlpt": "N5"
     },
     {
@@ -583,10 +354,156 @@
       "meaning": null
     },
     {
-      "text": "日本",
-      "reading": "にほん",
-      "meaning": "Japan",
+      "text": "砂",
+      "reading": "すな",
+      "meaning": "sand",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "集めて",
+      "reading": "あつめて",
+      "meaning": "collect",
+      "jlpt": "N4"
+    },
+    {
+      "text": "地球",
+      "reading": "ちきゅう",
+      "meaning": "Earth",
+      "jlpt": "N3"
+    },
+    {
+      "text": "へ",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "帰る",
+      "reading": "かえる",
+      "meaning": "return",
       "jlpt": "N5"
+    },
+    {
+      "text": "予定",
+      "reading": "よてい",
+      "meaning": "plan, schedule",
+      "jlpt": "N3"
+    },
+    {
+      "text": "です",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "専門家",
+      "reading": "せんもんか",
+      "meaning": "expert",
+      "jlpt": "N2"
+    },
+    {
+      "text": "は",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "「",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "この",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "技術",
+      "reading": "ぎじゅつ",
+      "meaning": "technology",
+      "jlpt": "N3"
+    },
+    {
+      "text": "は",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "世界",
+      "reading": "せかい",
+      "meaning": "world",
+      "jlpt": "N5"
+    },
+    {
+      "text": "でも",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "rare",
+      "jlpt": "N3"
+    },
+    {
+      "text": "」",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "と",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "話して",
+      "reading": "はなして",
+      "meaning": "talk",
+      "jlpt": "N5"
+    },
+    {
+      "text": "います",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "将来",
+      "reading": "しょうらい",
+      "meaning": "future",
+      "jlpt": "N3"
+    },
+    {
+      "text": "、",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "人類",
+      "reading": "じんるい",
+      "meaning": "humankind",
+      "jlpt": "N2"
     },
     {
       "text": "が",
@@ -594,22 +511,63 @@
       "meaning": null
     },
     {
+      "text": "宇宙",
+      "reading": "うちゅう",
+      "meaning": "space",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
       "text": "もっと",
-      "reading": "もっと",
-      "meaning": "more",
-      "jlpt": "N5"
+      "reading": null,
+      "meaning": null
     },
     {
-      "text": "よく",
-      "reading": "よく",
-      "meaning": "well",
-      "jlpt": "N5"
+      "text": "深く",
+      "reading": "ふかく",
+      "meaning": "deeply",
+      "jlpt": "N3"
     },
     {
-      "text": "分かります",
-      "reading": "わかります",
-      "meaning": "to understand",
-      "jlpt": "N5"
+      "text": "理解",
+      "reading": "りかい",
+      "meaning": "understanding",
+      "jlpt": "N3"
+    },
+    {
+      "text": "する",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "こと",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "が",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "期待",
+      "reading": "きたい",
+      "meaning": "expectation",
+      "jlpt": "N3"
+    },
+    {
+      "text": "されて",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "います",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "。",
