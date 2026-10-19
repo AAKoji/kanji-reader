@@ -1,4 +1,4 @@
--- 002: Finish the auth migration. Run ONLY after every legacy user has signed in once
+-- 002: Finish the auth migration. Run ONLY after every legacy user has an auth account
 -- and their rows have been mapped. Find each user's id under Authentication → Users.
 
 -- Step A (one line per legacy user, edit before running):
