@@ -1,0 +1,598 @@
+{
+ "page": 14,
+ "chapter": "四　ケンタウル祭の夜",
+ "segments": [
+  {
+   "text": "ジョバンニ",
+   "reading": "ジョバンニ",
+   "meaning": "Giovanni (name)"
+  },
+  {
+   "text": "は、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "にげる",
+   "reading": "にげる",
+   "meaning": "to run away",
+   "jlpt": "N4"
+  },
+  {
+   "text": "ように",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "その",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "眼",
+   "reading": "め",
+   "meaning": "eyes",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "避け",
+   "reading": "さけ",
+   "meaning": "avoided",
+   "jlpt": "N2"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そして",
+   "reading": "そして",
+   "meaning": "and",
+   "jlpt": "N5"
+  },
+  {
+   "text": "カムパネルラ",
+   "reading": "カムパネルラ",
+   "meaning": "Campanella (name)"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "せい",
+   "reading": "せい",
+   "meaning": "height",
+   "jlpt": "N3"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "高い",
+   "reading": "たかい",
+   "meaning": "tall",
+   "jlpt": "N5"
+  },
+  {
+   "text": "かたち",
+   "reading": "かたち",
+   "meaning": "figure",
+   "jlpt": "N4"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "過ぎて行って",
+   "reading": "すぎていって",
+   "meaning": "went past",
+   "jlpt": "N4"
+  },
+  {
+   "text": "まもなく",
+   "reading": "まもなく",
+   "meaning": "soon",
+   "jlpt": "N2"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "みんな",
+   "reading": "みんな",
+   "meaning": "everyone",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "てんでに",
+   "reading": "てんでに",
+   "meaning": "each on their own"
+  },
+  {
+   "text": "口笛",
+   "reading": "くちぶえ",
+   "meaning": "whistle",
+   "jlpt": "N2"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "吹きました",
+   "reading": "ふきました",
+   "meaning": "blew",
+   "jlpt": "N4"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "町かど",
+   "reading": "まちかど",
+   "meaning": "street corner",
+   "jlpt": "N1"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "曲がる",
+   "reading": "まがる",
+   "meaning": "to turn",
+   "jlpt": "N5"
+  },
+  {
+   "text": "とき、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ふりかえって",
+   "reading": "ふりかえって",
+   "meaning": "turning around",
+   "jlpt": "N2"
+  },
+  {
+   "text": "見ましたら",
+   "reading": "みましたら",
+   "meaning": "when (he) looked",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ザネリ",
+   "reading": "ザネリ",
+   "meaning": "Zanelli (name)"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "やはり",
+   "reading": "やはり",
+   "meaning": "also",
+   "jlpt": "N3"
+  },
+  {
+   "text": "ふりかえって",
+   "reading": "ふりかえって",
+   "meaning": "turning around",
+   "jlpt": "N2"
+  },
+  {
+   "text": "見ていました",
+   "reading": "みていました",
+   "meaning": "was looking",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そして",
+   "reading": "そして",
+   "meaning": "and",
+   "jlpt": "N5"
+  },
+  {
+   "text": "カムパネルラ",
+   "reading": "カムパネルラ",
+   "meaning": "Campanella (name)"
+  },
+  {
+   "text": "も",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "また",
+   "reading": "また",
+   "meaning": "also",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "高く",
+   "reading": "たかく",
+   "meaning": "loudly; high",
+   "jlpt": "N5"
+  },
+  {
+   "text": "口笛",
+   "reading": "くちぶえ",
+   "meaning": "whistle",
+   "jlpt": "N2"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "吹いて",
+   "reading": "ふいて",
+   "meaning": "blowing",
+   "jlpt": "N4"
+  },
+  {
+   "text": "向こう",
+   "reading": "むこう",
+   "meaning": "over there",
+   "jlpt": "N4"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ぼんやり",
+   "reading": "ぼんやり",
+   "meaning": "dimly",
+   "jlpt": "N2"
+  },
+  {
+   "text": "見える",
+   "reading": "みえる",
+   "meaning": "visible",
+   "jlpt": "N4"
+  },
+  {
+   "text": "橋",
+   "reading": "はし",
+   "meaning": "bridge",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "方",
+   "reading": "ほう",
+   "meaning": "direction",
+   "jlpt": "N4"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "歩いて行ってしまった",
+   "reading": "あるいていってしまった",
+   "meaning": "walked away",
+   "jlpt": "N5"
+  },
+  {
+   "text": "のでした。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ジョバンニ",
+   "reading": "ジョバンニ",
+   "meaning": "Giovanni (name)"
+  },
+  {
+   "text": "は、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なんとも言えず",
+   "reading": "なんともいえず",
+   "meaning": "indescribably",
+   "jlpt": "N3"
+  },
+  {
+   "text": "さびしく",
+   "reading": "さびしく",
+   "meaning": "lonely",
+   "jlpt": "N4"
+  },
+  {
+   "text": "なって、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "いきなり",
+   "reading": "いきなり",
+   "meaning": "suddenly",
+   "jlpt": "N2"
+  },
+  {
+   "text": "走りだしました",
+   "reading": "はしりだしました",
+   "meaning": "started running",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "すると",
+   "reading": "すると",
+   "meaning": "thereupon",
+   "jlpt": "N3"
+  },
+  {
+   "text": "耳",
+   "reading": "みみ",
+   "meaning": "ears",
+   "jlpt": "N5"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "手",
+   "reading": "て",
+   "meaning": "hands",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あてて",
+   "reading": "あてて",
+   "meaning": "putting (on)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "わあわあ",
+   "reading": "わあわあ",
+   "meaning": "wah-wah (noise)"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "言いながら",
+   "reading": "いいながら",
+   "meaning": "while saying",
+   "jlpt": "N5"
+  },
+  {
+   "text": "片足",
+   "reading": "かたあし",
+   "meaning": "one leg"
+  },
+  {
+   "text": "で",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ぴょんぴょん",
+   "reading": "ぴょんぴょん",
+   "meaning": "hopping"
+  },
+  {
+   "text": "跳んでいた",
+   "reading": "とんでいた",
+   "meaning": "were jumping",
+   "jlpt": "N4"
+  },
+  {
+   "text": "小さな",
+   "reading": "ちいさな",
+   "meaning": "small",
+   "jlpt": "N5"
+  },
+  {
+   "text": "子供ら",
+   "reading": "こどもら",
+   "meaning": "children",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ジョバンニ",
+   "reading": "ジョバンニ",
+   "meaning": "Giovanni (name)"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "おもしろくて",
+   "reading": "おもしろくて",
+   "meaning": "for fun",
+   "jlpt": "N5"
+  },
+  {
+   "text": "かける",
+   "reading": "かける",
+   "meaning": "to run",
+   "jlpt": "N3"
+  },
+  {
+   "text": "のだ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "思って",
+   "reading": "おもって",
+   "meaning": "thinking",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "わあい",
+   "reading": "わあい",
+   "meaning": "yay"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "叫びました",
+   "reading": "さけびました",
+   "meaning": "shouted",
+   "jlpt": "N3"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "\n\n",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "まもなく",
+   "reading": "まもなく",
+   "meaning": "soon",
+   "jlpt": "N2"
+  },
+  {
+   "text": "ジョバンニ",
+   "reading": "ジョバンニ",
+   "meaning": "Giovanni (name)"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "走りだして",
+   "reading": "はしりだして",
+   "meaning": "starting to run",
+   "jlpt": "N5"
+  },
+  {
+   "text": "黒い",
+   "reading": "くろい",
+   "meaning": "black",
+   "jlpt": "N5"
+  },
+  {
+   "text": "丘",
+   "reading": "おか",
+   "meaning": "hill",
+   "jlpt": "N2"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "方",
+   "reading": "ほう",
+   "meaning": "direction",
+   "jlpt": "N4"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "急ぎました",
+   "reading": "いそぎました",
+   "meaning": "hurried",
+   "jlpt": "N4"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  }
+ ]
+}

@@ -168,6 +168,17 @@ export default function SettingsSheet({
           </button>
         </div>
 
+        <div className="sheet-section sheet-row">
+          <span className="sheet-label">🥚 イースターエッグ</span>
+          <button
+            className={`dark-toggle ${settings.novelEnabled ? 'on' : ''}`}
+            onClick={() => onChange({ ...settings, novelEnabled: !settings.novelEnabled })}
+            aria-label="イースターエッグ切り替え"
+          >
+            <span className="toggle-thumb" />
+          </button>
+        </div>
+
         <NotificationToggle userId={userId} />
 
         <div className="sheet-section">

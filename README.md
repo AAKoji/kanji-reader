@@ -11,7 +11,8 @@ A daily Japanese reading app for vocabulary acquisition. A new article is genera
 Accounts are invite-only. Ask the admin for a username and a starting password, then sign in. On first sign-in your username becomes your display name. In **設定** (the sliders icon) you can:
 - change your password (8+ characters, including the name of an animal);
 - set your JLPT level (N5–N1). Words above your level show as hiragana, and you can click them to see the meaning. With no level set, all kanji are shown;
-- turn on **毎日の通知**, a daily reminder at 6pm JST (11am CEST / 10am CET) when the new article is up.
+- turn on **毎日の通知**, a daily reminder at 6pm JST (11am CEST / 10am CET) when the new article is up;
+- turn on **🥚 イースターエッグ** to get a button above the article that opens 宮沢賢治's 銀河鉄道の夜, split into ~5 minute pages. The furthest page you reached is remembered on that device, and 最初から starts over. A 今日 Nページ counter (on the button and in the reader) shows how many pages you read today: a page counts when you leave it with 次へ (the last page when you reach it), once per page, resetting at local midnight.
 
 ### Notifications on iPhone / iPad
 
@@ -39,13 +40,20 @@ src/
     SettingsSheet.jsx   # Theme, font size, JLPT level, notifications, logout
     NotificationToggle.jsx # 毎日の通知 switch (or the iOS install hint)
     LoginScreen.jsx     # Username + password sign-in (no sign-up: invite-only)
+    SegmentText.jsx     # Clickable word-by-word text (article and novel)
+    NovelReader.jsx     # Easter-egg novel reader: paging + progress in localStorage
 public/
   manifest.webmanifest  # Makes the app installable (Home Screen)
   sw.js                 # Service worker: shows push notifications
   icons/                # App icons
+  novels/ginga/         # Built novel pages (index.json + page-NNN.json), loaded on demand
 scripts/
   generate_article.py   # Calls Claude API to produce a new article.json
   send_push.py          # Sends the daily reminder to every subscribed device
+  build_novel.py        # Validates the novel's segment files and writes public/novels/ginga/
+data/novels/
+  gingatetsudono_yoru.txt  # Aozora Bunko source text (Shift_JIS, public domain)
+  ginga-segments/       # Hand-segmented pages, one word per line
 .github/
   workflows/
     daily-article.yml   # Runs generate_article.py daily at 6pm UTC (3am JST)
@@ -69,6 +77,20 @@ A GitHub Actions workflow runs every day at 6pm UTC (3am JST):
 To trigger manually: **Actions → Daily Article Generation → Run workflow**
 
 Required GitHub secret: `ANTHROPIC_API_KEY`
+
+---
+
+## Easter-egg novel (銀河鉄道の夜)
+
+The novel is built once, offline, with no API key:
+
+1. `build_novel.py` parses the Aozora text (ruby, headings, editor notes) and splits each chapter into pages of ~700 characters at paragraph or sentence boundaries.
+2. Each page was segmented into words with reading, contextual meaning and JLPT level in `data/novels/ginga-segments/page-NNN.txt` (`text|reading|meaning|jlpt` per line, `¶` for a paragraph break).
+3. `python scripts/build_novel.py` checks that every segment file reproduces its page **exactly** and writes the JSON to `public/novels/ginga/`.
+
+Other commands: `--plan` (paging stats), `--show N` (print a page with its furigana), `--report` (JLPT distribution). Changing `PAGE_TARGET_CHARS` re-pages the novel and invalidates the segment files.
+
+Source: Aozora Bunko (青空文庫). The last page shows Aozora's 底本/入力/校正 credit verbatim (Aozora asks that it is not removed), followed by a note listing what this app changed (ruby and notes removed, gaiji replaced, paging, added glosses), as Aozora's [reuse guidelines](https://www.aozora.gr.jp/guide/kijyunn.html) expect for modified texts.
 
 ---
 
