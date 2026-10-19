@@ -1,32 +1,10 @@
 import { useEffect, useState } from 'react'
 import SegmentText from './SegmentText'
+import { loadFurthestPage, saveFurthestPage, getPagesReadToday, markPageRead } from '../novelProgress'
 
 // Built by scripts/build_novel.py into public/, so pages load on demand instead of
 // being bundled into the app.
 const NOVEL_URL = '/novels/ginga'
-
-function progressKey(userId) {
-  return `novel:ginga:${userId}:page`
-}
-
-// Progress is per device for now; localStorage can be unavailable (private mode), so
-// failures fall back to page 1 instead of breaking the reader.
-function loadFurthestPage(userId) {
-  try {
-    const page = parseInt(localStorage.getItem(progressKey(userId)), 10)
-    return Number.isInteger(page) && page >= 1 ? page : 1
-  } catch {
-    return 1
-  }
-}
-
-function saveFurthestPage(userId, page) {
-  try {
-    localStorage.setItem(progressKey(userId), String(page))
-  } catch {
-    // Not saving progress is acceptable; reading still works.
-  }
-}
 
 async function fetchJson(path) {
   const response = await fetch(`${NOVEL_URL}/${path}`)
@@ -46,6 +24,7 @@ export default function NovelReader({ userId, userLevel, boundaryColor, savedWor
   const [isError, setIsError] = useState(false)
   // null = showing "p / N"; a string = the page-jump input is open with this draft
   const [jumpDraft, setJumpDraft] = useState(null)
+  const [pagesReadToday, setPagesReadToday] = useState(() => getPagesReadToday(userId))
 
   useEffect(() => {
     let isActive = true
@@ -74,13 +53,15 @@ export default function NovelReader({ userId, userLevel, boundaryColor, savedWor
         if (!isActive) return
         setPage(data)
         window.scrollTo(0, 0)
+        // The last page has no 次へ, so reaching it is what counts as reading it
+        if (pageNumber === index.pageCount) setPagesReadToday(markPageRead(userId, pageNumber))
       } catch {
         if (isActive) setIsError(true)
       }
     }
     loadPage()
     return () => { isActive = false }
-  }, [index, pageNumber])
+  }, [index, pageNumber, userId])
 
   function goToPage(nextPage) {
     setPageNumber(nextPage)
@@ -88,6 +69,12 @@ export default function NovelReader({ userId, userLevel, boundaryColor, savedWor
       setFurthestPage(nextPage)
       saveFurthestPage(userId, nextPage)
     }
+  }
+
+  // A page counts as read when you finish it with 次へ (jumps don't count skipped pages)
+  function handleNext() {
+    setPagesReadToday(markPageRead(userId, pageNumber))
+    goToPage(pageNumber + 1)
   }
 
   function handleJumpSubmit(e) {
@@ -110,7 +97,10 @@ export default function NovelReader({ userId, userLevel, boundaryColor, savedWor
   const header = (
     <div className="novel-header">
       <button className="novel-link" onClick={onBack}>← 今日の記事</button>
-      {index && <button className="novel-link" onClick={handleReset}>最初から</button>}
+      <div className="novel-header-right">
+        <span className="novel-today">今日 {pagesReadToday}ページ</span>
+        {index && <button className="novel-link" onClick={handleReset}>最初から</button>}
+      </div>
     </div>
   )
 
@@ -177,7 +167,7 @@ export default function NovelReader({ userId, userLevel, boundaryColor, savedWor
             <span className="novel-page-count">/ {index.pageCount}</span>
           </form>
         )}
-        <button className="popup-btn" onClick={() => goToPage(pageNumber + 1)} disabled={isLastPage}>
+        <button className="popup-btn" onClick={handleNext} disabled={isLastPage}>
           次へ →
         </button>
       </div>

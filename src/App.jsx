@@ -6,6 +6,7 @@ import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SegmentText from './components/SegmentText'
 import NovelReader from './components/NovelReader'
+import { getPagesReadToday } from './novelProgress'
 import SettingsSheet from './components/SettingsSheet'
 import LoginScreen from './components/LoginScreen'
 import { resyncPushSubscription, unsubscribeFromPush } from './push'
@@ -282,6 +283,8 @@ export default function App() {
             {settings.novelEnabled && (
               <button className="novel-entry" onClick={() => setTab('novel')}>
                 📖 銀河鉄道の夜を読む
+                {/* Read on each render: coming back from the reader re-renders this tab */}
+                <span className="novel-entry-today">今日 {getPagesReadToday(userId)}ページ</span>
               </button>
             )}
             <div className="article-title">{ARTICLE.title}</div>

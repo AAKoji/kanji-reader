@@ -12,7 +12,7 @@ Accounts are invite-only. Ask the admin for a username and a starting password, 
 - change your password (8+ characters, including the name of an animal);
 - set your JLPT level (N5–N1). Words above your level show as hiragana, and you can click them to see the meaning. With no level set, all kanji are shown;
 - turn on **毎日の通知**, a daily reminder at 6pm JST (11am CEST / 10am CET) when the new article is up;
-- turn on **🥚 イースターエッグ** to get a button above the article that opens 宮沢賢治's 銀河鉄道の夜, split into ~5 minute pages. The furthest page you reached is remembered on that device, and 最初から starts over.
+- turn on **🥚 イースターエッグ** to get a button above the article that opens 宮沢賢治's 銀河鉄道の夜, split into ~5 minute pages. The furthest page you reached is remembered on that device, and 最初から starts over. A 今日 Nページ counter (on the button and in the reader) shows how many pages you read today: a page counts when you leave it with 次へ (the last page when you reach it), once per page, resetting at local midnight.
 
 ### Notifications on iPhone / iPad
 
