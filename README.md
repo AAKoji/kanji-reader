@@ -11,7 +11,7 @@ A daily Japanese reading app for vocabulary acquisition. A new article is genera
 Accounts are invite-only. Ask the admin for a username and a starting password, then sign in. On first sign-in your username becomes your display name. In **設定** (the sliders icon) you can:
 - change your password (8+ characters, including the name of an animal);
 - set your JLPT level (N5–N1). Words above your level show as hiragana, and you can click them to see the meaning. With no level set, all kanji are shown;
-- turn on **毎日の通知**, a daily reminder at 10pm JST (3pm CEST / 2pm CET) when the new article is up.
+- turn on **毎日の通知**, a daily reminder at 6pm JST (11am CEST / 10am CET) when the new article is up.
 
 ### Notifications on iPhone / iPad
 
@@ -49,7 +49,7 @@ scripts/
 .github/
   workflows/
     daily-article.yml   # Runs generate_article.py daily at 6pm UTC (3am JST)
-    daily-push.yml      # Runs send_push.py daily at 1pm UTC (10pm JST)
+    daily-push.yml      # Runs send_push.py daily at 9am UTC (6pm JST)
 setup.sql               # Fresh install: creates tables + RLS
 migrations/             # Schema history (see migrations/README.md); dev_schema.sql sets up dev
 .env.example            # Copy to .env.local and fill in your keys
@@ -74,7 +74,7 @@ Required GitHub secret: `ANTHROPIC_API_KEY`
 
 ## Daily push reminder
 
-`daily-push.yml` runs every day at 1pm UTC (10pm JST) and calls `scripts/send_push.py`. The script reads every row of `push_subscriptions` with the service role key, sends the notification `今日の記事` with the article title as its body, and deletes subscriptions the push service reports as expired (404/410).
+`daily-push.yml` runs every day at 9am UTC (6pm JST) and calls `scripts/send_push.py`. The script reads every row of `push_subscriptions` with the service role key, sends the notification `今日の記事` with the article title as its body, and deletes subscriptions the push service reports as expired (404/410).
 
 To trigger manually: **Actions → Daily Push Reminder → Run workflow**
 
@@ -150,7 +150,7 @@ Currently in personal testing phase. The core loop is complete and working:
 - Daily article drops at 3am JST, Vercel redeploys automatically
 - Level filter is live and working (stored per account)
 - Vocab saving persists to Supabase per user, behind invite-only username sign-in
-- Daily push reminder at 10pm JST (installable app; iOS via Home Screen)
+- Daily push reminder at 6pm JST (installable app; iOS via Home Screen)
 
 **If daily usage picks up, next steps would be:**
 - Article history — browse past days instead of only today's
