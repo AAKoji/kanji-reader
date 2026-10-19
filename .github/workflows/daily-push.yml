@@ -2,7 +2,7 @@ name: Daily Push Reminder
 
 on:
   schedule:
-    - cron: '0 13 * * *'   # 1pm UTC = 10pm JST (3pm CEST / 2pm CET)
+    - cron: '0 9 * * *'   # 9am UTC = 6pm JST (11am CEST / 10am CET)
   workflow_dispatch:        # allow manual trigger for testing
 
 env:
