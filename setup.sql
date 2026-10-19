@@ -1,6 +1,6 @@
 -- Run this in your Supabase SQL Editor for a fresh install
 -- Dashboard → SQL Editor → New query → paste this → Run
--- (An existing database created by the old setup.sql is upgraded with migrations/ instead.)
+-- (Already contains the end state of every migration in migrations/archive/.)
 
 -- 1. Words table (shared across all users)
 create table if not exists words (

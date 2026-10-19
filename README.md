@@ -51,7 +51,7 @@ scripts/
     daily-article.yml   # Runs generate_article.py daily at 6pm UTC (3am JST)
     daily-push.yml      # Runs send_push.py daily at 1pm UTC (10pm JST)
 setup.sql               # Fresh install: creates tables + RLS
-migrations/             # One-off upgrades for an existing database
+migrations/             # Schema history (see migrations/README.md); dev_schema.sql sets up dev
 .env.example            # Copy to .env.local and fill in your keys
 ```
 
