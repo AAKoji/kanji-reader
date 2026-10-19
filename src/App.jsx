@@ -4,6 +4,7 @@ import { useSession, emailToUsername } from './auth'
 import ARTICLE from './article.json'
 import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
+import SegmentText from './components/SegmentText'
 import SettingsSheet from './components/SettingsSheet'
 import LoginScreen from './components/LoginScreen'
 import { resyncPushSubscription, unsubscribeFromPush } from './push'
@@ -290,42 +291,13 @@ export default function App() {
               </div>
             </div>
 
-            <div className="article-body">
-              {ARTICLE.segments.map((seg, i) => {
-                if (!seg.reading && !seg.meaning) {
-                  return (
-                    <span key={i}>
-                      {seg.text.includes('\n') ? <><br /><br /></> : seg.text}
-                    </span>
-                  )
-                }
-                const aboveLevel = userLevel && seg.jlpt &&
-                  parseInt(seg.jlpt[1]) < parseInt(userLevel[1])
-                if (aboveLevel) {
-                  const boundaryActive =
-                    (userLevel === 'N4' || userLevel === 'N5') && settings.boundaryColor !== 'off'
-                  const cls = boundaryActive ? 'word-above-level word-boundary' : 'word-above-level'
-                  return (
-                    <span key={i} className={cls} onClick={() => setActiveWord(seg)}>
-                      {seg.reading}
-                    </span>
-                  )
-                }
-                const saved = savedWords[seg.text]
-                const cls = saved
-                  ? saved.save_type === 'vocab' ? 'saved-vocab' : 'saved-reading'
-                  : ''
-                return (
-                  <span
-                    key={i}
-                    className={`word ${cls}`}
-                    onClick={() => setActiveWord(seg)}
-                  >
-                    {seg.text}
-                  </span>
-                )
-              })}
-            </div>
+            <SegmentText
+              segments={ARTICLE.segments}
+              userLevel={userLevel}
+              boundaryColor={settings.boundaryColor}
+              savedWords={savedWords}
+              onWordClick={setActiveWord}
+            />
           </>
         )
       )}
