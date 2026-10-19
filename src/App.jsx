@@ -5,6 +5,7 @@ import ARTICLE from './article.json'
 import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SegmentText from './components/SegmentText'
+import NovelReader from './components/NovelReader'
 import SettingsSheet from './components/SettingsSheet'
 import LoginScreen from './components/LoginScreen'
 import { resyncPushSubscription, unsubscribeFromPush } from './push'
@@ -42,7 +43,7 @@ function useToast() {
 }
 
 function loadSettings() {
-  const defaults = { theme: 'paper', fontSize: 'md', darkMode: false, boundaryColor: 'blue' }
+  const defaults = { theme: 'paper', fontSize: 'md', darkMode: false, boundaryColor: 'blue', novelEnabled: false }
   try {
     const saved = localStorage.getItem('kanji-reader-settings')
     return saved ? { ...defaults, ...JSON.parse(saved) } : defaults
@@ -83,6 +84,7 @@ export default function App() {
 
   function updateSettings(next) {
     setSettings(next)
+    if (!next.novelEnabled && tab === 'novel') setTab('read')
     localStorage.setItem('kanji-reader-settings', JSON.stringify(next))
   }
 
@@ -277,6 +279,11 @@ export default function App() {
       {tab === 'read' && (
         loading ? <div className="loading">読み込み中…</div> : (
           <>
+            {settings.novelEnabled && (
+              <button className="novel-entry" onClick={() => setTab('novel')}>
+                📖 銀河鉄道の夜を読む
+              </button>
+            )}
             <div className="article-title">{ARTICLE.title}</div>
             <div className="article-sub">{ARTICLE.subtitle}</div>
 
@@ -299,6 +306,19 @@ export default function App() {
               onWordClick={setActiveWord}
             />
           </>
+        )
+      )}
+
+      {tab === 'novel' && (
+        loading ? <div className="loading">読み込み中…</div> : (
+          <NovelReader
+            userId={userId}
+            userLevel={userLevel}
+            boundaryColor={settings.boundaryColor}
+            savedWords={savedWords}
+            onWordClick={setActiveWord}
+            onBack={() => setTab('read')}
+          />
         )
       )}
 
