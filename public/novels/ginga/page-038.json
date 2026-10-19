@@ -1,0 +1,674 @@
+{
+ "page": 38,
+ "chapter": "九　ジョバンニの切符",
+ "segments": [
+  {
+   "text": "「",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "おや",
+   "reading": "おや",
+   "meaning": "oh",
+   "jlpt": "N2"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "こいつ",
+   "reading": "こいつ",
+   "meaning": "this",
+   "jlpt": "N3"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "たいした",
+   "reading": "たいした",
+   "meaning": "remarkable",
+   "jlpt": "N3"
+  },
+  {
+   "text": "もん",
+   "reading": "もの",
+   "meaning": "thing",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ですぜ。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "こいつ",
+   "reading": "こいつ",
+   "meaning": "this",
+   "jlpt": "N3"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "もう、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ほんとう",
+   "reading": "ほんとう",
+   "meaning": "true",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "天上",
+   "reading": "てんじょう",
+   "meaning": "heaven"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "さえ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "行ける",
+   "reading": "いける",
+   "meaning": "can go",
+   "jlpt": "N5"
+  },
+  {
+   "text": "切符",
+   "reading": "きっぷ",
+   "meaning": "ticket",
+   "jlpt": "N5"
+  },
+  {
+   "text": "だ。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "天上",
+   "reading": "てんじょう",
+   "meaning": "heaven"
+  },
+  {
+   "text": "どこ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "じゃない、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どこ",
+   "reading": "どこ",
+   "meaning": "anywhere",
+   "jlpt": "N5"
+  },
+  {
+   "text": "でも",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "かって",
+   "reading": "かって",
+   "meaning": "as one pleases",
+   "jlpt": "N3"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あるける",
+   "reading": "あるける",
+   "meaning": "can walk",
+   "jlpt": "N5"
+  },
+  {
+   "text": "通行券",
+   "reading": "つうこうけん",
+   "meaning": "pass"
+  },
+  {
+   "text": "です。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "こいつ",
+   "reading": "こいつ",
+   "meaning": "this",
+   "jlpt": "N3"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "お持ちになれぁ",
+   "reading": "おもちになれぁ",
+   "meaning": "if you have (honorific)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なるほど",
+   "reading": "なるほど",
+   "meaning": "indeed",
+   "jlpt": "N4"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "こんな",
+   "reading": "こんな",
+   "meaning": "such",
+   "jlpt": "N5"
+  },
+  {
+   "text": "不完全",
+   "reading": "ふかんぜん",
+   "meaning": "imperfect",
+   "jlpt": "N1"
+  },
+  {
+   "text": "な",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "幻想第四次",
+   "reading": "げんそうだいよじ",
+   "meaning": "fantasy fourth-dimensional"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "銀河鉄道",
+   "reading": "ぎんがてつどう",
+   "meaning": "Milky Way Railway"
+  },
+  {
+   "text": "なんか、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どこまででも",
+   "reading": "どこまででも",
+   "meaning": "anywhere at all",
+   "jlpt": "N3"
+  },
+  {
+   "text": "行ける",
+   "reading": "いける",
+   "meaning": "can go",
+   "jlpt": "N5"
+  },
+  {
+   "text": "はず",
+   "reading": "はず",
+   "meaning": "should",
+   "jlpt": "N4"
+  },
+  {
+   "text": "でさあ、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あなた方",
+   "reading": "あなたがた",
+   "meaning": "you (pl.)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "たいした",
+   "reading": "たいした",
+   "meaning": "remarkable",
+   "jlpt": "N3"
+  },
+  {
+   "text": "もん",
+   "reading": "もの",
+   "meaning": "people",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ですね」",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "\n\n",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "「",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なんだか",
+   "reading": "なんだか",
+   "meaning": "somehow",
+   "jlpt": "N3"
+  },
+  {
+   "text": "わかりません",
+   "reading": "わかりません",
+   "meaning": "don't know",
+   "jlpt": "N5"
+  },
+  {
+   "text": "」",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ジョバンニ",
+   "reading": "ジョバンニ",
+   "meaning": "Giovanni (name)"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "赤く",
+   "reading": "あかく",
+   "meaning": "red",
+   "jlpt": "N5"
+  },
+  {
+   "text": "なって",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "答えながら",
+   "reading": "こたえながら",
+   "meaning": "while answering",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "それ",
+   "reading": "それ",
+   "meaning": "it",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "また",
+   "reading": "また",
+   "meaning": "again",
+   "jlpt": "N5"
+  },
+  {
+   "text": "たたんで",
+   "reading": "たたんで",
+   "meaning": "folding",
+   "jlpt": "N3"
+  },
+  {
+   "text": "かくし",
+   "reading": "かくし",
+   "meaning": "pocket"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "入れました",
+   "reading": "いれました",
+   "meaning": "put",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そして",
+   "reading": "そして",
+   "meaning": "and",
+   "jlpt": "N5"
+  },
+  {
+   "text": "きまりが悪い",
+   "reading": "きまりがわるい",
+   "meaning": "embarrassed",
+   "jlpt": "N2"
+  },
+  {
+   "text": "ので",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "カムパネルラ",
+   "reading": "カムパネルラ",
+   "meaning": "Campanella (name)"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "二人",
+   "reading": "ふたり",
+   "meaning": "the two",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "また",
+   "reading": "また",
+   "meaning": "again",
+   "jlpt": "N5"
+  },
+  {
+   "text": "窓",
+   "reading": "まど",
+   "meaning": "window",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "外",
+   "reading": "そと",
+   "meaning": "outside",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ながめていました",
+   "reading": "ながめていました",
+   "meaning": "were gazing at",
+   "jlpt": "N3"
+  },
+  {
+   "text": "が、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "その",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "鳥捕り",
+   "reading": "とりとり",
+   "meaning": "bird catcher"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "時々",
+   "reading": "ときどき",
+   "meaning": "now and then",
+   "jlpt": "N5"
+  },
+  {
+   "text": "たいした",
+   "reading": "たいした",
+   "meaning": "remarkable",
+   "jlpt": "N3"
+  },
+  {
+   "text": "もん",
+   "reading": "もの",
+   "meaning": "thing",
+   "jlpt": "N5"
+  },
+  {
+   "text": "だ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "という",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ように、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ちらちら",
+   "reading": "ちらちら",
+   "meaning": "glancing",
+   "jlpt": "N1"
+  },
+  {
+   "text": "こっち",
+   "reading": "こっち",
+   "meaning": "this way",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "見ている",
+   "reading": "みている",
+   "meaning": "looking",
+   "jlpt": "N5"
+  },
+  {
+   "text": "のが",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ぼんやり",
+   "reading": "ぼんやり",
+   "meaning": "vaguely",
+   "jlpt": "N2"
+  },
+  {
+   "text": "わかりました",
+   "reading": "わかりました",
+   "meaning": "was aware",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "\n\n",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "「",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "もうじき",
+   "reading": "もうじき",
+   "meaning": "soon",
+   "jlpt": "N2"
+  },
+  {
+   "text": "鷲",
+   "reading": "わし",
+   "meaning": "eagle (Aquila)"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "停車場",
+   "reading": "ていしゃじょう",
+   "meaning": "station"
+  },
+  {
+   "text": "だよ」",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "カムパネルラ",
+   "reading": "カムパネルラ",
+   "meaning": "Campanella (name)"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "向こう岸",
+   "reading": "むこうぎし",
+   "meaning": "opposite bank"
+  },
+  {
+   "text": "の、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "三つ",
+   "reading": "みっつ",
+   "meaning": "three",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ならんだ",
+   "reading": "ならんだ",
+   "meaning": "lined up",
+   "jlpt": "N5"
+  },
+  {
+   "text": "小さな",
+   "reading": "ちいさな",
+   "meaning": "small",
+   "jlpt": "N5"
+  },
+  {
+   "text": "青じろい",
+   "reading": "あおじろい",
+   "meaning": "pale blue",
+   "jlpt": "N1"
+  },
+  {
+   "text": "三角標",
+   "reading": "さんかくひょう",
+   "meaning": "triangulation markers"
+  },
+  {
+   "text": "と、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "地図",
+   "reading": "ちず",
+   "meaning": "map",
+   "jlpt": "N5"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "見くらべて",
+   "reading": "みくらべて",
+   "meaning": "comparing",
+   "jlpt": "N1"
+  },
+  {
+   "text": "言いました",
+   "reading": "いいました",
+   "meaning": "said",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  }
+ ]
+}

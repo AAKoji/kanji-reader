@@ -1,0 +1,286 @@
+「
+なに|なに|what|N5
+が
+しあわせ|しあわせ|happiness|N4
+か
+わからない|わからない|don't know|N5
+です。
+ほんとうに|ほんとうに|truly|N5
+どんな|どんな|any kind of|N5
+つらい|つらい|painful|N3
+こと|こと|thing|N5
+でも
+それ|それ|it|N5
+が
+ただしい|ただしい|right|N4
+みち|みち|path|N5
+を
+進む|すすむ|advancing|N4
+中|なか|course|N5
+で
+の
+できごと|できごと|event|N3
+なら、
+峠|とうげ|mountain pass|N1
+の
+上り|のぼり|ascent|N3
+も
+下り|くだり|descent|N3
+も
+みんな|みんな|all|N5
+ほんとう|ほんとう|true|N5
+の
+幸福|こうふく|happiness|N3
+に
+近づく|ちかづく|approaching|N3
+一あし|ひとあし|one step|
+ずつ
+ですから」
+¶
+燈台守|とうだいもり|lighthouse keeper|
+が
+なぐさめていました|なぐさめていました|was comforting|N1
+。
+¶
+「
+ああ
+そうです|そうです|that's right|N5
+。
+ただ|ただ|only|N4
+いちばん|いちばん|greatest|N5
+の
+さいわい|さいわい|happiness|N2
+に
+至る|いたる|to reach|N1
+ために
+いろいろ|いろいろ|various|N5
+の
+かなしみ|かなしみ|sorrows|N4
+も
+みんな|みんな|all|N5
+おぼしめし|おぼしめし|(God's) will|
+です」
+¶
+青年|せいねん|young man|N2
+が
+祈る|いのる|praying|N2
+ように
+そう|そう|so|N5
+答えました|こたえました|answered|N5
+。
+¶
+そして|そして|and|N5
+あの
+姉弟|きょうだい|sister and brother|N4
+は
+もう
+つかれて|つかれて|tired|N5
+めいめい|めいめい|each|N1
+ぐったり|ぐったり|limply|N1
+席|せき|seats|N3
+に
+よりかかって|よりかかって|leaning|N1
+睡っていました|ねむっていました|were sleeping|N4
+。
+さっき|さっき|earlier|N4
+の
+あの
+はだし|はだし|barefoot|
+だった
+足|あし|feet|N5
+には
+いつか|いつか|at some point|N4
+白い|しろい|white|N5
+柔らか|やわらか|soft|N3
+な
+靴|くつ|shoes|N5
+を
+はいていた|はいていた|were wearing|N5
+のです。
+¶
+ごとごとごとごと|ごとごとごとごと|clickety-clack|
+汽車|きしゃ|train|N3
+は
+きらびやか|きらびやか|dazzling|
+な
+燐光|りんこう|phosphorescence|
+の
+川|かわ|river|N5
+の
+岸|きし|bank|N2
+を
+進みました|すすみました|advanced|N4
+。
+向こう|むこう|opposite|N4
+の
+方|ほう|side|N4
+の
+窓|まど|window|N5
+を
+見る|みる|look|N5
+と、
+野原|のはら|field|N3
+は
+まるで|まるで|just like|N3
+幻燈|げんとう|magic lantern|
+の
+ようでした。
+百|ひゃく|hundred|N5
+も
+千|せん|thousand|N5
+も
+の
+大小|だいしょう|large and small|N2
+さまざま|さまざま|various|N3
+の
+三角標|さんかくひょう|triangulation markers|
+、
+その
+大きな|おおきな|big|N5
+もの|もの|ones|N5
+の
+上|うえ|top|N5
+には
+赤い|あかい|red|N5
+点々|てんてん|dots|N1
+を
+うった|うった|marked|N4
+測量旗|そくりょうき|surveying flags|
+も
+見え|みえ|could be seen|N4
+、
+野原|のはら|field|N3
+の
+はて|はて|far end|N1
+は
+それら|それら|those|N4
+が
+いちめん|いちめん|all over|N2
+、
+たくさん|たくさん|many|N5
+たくさん|たくさん|many|N5
+集まって|あつまって|gathering|N4
+ぼおっと|ぼおっと|hazily|
+青白い|あおじろい|pale blue|N1
+霧|きり|mist|N3
+の
+よう、
+そこ|そこ|there|N5
+から
+か、
+または|または|or|N3
+もっと|もっと|further|N5
+向こう|むこう|beyond|N4
+から
+か、
+ときどき|ときどき|sometimes|N5
+さまざま|さまざま|various|N3
+の
+形|かたち|shapes|N4
+の
+ぼんやり|ぼんやり|dim|N2
+した
+狼煙|のろし|signal fire|
+の
+ような
+もの|もの|things|N5
+が、
+かわるがわる|かわるがわる|by turns|N1
+きれい|きれい|beautiful|N5
+な
+桔梗いろ|ききょういろ|bellflower blue|
+の
+そら|そら|sky|N5
+に
+うちあげられる|うちあげられる|be launched|N2
+のでした。
+じつに|じつに|truly|N2
+その
+すきとおった|すきとおった|clear|
+奇麗|きれい|beautiful|N5
+な
+風|かぜ|wind|N5
+は、
+ばら|ばら|rose|N2
+の
+におい|におい|scent|N4
+で
+いっぱい|いっぱい|full|N5
+でした。
+¶
+「
+いかが|いかが|how|N4
+ですか。
+こういう|こういう|this kind of|N4
+苹果|りんご|apple|N5
+は
+おはじめて|おはじめて|the first time (polite)|N5
+でしょう」
+向こう|むこう|opposite|N4
+の
+席|せき|seat|N3
+の
+燈台看守|とうだいかんしゅ|lighthouse keeper|
+が
+いつか|いつか|at some point|N4
+黄金|きん|gold|N3
+と
+紅|べに|crimson|
+で
+うつくしく|うつくしく|beautifully|N4
+いろどられた|いろどられた|colored|
+大きな|おおきな|big|N5
+苹果|りんご|apples|N5
+を
+落とさない|おとさない|not drop|N4
+ように
+両手|りょうて|both hands|N4
+で
+膝|ひざ|lap|N2
+の
+上|うえ|on|N5
+に
+かかえていました|かかえていました|was holding|N2
+。
+¶
+「
+おや|おや|oh|N2
+、
+どっから|どっから|where from|
+来た|きた|came|N5
+のですか。
+立派|りっぱ|splendid|N4
+ですねえ。
+ここら|ここら|around here|
+では
+こんな|こんな|such|N5
+苹果|りんご|apples|N5
+が
+できる|できる|grow|N4
+のですか」
+青年|せいねん|young man|N2
+は
+ほんとうに|ほんとうに|truly|N5
+びっくりした|びっくりした|surprised|N4
+らしく|らしく|seemingly|N4
+、
+燈台看守|とうだいかんしゅ|lighthouse keeper|
+の
+両手|りょうて|both hands|N4
+に
+かかえられた|かかえられた|held|N2
+一もり|ひともり|a heap|
+の
+苹果|りんご|apples|N5
+を、
+眼|め|eyes|N5
+を
+細く|ほそく|narrow|N4
+したり
+首|くび|head|N4
+を
+まげたり|まげたり|tilting (and so on)|N2
+しながら、
+われを忘れて|われをわすれて|forgetting himself|N1
+ながめていました|ながめていました|was gazing|N3
+。

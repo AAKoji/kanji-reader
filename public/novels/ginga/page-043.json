@@ -1,0 +1,1431 @@
+{
+ "page": 43,
+ "chapter": "九　ジョバンニの切符",
+ "segments": [
+  {
+   "text": "「",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "いえ、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "氷山",
+   "reading": "ひょうざん",
+   "meaning": "iceberg"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ぶっつかって",
+   "reading": "ぶっつかって",
+   "meaning": "crashing into",
+   "jlpt": "N3"
+  },
+  {
+   "text": "船",
+   "reading": "ふね",
+   "meaning": "ship",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "沈みまして",
+   "reading": "しずみまして",
+   "meaning": "sank",
+   "jlpt": "N3"
+  },
+  {
+   "text": "ね、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "わたしたち",
+   "reading": "わたしたち",
+   "meaning": "we",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "こちら",
+   "reading": "こちら",
+   "meaning": "these (children's)",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "お父さん",
+   "reading": "おとうさん",
+   "meaning": "father",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "急",
+   "reading": "きゅう",
+   "meaning": "urgent",
+   "jlpt": "N4"
+  },
+  {
+   "text": "な",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "用",
+   "reading": "よう",
+   "meaning": "business",
+   "jlpt": "N4"
+  },
+  {
+   "text": "で",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "二か月前",
+   "reading": "にかげつまえ",
+   "meaning": "two months ago",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "一足さき",
+   "reading": "ひとあしさき",
+   "meaning": "a step ahead"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "本国",
+   "reading": "ほんごく",
+   "meaning": "home country"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "お帰りになった",
+   "reading": "おかえりになった",
+   "meaning": "returned (honorific)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "ので、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あと",
+   "reading": "あと",
+   "meaning": "after",
+   "jlpt": "N5"
+  },
+  {
+   "text": "から",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "発った",
+   "reading": "たった",
+   "meaning": "set out",
+   "jlpt": "N4"
+  },
+  {
+   "text": "のです。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "私",
+   "reading": "わたし",
+   "meaning": "I",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "大学",
+   "reading": "だいがく",
+   "meaning": "university",
+   "jlpt": "N5"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "はいっていて",
+   "reading": "はいっていて",
+   "meaning": "attending",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "家庭教師",
+   "reading": "かていきょうし",
+   "meaning": "private tutor"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "やとわれていた",
+   "reading": "やとわれていた",
+   "meaning": "was employed",
+   "jlpt": "N2"
+  },
+  {
+   "text": "のです。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ところが",
+   "reading": "ところが",
+   "meaning": "however",
+   "jlpt": "N3"
+  },
+  {
+   "text": "ちょうど",
+   "reading": "ちょうど",
+   "meaning": "exactly",
+   "jlpt": "N4"
+  },
+  {
+   "text": "十二日目",
+   "reading": "じゅうににちめ",
+   "meaning": "the twelfth day",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "今日",
+   "reading": "きょう",
+   "meaning": "today",
+   "jlpt": "N5"
+  },
+  {
+   "text": "か",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "昨日",
+   "reading": "きのう",
+   "meaning": "yesterday",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あたり",
+   "reading": "あたり",
+   "meaning": "around",
+   "jlpt": "N4"
+  },
+  {
+   "text": "です、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "船",
+   "reading": "ふね",
+   "meaning": "ship",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "氷山",
+   "reading": "ひょうざん",
+   "meaning": "iceberg"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ぶっつかって",
+   "reading": "ぶっつかって",
+   "meaning": "crashing into",
+   "jlpt": "N3"
+  },
+  {
+   "text": "一ぺん",
+   "reading": "いっぺん",
+   "meaning": "all at once",
+   "jlpt": "N3"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "傾き",
+   "reading": "かたむき",
+   "meaning": "tilted",
+   "jlpt": "N2"
+  },
+  {
+   "text": "もう",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "沈みかけました",
+   "reading": "しずみかけました",
+   "meaning": "began to sink",
+   "jlpt": "N3"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "月",
+   "reading": "つき",
+   "meaning": "moon",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "あかり",
+   "reading": "あかり",
+   "meaning": "light",
+   "jlpt": "N3"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どこか",
+   "reading": "どこか",
+   "meaning": "somewhere",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ぼんやり",
+   "reading": "ぼんやり",
+   "meaning": "dimly",
+   "jlpt": "N2"
+  },
+  {
+   "text": "ありましたが、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "霧",
+   "reading": "きり",
+   "meaning": "fog",
+   "jlpt": "N3"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "非常に",
+   "reading": "ひじょうに",
+   "meaning": "extremely",
+   "jlpt": "N4"
+  },
+  {
+   "text": "深かった",
+   "reading": "ふかかった",
+   "meaning": "was thick",
+   "jlpt": "N4"
+  },
+  {
+   "text": "のです。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ところが",
+   "reading": "ところが",
+   "meaning": "however",
+   "jlpt": "N3"
+  },
+  {
+   "text": "ボート",
+   "reading": "ボート",
+   "meaning": "lifeboats",
+   "jlpt": "N4"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "左舷",
+   "reading": "さげん",
+   "meaning": "port side"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "方",
+   "reading": "ほう",
+   "meaning": "side",
+   "jlpt": "N4"
+  },
+  {
+   "text": "半分",
+   "reading": "はんぶん",
+   "meaning": "half",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "もう",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "だめ",
+   "reading": "だめ",
+   "meaning": "useless",
+   "jlpt": "N5"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なっていました",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "から、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "とても",
+   "reading": "とても",
+   "meaning": "by no means",
+   "jlpt": "N5"
+  },
+  {
+   "text": "みんな",
+   "reading": "みんな",
+   "meaning": "everyone",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "乗り切らない",
+   "reading": "のりきらない",
+   "meaning": "can't all fit",
+   "jlpt": "N5"
+  },
+  {
+   "text": "のです。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "もう",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "その",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "うちに",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "も",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "船",
+   "reading": "ふね",
+   "meaning": "ship",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "沈みます",
+   "reading": "しずみます",
+   "meaning": "sinks",
+   "jlpt": "N3"
+  },
+  {
+   "text": "し、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "私",
+   "reading": "わたし",
+   "meaning": "I",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "必死",
+   "reading": "ひっし",
+   "meaning": "desperate",
+   "jlpt": "N1"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なって、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どうか",
+   "reading": "どうか",
+   "meaning": "please",
+   "jlpt": "N3"
+  },
+  {
+   "text": "小さな",
+   "reading": "ちいさな",
+   "meaning": "small",
+   "jlpt": "N5"
+  },
+  {
+   "text": "人たち",
+   "reading": "ひとたち",
+   "meaning": "people",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "乗せて",
+   "reading": "のせて",
+   "meaning": "let board",
+   "jlpt": "N4"
+  },
+  {
+   "text": "ください",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "叫びました",
+   "reading": "さけびました",
+   "meaning": "shouted",
+   "jlpt": "N3"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "近く",
+   "reading": "ちかく",
+   "meaning": "nearby",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "人たち",
+   "reading": "ひとたち",
+   "meaning": "people",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "すぐ",
+   "reading": "すぐ",
+   "meaning": "immediately",
+   "jlpt": "N5"
+  },
+  {
+   "text": "みち",
+   "reading": "みち",
+   "meaning": "way",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "開いて",
+   "reading": "ひらいて",
+   "meaning": "opening",
+   "jlpt": "N4"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そして",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "子供たち",
+   "reading": "こどもたち",
+   "meaning": "children",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ために",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "祈ってくれました",
+   "reading": "いのってくれました",
+   "meaning": "prayed (for them)",
+   "jlpt": "N2"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "けれども",
+   "reading": "けれども",
+   "meaning": "but",
+   "jlpt": "N4"
+  },
+  {
+   "text": "そこ",
+   "reading": "そこ",
+   "meaning": "there",
+   "jlpt": "N5"
+  },
+  {
+   "text": "から",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ボート",
+   "reading": "ボート",
+   "meaning": "boat",
+   "jlpt": "N4"
+  },
+  {
+   "text": "まで",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ところ",
+   "reading": "ところ",
+   "meaning": "place",
+   "jlpt": "N5"
+  },
+  {
+   "text": "には、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "まだまだ",
+   "reading": "まだまだ",
+   "meaning": "still many",
+   "jlpt": "N4"
+  },
+  {
+   "text": "小さな",
+   "reading": "ちいさな",
+   "meaning": "small",
+   "jlpt": "N5"
+  },
+  {
+   "text": "子どもたち",
+   "reading": "こどもたち",
+   "meaning": "children",
+   "jlpt": "N5"
+  },
+  {
+   "text": "や",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "親たち",
+   "reading": "おやたち",
+   "meaning": "parents",
+   "jlpt": "N4"
+  },
+  {
+   "text": "や",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なんか",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "いて、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "とても",
+   "reading": "とても",
+   "meaning": "by no means",
+   "jlpt": "N5"
+  },
+  {
+   "text": "押しのける",
+   "reading": "おしのける",
+   "meaning": "to push aside"
+  },
+  {
+   "text": "勇気",
+   "reading": "ゆうき",
+   "meaning": "courage",
+   "jlpt": "N3"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "なかった",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "のです。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "それでも",
+   "reading": "それでも",
+   "meaning": "even so",
+   "jlpt": "N3"
+  },
+  {
+   "text": "わたくし",
+   "reading": "わたくし",
+   "meaning": "I (polite)",
+   "jlpt": "N5"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どうしても",
+   "reading": "どうしても",
+   "meaning": "no matter what",
+   "jlpt": "N4"
+  },
+  {
+   "text": "この",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "方たち",
+   "reading": "かたたち",
+   "meaning": "people (polite)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "お助けする",
+   "reading": "おたすけする",
+   "meaning": "to help (humble)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "のが",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "私",
+   "reading": "わたし",
+   "meaning": "my",
+   "jlpt": "N5"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "義務",
+   "reading": "ぎむ",
+   "meaning": "duty",
+   "jlpt": "N2"
+  },
+  {
+   "text": "だ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "思いました",
+   "reading": "おもいました",
+   "meaning": "thought",
+   "jlpt": "N5"
+  },
+  {
+   "text": "から",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "前",
+   "reading": "まえ",
+   "meaning": "front",
+   "jlpt": "N5"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "いる",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "子供ら",
+   "reading": "こどもら",
+   "meaning": "children",
+   "jlpt": "N5"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "押しのけよう",
+   "reading": "おしのけよう",
+   "meaning": "to try to push aside"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "しました。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "けれども",
+   "reading": "けれども",
+   "meaning": "but",
+   "jlpt": "N4"
+  },
+  {
+   "text": "また",
+   "reading": "また",
+   "meaning": "also",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そんなに",
+   "reading": "そんなに",
+   "meaning": "like that",
+   "jlpt": "N4"
+  },
+  {
+   "text": "して",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "助けてあげる",
+   "reading": "たすけてあげる",
+   "meaning": "help (them)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "より",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "この",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "まま",
+   "reading": "まま",
+   "meaning": "as is",
+   "jlpt": "N3"
+  },
+  {
+   "text": "神",
+   "reading": "かみ",
+   "meaning": "God",
+   "jlpt": "N4"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "御前",
+   "reading": "みまえ",
+   "meaning": "presence"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "みんな",
+   "reading": "みんな",
+   "meaning": "all",
+   "jlpt": "N5"
+  },
+  {
+   "text": "で",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "行く",
+   "reading": "いく",
+   "meaning": "go",
+   "jlpt": "N5"
+  },
+  {
+   "text": "方",
+   "reading": "ほう",
+   "meaning": "way",
+   "jlpt": "N4"
+  },
+  {
+   "text": "が、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ほんとうに",
+   "reading": "ほんとうに",
+   "meaning": "truly",
+   "jlpt": "N5"
+  },
+  {
+   "text": "この",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "方たち",
+   "reading": "かたたち",
+   "meaning": "people (polite)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "幸福",
+   "reading": "こうふく",
+   "meaning": "happiness",
+   "jlpt": "N3"
+  },
+  {
+   "text": "だ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "とも",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "思いました",
+   "reading": "おもいました",
+   "meaning": "thought",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "それから",
+   "reading": "それから",
+   "meaning": "then",
+   "jlpt": "N5"
+  },
+  {
+   "text": "また",
+   "reading": "また",
+   "meaning": "again",
+   "jlpt": "N5"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "その",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "神",
+   "reading": "かみ",
+   "meaning": "God",
+   "jlpt": "N4"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "そむく",
+   "reading": "そむく",
+   "meaning": "to disobey",
+   "jlpt": "N1"
+  },
+  {
+   "text": "罪",
+   "reading": "つみ",
+   "meaning": "sin",
+   "jlpt": "N2"
+  },
+  {
+   "text": "は",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "わたくし",
+   "reading": "わたくし",
+   "meaning": "I (polite)",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ひとり",
+   "reading": "ひとり",
+   "meaning": "alone",
+   "jlpt": "N5"
+  },
+  {
+   "text": "で",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "しょって",
+   "reading": "しょって",
+   "meaning": "bearing"
+  },
+  {
+   "text": "ぜひとも",
+   "reading": "ぜひとも",
+   "meaning": "by all means",
+   "jlpt": "N3"
+  },
+  {
+   "text": "助けてあげよう",
+   "reading": "たすけてあげよう",
+   "meaning": "I'll help (them)",
+   "jlpt": "N4"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "思いました",
+   "reading": "おもいました",
+   "meaning": "thought",
+   "jlpt": "N5"
+  },
+  {
+   "text": "。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "けれども",
+   "reading": "けれども",
+   "meaning": "but",
+   "jlpt": "N4"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "どうしても",
+   "reading": "どうしても",
+   "meaning": "no matter what",
+   "jlpt": "N4"
+  },
+  {
+   "text": "見ている",
+   "reading": "みている",
+   "meaning": "watching",
+   "jlpt": "N5"
+  },
+  {
+   "text": "と",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "それ",
+   "reading": "それ",
+   "meaning": "that",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "できない",
+   "reading": "できない",
+   "meaning": "could not",
+   "jlpt": "N5"
+  },
+  {
+   "text": "のでした。",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "子どもら",
+   "reading": "こどもら",
+   "meaning": "children",
+   "jlpt": "N5"
+  },
+  {
+   "text": "ばかり",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ボート",
+   "reading": "ボート",
+   "meaning": "boat",
+   "jlpt": "N4"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "中",
+   "reading": "なか",
+   "meaning": "inside",
+   "jlpt": "N5"
+  },
+  {
+   "text": "へ",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "はなしてやって",
+   "reading": "はなしてやって",
+   "meaning": "letting go",
+   "jlpt": "N3"
+  },
+  {
+   "text": "、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "お母さん",
+   "reading": "おかあさん",
+   "meaning": "mothers",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "狂気",
+   "reading": "きょうき",
+   "meaning": "madness"
+  },
+  {
+   "text": "の",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "ように",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "キス",
+   "reading": "キス",
+   "meaning": "kiss",
+   "jlpt": "N3"
+  },
+  {
+   "text": "を",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "送り",
+   "reading": "おくり",
+   "meaning": "sent",
+   "jlpt": "N4"
+  },
+  {
+   "text": "お父さん",
+   "reading": "おとうさん",
+   "meaning": "fathers",
+   "jlpt": "N5"
+  },
+  {
+   "text": "が",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "かなしい",
+   "reading": "かなしい",
+   "meaning": "sad",
+   "jlpt": "N4"
+  },
+  {
+   "text": "のを",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "じっと",
+   "reading": "じっと",
+   "meaning": "patiently",
+   "jlpt": "N3"
+  },
+  {
+   "text": "こらえて",
+   "reading": "こらえて",
+   "meaning": "enduring",
+   "jlpt": "N1"
+  },
+  {
+   "text": "まっすぐ",
+   "reading": "まっすぐ",
+   "meaning": "straight",
+   "jlpt": "N4"
+  },
+  {
+   "text": "に",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "立っている",
+   "reading": "たっている",
+   "meaning": "standing",
+   "jlpt": "N5"
+  },
+  {
+   "text": "など、",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "とても",
+   "reading": "とても",
+   "meaning": "truly",
+   "jlpt": "N5"
+  },
+  {
+   "text": "もう",
+   "reading": null,
+   "meaning": null
+  },
+  {
+   "text": "腸もちぎれる",
+   "reading": "はらわたもちぎれる",
+   "meaning": "heartbreaking (gut-wrenching)"
+  },
+  {
+   "text": "ようでした。",
+   "reading": null,
+   "meaning": null
+  }
+ ]
+}

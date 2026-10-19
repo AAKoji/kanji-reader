@@ -1,0 +1,290 @@
+河原|かわら|riverbed|N2
+の
+いちばん|いちばん|farthest|N5
+下流|かりゅう|downstream|N2
+の
+方|ほう|direction|N4
+へ
+洲|す|sandbar|
+の
+ように
+なって
+出た|でた|jutting out|N5
+ところ|ところ|place|N5
+に
+人|ひと|people|N5
+の
+集まり|あつまり|crowd|N4
+が
+くっきり|くっきり|sharply|N1
+まっ黒|まっくろ|pitch black|N3
+に
+立っていました|たっていました|was standing|N5
+。
+ジョバンニ|ジョバンニ|Giovanni (name)|
+は
+どんどん|どんどん|quickly|N3
+そっち|そっち|that way|N5
+へ
+走りました|はしりました|ran|N5
+。
+すると|すると|then|N3
+ジョバンニ|ジョバンニ|Giovanni (name)|
+は
+いきなり|いきなり|suddenly|N2
+さっき|さっき|earlier|N4
+カムパネルラ|カムパネルラ|Campanella (name)|
+と
+いっしょ|いっしょ|together|N5
+だった
+マルソ|マルソ|Marso (name)|
+に
+会いました|あいました|met|N5
+。
+マルソ|マルソ|Marso (name)|
+が
+ジョバンニ|ジョバンニ|Giovanni (name)|
+に
+走り寄って|はしりよって|running up|N4
+言いました|いいました|said|N5
+。
+¶
+「
+ジョバンニ|ジョバンニ|Giovanni (name)|
+、
+カムパネルラ|カムパネルラ|Campanella (name)|
+が
+川|かわ|river|N5
+へ
+はいった|はいった|went into|N5
+よ」
+¶
+「
+どうして|どうして|how|N5
+、
+いつ|いつ|when|N5
+」
+¶
+「
+ザネリ|ザネリ|Zanelli (name)|
+が
+ね、
+舟|ふね|boat|N5
+の
+上|うえ|on|N5
+から
+烏うり|からすうり|snake gourd|
+の
+あかり|あかり|lantern|N3
+を
+水|みず|water|N5
+の
+流れる|ながれる|flowing|N4
+方|ほう|direction|N4
+へ
+押してやろう|おしてやろう|to push along|N5
+と
+した
+んだ。
+その
+とき
+舟|ふね|boat|N5
+が
+ゆれた|ゆれた|rocked|N3
+もんだから
+水|みず|water|N5
+へ
+落っこったろう|おっこったろう|fell in, you see|N4
+。
+すると|すると|then|N3
+カムパネルラ|カムパネルラ|Campanella (name)|
+が
+すぐ|すぐ|immediately|N5
+飛びこんだ|とびこんだ|jumped in|N3
+んだ。
+そして|そして|and|N5
+ザネリ|ザネリ|Zanelli (name)|
+を
+舟|ふね|boat|N5
+の
+方|ほう|direction|N4
+へ
+押してよこした|おしてよこした|pushed over|N5
+。
+ザネリ|ザネリ|Zanelli (name)|
+は
+カトウ|カトウ|Kato (name)|
+に
+つかまった|つかまった|grabbed hold of|N4
+。
+けれども|けれども|but|N4
+あと
+カムパネルラ|カムパネルラ|Campanella (name)|
+が
+見えない|みえない|can't be seen|N4
+んだ」
+¶
+「
+みんな|みんな|everyone|N5
+さがしてる|さがしてる|searching|N5
+んだろう」
+¶
+「
+ああ、
+すぐ|すぐ|right away|N5
+みんな|みんな|everyone|N5
+来た|きた|came|N5
+。
+カムパネルラ|カムパネルラ|Campanella (name)|
+の
+お父さん|おとうさん|father|N5
+も
+来た|きた|came|N5
+。
+けれども|けれども|but|N4
+見つからない|みつからない|can't be found|N4
+んだ。
+ザネリ|ザネリ|Zanelli (name)|
+は
+うち|うち|home|N5
+へ
+連れられてった|つれられてった|was taken|N3
+」
+¶
+ジョバンニ|ジョバンニ|Giovanni (name)|
+は
+みんな|みんな|everyone|N5
+の
+いる
+そっち|そっち|that way|N5
+の
+方|ほう|direction|N4
+へ
+行きました|いきました|went|N5
+。
+そこ|そこ|there|N5
+に
+学生たち|がくせいたち|students|N5
+や
+町|まち|town|N5
+の
+人たち|ひとたち|people|N5
+に
+囲まれて|かこまれて|surrounded by|N3
+青じろい|あおじろい|pale|N1
+とがった|とがった|pointed|N2
+あご|あご|chin|N3
+を
+した
+カムパネルラ|カムパネルラ|Campanella (name)|
+の
+お父さん|おとうさん|father|N5
+が
+黒い|くろい|black|N5
+服|ふく|clothes|N5
+を
+着て|きて|wearing|N5
+まっすぐ|まっすぐ|upright|N4
+に
+立って|たって|standing|N5
+左手|ひだりて|left hand|N5
+に
+時計|とけい|watch|N5
+を
+持って|もって|holding|N5
+じっと|じっと|fixedly|N3
+見つめていた|みつめていた|was staring|N3
+のです。
+¶
+みんな|みんな|everyone|N5
+も
+じっと|じっと|fixedly|N3
+河|かわ|river|N5
+を
+見ていました|みていました|was watching|N5
+。
+誰|だれ|anyone|N5
+も
+一言|ひとこと|a single word|N3
+も
+物を言う|ものをいう|speak|N5
+人|ひと|person|N5
+も
+ありませんでした。
+ジョバンニ|ジョバンニ|Giovanni (name)|
+は
+わくわくわくわく|わくわくわくわく|trembling|N3
+足|あし|legs|N5
+が
+ふるえました|ふるえました|shook|N3
+。
+魚|さかな|fish|N5
+を
+とる|とる|catch|N5
+とき
+の
+アセチレンランプ|アセチレンランプ|acetylene lamps|
+が
+たくさん|たくさん|many|N5
+せわしく|せわしく|busily|
+行ったり来たり|いったりきたり|going back and forth|N5
+して、
+黒い|くろい|black|N5
+川|かわ|river|N5
+の
+水|みず|water|N5
+は
+ちらちら|ちらちら|flickering|N1
+小さな|ちいさな|small|N5
+波|なみ|waves|N4
+を
+たてて|たてて|making|N5
+流れている|ながれている|flowing|N4
+のが
+見える|みえる|could be seen|N4
+のでした。
+¶
+下流|かりゅう|downstream|N2
+の
+方|ほう|direction|N4
+の
+川はば|かわはば|river's width|
+いっぱい|いっぱい|full|N5
+銀河|ぎんが|Milky Way|N1
+が
+巨きく|おおきく|hugely|N5
+写って|うつって|reflected|N4
+、
+まるで|まるで|just like|N3
+水|みず|water|N5
+の
+ない
+その
+まま|まま|as is|N3
+の
+そら|そら|sky|N5
+の
+ように
+見えました|みえました|looked|N4
+。
+¶
+ジョバンニ|ジョバンニ|Giovanni (name)|
+は、
+その
+カムパネルラ|カムパネルラ|Campanella (name)|
+は
+もう
+あの
+銀河|ぎんが|Milky Way|N1
+の
+はずれ|はずれ|edge|N3
+に
+しか
+いない
+という
+ような
+気|き|feeling|N5
+が
+して
+しかたなかった|しかたなかった|couldn't help|N3
+のです。
