@@ -1,62 +1,61 @@
 {
-  "title": "最新のAI技術が暮らしを変える",
-  "subtitle": "テクノロジー · 読み時間 約3分",
+  "title": "日本の食文化、世界で人気",
+  "subtitle": "文化 · 読み時間 約3分",
   "segments": [
     {
-      "text": "最新",
-      "reading": "さいしん",
-      "meaning": "latest",
+      "text": "日本",
+      "reading": "にほん",
+      "meaning": "Japan",
+      "jlpt": "N5"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "食文化",
+      "reading": "しょくぶんか",
+      "meaning": "food culture",
       "jlpt": "N2"
     },
     {
-      "text": "の",
+      "text": "は",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "人工知能",
-      "reading": "じんこうちのう",
-      "meaning": "artificial intelligence",
-      "jlpt": "N1"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "私たち",
-      "reading": "わたしたち",
-      "meaning": "we",
+      "text": "今",
+      "reading": "いま",
+      "meaning": "now",
       "jlpt": "N5"
     },
     {
-      "text": "の",
+      "text": "、",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "生活",
-      "reading": "せいかつ",
-      "meaning": "life",
-      "jlpt": "N4"
+      "text": "世界中",
+      "reading": "せかいじゅう",
+      "meaning": "all over the world",
+      "jlpt": "N3"
     },
     {
-      "text": "を",
+      "text": "で",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "大きく",
-      "reading": "おおきく",
-      "meaning": "greatly",
-      "jlpt": "N5"
+      "text": "注目",
+      "reading": "ちゅうもく",
+      "meaning": "attention",
+      "jlpt": "N2"
     },
     {
-      "text": "変えて",
-      "reading": "かえて",
-      "meaning": "changing",
-      "jlpt": "N4"
+      "text": "されて",
+      "reading": null,
+      "meaning": null
     },
     {
       "text": "います",
@@ -69,18 +68,30 @@
       "meaning": null
     },
     {
-      "text": "\n\n",
+      "text": "特に",
+      "reading": "とくに",
+      "meaning": "especially",
+      "jlpt": "N3"
+    },
+    {
+      "text": "寿司",
+      "reading": "すし",
+      "meaning": "sushi",
+      "jlpt": "N4"
+    },
+    {
+      "text": "や",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "今年",
-      "reading": "ことし",
-      "meaning": "this year",
+      "text": "ラーメン",
+      "reading": "ラーメン",
+      "meaning": "ramen",
       "jlpt": "N5"
     },
     {
-      "text": "、",
+      "text": "は",
       "reading": null,
       "meaning": null
     },
@@ -96,76 +107,10 @@
       "meaning": null
     },
     {
-      "text": "会社",
-      "reading": "かいしゃ",
-      "meaning": "company",
+      "text": "国",
+      "reading": "くに",
+      "meaning": "country",
       "jlpt": "N5"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "新しい",
-      "reading": "あたらしい",
-      "meaning": "new",
-      "jlpt": "N5"
-    },
-    {
-      "text": "スマートフォン",
-      "reading": "スマートフォン",
-      "meaning": "smartphone",
-      "jlpt": "N4"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "発表",
-      "reading": "はっぴょう",
-      "meaning": "announcement",
-      "jlpt": "N3"
-    },
-    {
-      "text": "しました",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "これら",
-      "reading": "これら",
-      "meaning": "these",
-      "jlpt": "N3"
-    },
-    {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "機械",
-      "reading": "きかい",
-      "meaning": "machine",
-      "jlpt": "N4"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "声",
-      "reading": "こえ",
-      "meaning": "voice",
-      "jlpt": "N4"
     },
     {
       "text": "で",
@@ -173,40 +118,13 @@
       "meaning": null
     },
     {
-      "text": "操作",
-      "reading": "そうさ",
-      "meaning": "operation",
-      "jlpt": "N2"
-    },
-    {
-      "text": "でき",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "、",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "翻訳",
-      "reading": "ほんやく",
-      "meaning": "translation",
+      "text": "愛されて",
+      "reading": "あいされて",
+      "meaning": "loved",
       "jlpt": "N3"
     },
     {
-      "text": "も",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "すぐに",
-      "reading": "すぐに",
-      "meaning": "immediately",
-      "jlpt": "N5"
-    },
-    {
-      "text": "できます",
+      "text": "います",
       "reading": null,
       "meaning": null
     },
@@ -221,29 +139,29 @@
       "meaning": null
     },
     {
-      "text": "特に",
-      "reading": "とくに",
-      "meaning": "especially",
-      "jlpt": "N3"
+      "text": "2013年",
+      "reading": "にせんじゅうさんねん",
+      "meaning": "year 2013",
+      "jlpt": "N5"
     },
     {
-      "text": "注目",
-      "reading": "ちゅうもく",
-      "meaning": "attention",
+      "text": "、",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "「",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "和食",
+      "reading": "わしょく",
+      "meaning": "Japanese cuisine",
       "jlpt": "N2"
     },
     {
-      "text": "されて",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "いる",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "の",
+      "text": "」",
       "reading": null,
       "meaning": null
     },
@@ -253,25 +171,35 @@
       "meaning": null
     },
     {
-      "text": "自動",
-      "reading": "じどう",
-      "meaning": "automatic",
-      "jlpt": "N3"
+      "text": "ユネスコ",
+      "reading": "ユネスコ",
+      "meaning": "UNESCO",
+      "jlpt": "N1"
     },
     {
-      "text": "運転",
-      "reading": "うんてん",
-      "meaning": "driving",
-      "jlpt": "N4"
+      "text": "の",
+      "reading": null,
+      "meaning": null
     },
     {
-      "text": "技術",
-      "reading": "ぎじゅつ",
-      "meaning": "technology",
-      "jlpt": "N3"
+      "text": "無形文化遺産",
+      "reading": "むけいぶんかいさん",
+      "meaning": "intangible cultural heritage",
+      "jlpt": "N1"
     },
     {
-      "text": "です",
+      "text": "に",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "登録",
+      "reading": "とうろく",
+      "meaning": "registration",
+      "jlpt": "N2"
+    },
+    {
+      "text": "されました",
       "reading": null,
       "meaning": null
     },
@@ -281,32 +209,43 @@
       "meaning": null
     },
     {
-      "text": "車",
-      "reading": "くるま",
-      "meaning": "car",
-      "jlpt": "N5"
+      "text": "和食",
+      "reading": "わしょく",
+      "meaning": "Japanese cuisine",
+      "jlpt": "N2"
     },
     {
-      "text": "が",
+      "text": "は",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "自分",
-      "reading": "じぶん",
-      "meaning": "itself",
+      "text": "季節",
+      "reading": "きせつ",
+      "meaning": "season",
       "jlpt": "N4"
     },
     {
-      "text": "で",
+      "text": "の",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "道",
-      "reading": "みち",
-      "meaning": "road",
-      "jlpt": "N5"
+      "text": "新鮮",
+      "reading": "しんせん",
+      "meaning": "fresh",
+      "jlpt": "N3"
+    },
+    {
+      "text": "な",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "材料",
+      "reading": "ざいりょう",
+      "meaning": "ingredients",
+      "jlpt": "N3"
     },
     {
       "text": "を",
@@ -314,25 +253,35 @@
       "meaning": null
     },
     {
-      "text": "判断",
-      "reading": "はんだん",
-      "meaning": "judge",
-      "jlpt": "N2"
+      "text": "大切",
+      "reading": "たいせつ",
+      "meaning": "important",
+      "jlpt": "N5"
     },
     {
-      "text": "し",
+      "text": "に",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "、",
+      "text": "します",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "安全",
-      "reading": "あんぜん",
-      "meaning": "safe",
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "健康",
+      "reading": "けんこう",
+      "meaning": "health",
       "jlpt": "N4"
     },
     {
@@ -341,9 +290,9 @@
       "meaning": null
     },
     {
-      "text": "走る",
-      "reading": "はしる",
-      "meaning": "to run",
+      "text": "良い",
+      "reading": "よい",
+      "meaning": "good",
       "jlpt": "N5"
     },
     {
@@ -353,18 +302,117 @@
       "jlpt": "N5"
     },
     {
-      "text": "が",
+      "text": "も",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "目標",
-      "reading": "もくひょう",
-      "meaning": "goal",
-      "jlpt": "N2"
+      "text": "人気",
+      "reading": "にんき",
+      "meaning": "popularity",
+      "jlpt": "N4"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "理由",
+      "reading": "りゆう",
+      "meaning": "reason",
+      "jlpt": "N4"
     },
     {
       "text": "です",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "味噌",
+      "reading": "みそ",
+      "meaning": "miso",
+      "jlpt": "N3"
+    },
+    {
+      "text": "や",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "醤油",
+      "reading": "しょうゆ",
+      "meaning": "soy sauce",
+      "jlpt": "N4"
+    },
+    {
+      "text": "など",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "発酵",
+      "reading": "はっこう",
+      "meaning": "fermentation",
+      "jlpt": "N1"
+    },
+    {
+      "text": "食品",
+      "reading": "しょくひん",
+      "meaning": "foodstuff",
+      "jlpt": "N2"
+    },
+    {
+      "text": "は",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "体",
+      "reading": "からだ",
+      "meaning": "body",
+      "jlpt": "N5"
+    },
+    {
+      "text": "に",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "とても",
+      "reading": "とても",
+      "meaning": "very",
+      "jlpt": "N5"
+    },
+    {
+      "text": "良い",
+      "reading": "よい",
+      "meaning": "good",
+      "jlpt": "N5"
+    },
+    {
+      "text": "と",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "言われて",
+      "reading": "いわれて",
+      "meaning": "is said",
+      "jlpt": "N4"
+    },
+    {
+      "text": "います",
       "reading": null,
       "meaning": null
     },
@@ -379,13 +427,106 @@
       "meaning": null
     },
     {
-      "text": "しかし",
-      "reading": "しかし",
-      "meaning": "however",
+      "text": "最近",
+      "reading": "さいきん",
+      "meaning": "recently",
       "jlpt": "N4"
     },
     {
-      "text": "、",
+      "text": "は",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "外国人",
+      "reading": "がいこくじん",
+      "meaning": "foreigner",
+      "jlpt": "N5"
+    },
+    {
+      "text": "の",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "観光客",
+      "reading": "かんこうきゃく",
+      "meaning": "tourist",
+      "jlpt": "N2"
+    },
+    {
+      "text": "が",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "日本",
+      "reading": "にほん",
+      "meaning": "Japan",
+      "jlpt": "N5"
+    },
+    {
+      "text": "で",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "料理",
+      "reading": "りょうり",
+      "meaning": "cooking",
+      "jlpt": "N5"
+    },
+    {
+      "text": "教室",
+      "reading": "きょうしつ",
+      "meaning": "classroom",
+      "jlpt": "N5"
+    },
+    {
+      "text": "に",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "参加",
+      "reading": "さんか",
+      "meaning": "participation",
+      "jlpt": "N3"
+    },
+    {
+      "text": "する",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "こと",
+      "reading": "こと",
+      "meaning": "thing",
+      "jlpt": "N5"
+    },
+    {
+      "text": "も",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "増えて",
+      "reading": "ふえて",
+      "meaning": "increasing",
+      "jlpt": "N4"
+    },
+    {
+      "text": "います",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "。",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "\n\n",
       "reading": null,
       "meaning": null
     },
@@ -401,16 +542,32 @@
       "meaning": null
     },
     {
-      "text": "個人",
-      "reading": "こじん",
-      "meaning": "individual",
+      "text": "「",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "食",
+      "reading": "しょく",
+      "meaning": "food",
+      "jlpt": "N3"
+    },
+    {
+      "text": "を",
+      "reading": null,
+      "meaning": null
+    },
+    {
+      "text": "通じて",
+      "reading": "つうじて",
+      "meaning": "through",
       "jlpt": "N2"
     },
     {
-      "text": "情報",
-      "reading": "じょうほう",
-      "meaning": "information",
-      "jlpt": "N3"
+      "text": "日本",
+      "reading": "にほん",
+      "meaning": "Japan",
+      "jlpt": "N5"
     },
     {
       "text": "の",
@@ -418,45 +575,30 @@
       "meaning": null
     },
     {
-      "text": "保護",
-      "reading": "ほご",
-      "meaning": "protection",
-      "jlpt": "N1"
-    },
-    {
-      "text": "について",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "心配",
-      "reading": "しんぱい",
-      "meaning": "worry",
+      "text": "文化",
+      "reading": "ぶんか",
+      "meaning": "culture",
       "jlpt": "N4"
     },
     {
-      "text": "して",
+      "text": "を",
       "reading": null,
       "meaning": null
     },
     {
-      "text": "います",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "便利",
-      "reading": "べんり",
-      "meaning": "convenient",
+      "text": "知って",
+      "reading": "しって",
+      "meaning": "to know",
       "jlpt": "N5"
     },
     {
-      "text": "さ",
+      "text": "ほしい",
+      "reading": "ほしい",
+      "meaning": "want (someone to)",
+      "jlpt": "N4"
+    },
+    {
+      "text": "」",
       "reading": null,
       "meaning": null
     },
@@ -466,138 +608,13 @@
       "meaning": null
     },
     {
-      "text": "安全",
-      "reading": "あんぜん",
-      "meaning": "safety",
-      "jlpt": "N4"
+      "text": "話して",
+      "reading": "はなして",
+      "meaning": "talk",
+      "jlpt": "N5"
     },
     {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "両方",
-      "reading": "りょうほう",
-      "meaning": "both",
-      "jlpt": "N3"
-    },
-    {
-      "text": "を",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "考える",
-      "reading": "かんがえる",
-      "meaning": "to think",
-      "jlpt": "N4"
-    },
-    {
-      "text": "必要",
-      "reading": "ひつよう",
-      "meaning": "necessary",
-      "jlpt": "N4"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "あります",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "\n\n",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "これから",
-      "reading": "これから",
-      "meaning": "from now on",
-      "jlpt": "N4"
-    },
-    {
-      "text": "も",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "技術",
-      "reading": "ぎじゅつ",
-      "meaning": "technology",
-      "jlpt": "N3"
-    },
-    {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "進歩",
-      "reading": "しんぽ",
-      "meaning": "progress",
-      "jlpt": "N2"
-    },
-    {
-      "text": "は",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "続く",
-      "reading": "つづく",
-      "meaning": "to continue",
-      "jlpt": "N4"
-    },
-    {
-      "text": "でしょう",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "。",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "未来",
-      "reading": "みらい",
-      "meaning": "future",
-      "jlpt": "N3"
-    },
-    {
-      "text": "の",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "社会",
-      "reading": "しゃかい",
-      "meaning": "society",
-      "jlpt": "N3"
-    },
-    {
-      "text": "が",
-      "reading": null,
-      "meaning": null
-    },
-    {
-      "text": "楽しみ",
-      "reading": "たのしみ",
-      "meaning": "looking forward",
-      "jlpt": "N4"
-    },
-    {
-      "text": "です",
+      "text": "います",
       "reading": null,
       "meaning": null
     },
