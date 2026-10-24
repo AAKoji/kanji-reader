@@ -89,6 +89,32 @@ export default function App() {
     localStorage.setItem('kanji-reader-settings', JSON.stringify(next))
   }
 
+  // RLS already limits user_words to the signed-in user; the filter just makes that explicit.
+  const loadWords = useCallback(async () => {
+    if (!userId) return {}
+    const { data, error } = await supabase
+      .from('user_words')
+      .select('word_text, save_type, words(reading, meaning, jlpt_level)')
+      .eq('user_id', userId)
+
+    if (error) {
+      showToast('単語リストを読み込めませんでした')
+      return {}
+    }
+
+    const map = {}
+    data.forEach(row => {
+      map[row.word_text] = {
+        save_type: row.save_type,
+        reading: row.words?.reading,
+        meaning: row.words?.meaning,
+        jlpt: row.words?.jlpt_level,
+      }
+    })
+    setSavedWords(map)
+    return map
+  }, [userId, showToast])
+
   // Reset and reload everything user-specific whenever the signed-in user changes
   useEffect(() => {
     setProfile(undefined)
@@ -126,38 +152,11 @@ export default function App() {
       setProfile(created)
     }
 
-    // RLS already limits user_words to the signed-in user; the filter just makes that explicit.
-    async function loadWords() {
-      const { data, error } = await supabase
-        .from('user_words')
-        .select('word_text, save_type, words(reading, meaning, jlpt_level)')
-        .eq('user_id', userId)
-      if (!isActive) return
-
-      if (error) {
-        showToast('単語リストを読み込めませんでした')
-        setLoading(false)
-        return
-      }
-
-      const map = {}
-      data.forEach(row => {
-        map[row.word_text] = {
-          save_type: row.save_type,
-          reading: row.words?.reading,
-          meaning: row.words?.meaning,
-          jlpt: row.words?.jlpt_level,
-        }
-      })
-      setSavedWords(map)
-      setLoading(false)
-    }
-
     loadProfile()
-    loadWords()
+    loadWords().then(() => { if (isActive) setLoading(false) })
     resyncPushSubscription(userId)
     return () => { isActive = false }
-  }, [userId, userEmail, showToast])
+  }, [userId, userEmail, loadWords])
 
   async function handleLevelChange(jlptLevel) {
     const { error } = await supabase.from('profiles').update({ jlpt_level: jlptLevel }).eq('id', userId)
@@ -190,16 +189,19 @@ export default function App() {
   async function handleSave(word, saveType) {
     setActiveWord(null)
 
+    const key = word.base || word.text
+    const keyReading = word.base ? (word.baseReading || word.reading) : word.reading
+
     await supabase.from('words').upsert({
-      text: word.text,
-      reading: word.reading,
+      text: key,
+      reading: keyReading,
       meaning: word.meaning,
       jlpt_level: word.jlpt || null,
     }, { onConflict: 'text', ignoreDuplicates: true })
 
     const { error } = await supabase.from('user_words').upsert({
       user_id: userId,
-      word_text: word.text,
+      word_text: key,
       save_type: saveType,
     }, { onConflict: 'user_id,word_text' })
 
@@ -210,7 +212,7 @@ export default function App() {
 
     setSavedWords(prev => ({
       ...prev,
-      [word.text]: { save_type: saveType, reading: word.reading, meaning: word.meaning, jlpt: word.jlpt },
+      [key]: { save_type: saveType, reading: keyReading, meaning: word.meaning, jlpt: word.jlpt },
     }))
     toast.show(saveType === 'vocab' ? `「${word.text}」を語彙として保存しました` : `「${word.text}」の読み方を保存しました`)
   }
@@ -235,6 +237,59 @@ export default function App() {
       return next
     })
     toast.show(`「${wordText}」を削除しました`)
+  }
+
+  // Manual cleanup for words saved before the base-form fix, or left inconsistent by it
+  // (e.g. two valid base-form spellings for the same word). Re-queries after writing since
+  // the true merged reading/meaning/jlpt can only be known from the row that won the upsert.
+  //
+  // The corrected reading only actually takes effect when `newText` doesn't already exist as
+  // a words row: there's no UPDATE policy on `words` (only insert + select), so `ignoreDuplicates`
+  // silently keeps whatever an existing row already has. We re-check after reloading rather than
+  // assume success, so the toast never claims a reading change that didn't really happen.
+  async function handleRename(oldText, rawNewText, rawNewReading) {
+    const old = savedWords[oldText]
+    if (!old) return
+    const newText = rawNewText?.trim() || oldText
+    const newReading = rawNewReading?.trim() || old.reading
+    if (newText === oldText && newReading === old.reading) return
+
+    const { error: upsertError } = await supabase.from('words').upsert({
+      text: newText,
+      reading: newReading,
+      meaning: old.meaning,
+      jlpt_level: old.jlpt || null,
+    }, { onConflict: 'text', ignoreDuplicates: true })
+    if (upsertError) {
+      toast.show('エラーが発生しました')
+      return
+    }
+
+    if (newText !== oldText) {
+      const mergeInto = savedWords[newText]
+      const { error } = mergeInto
+        ? await supabase.from('user_words').delete().eq('user_id', userId).eq('word_text', oldText)
+        : await supabase.from('user_words').update({ word_text: newText }).eq('user_id', userId).eq('word_text', oldText)
+      if (error) {
+        toast.show('エラーが発生しました')
+        return
+      }
+    }
+
+    const map = await loadWords()
+    const readingApplied = map[newText]?.reading === newReading
+    if (newText !== oldText) {
+      // readingApplied tells us whether our reading was actually stored, or an existing entry
+      // (possibly with a stale/wrong reading of its own) was adopted instead — worth surfacing,
+      // since the latter can silently keep bad data around.
+      toast.show(readingApplied
+        ? `「${oldText}」を「${newText}」に変更しました`
+        : `「${oldText}」を「${newText}」に変更しました（既存の登録内容が使われました）`)
+    } else {
+      toast.show(readingApplied
+        ? `「${newText}」の読み方を修正しました`
+        : `すでに登録済みのため読み方は変更できませんでした`)
+    }
   }
 
   if (isSessionLoading) return <div className="loading">読み込み中…</div>
@@ -327,14 +382,14 @@ export default function App() {
 
       {tab === 'vocab' && (
         loading ? <div className="loading">読み込み中…</div> : (
-          <VocabList savedWords={savedWords} onDelete={handleDelete} />
+          <VocabList savedWords={savedWords} onDelete={handleDelete} onRename={handleRename} />
         )
       )}
 
       {activeWord && (
         <WordPopup
           word={activeWord}
-          isSaved={savedWords[activeWord.text]?.save_type}
+          isSaved={savedWords[activeWord.base || activeWord.text]?.save_type}
           onSave={handleSave}
           onDelete={handleDelete}
           onClose={() => setActiveWord(null)}

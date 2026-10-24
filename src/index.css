@@ -218,6 +218,7 @@ html.dark[data-boundary-color="red"]   { --boundary-color: #d98f87; }
 .popup-word { font-size: 26px; font-weight: 500; }
 .popup-reading { font-size: 14px; color: var(--text-2); margin-top: 2px; }
 .popup-meaning { font-size: 14px; margin-top: 2px; }
+.popup-base-note { font-size: 13px; color: var(--text-2); margin-top: 4px; }
 .popup-close {
   background: none; border: none; cursor: pointer;
   font-size: 20px; color: var(--text-3); line-height: 1; padding: 2px;
@@ -300,6 +301,14 @@ html.dark[data-boundary-color="red"]   { --boundary-color: #d98f87; }
 }
 .type-vocab    { background: #eeedfe; color: #3c3489; }
 .type-reading  { background: #e1f5ee; color: #0f6e56; }
+
+.vocab-rename {
+  background: none; border: none; cursor: pointer;
+  color: var(--border-2); font-size: 16px; padding: 4px;
+  display: flex; align-items: center;
+  transition: color 0.12s;
+}
+.vocab-rename:hover { color: var(--text-2); }
 
 .vocab-delete {
   background: none; border: none; cursor: pointer;
