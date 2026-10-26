@@ -27,6 +27,8 @@ create table if not exists user_words (
   word_text text not null references words(text) on delete cascade,
   save_type text not null check (save_type in ('vocab', 'reading')),
   saved_at timestamptz default now(),
+  reading_level int not null default 0,      -- reading challenge: +1 per correct answer, 0 on a miss
+  mastered boolean not null default false,   -- set when reading_level reaches 7; excluded from the game
   unique(user_id, word_text)
 );
 
@@ -67,3 +69,21 @@ create policy "Own push read"   on push_subscriptions for select using (user_id 
 create policy "Own push insert" on push_subscriptions for insert with check (user_id = auth.uid());
 create policy "Own push update" on push_subscriptions for update using (user_id = auth.uid()) with check (user_id = auth.uid());
 create policy "Own push delete" on push_subscriptions for delete using (user_id = auth.uid());
+
+-- 6. Reading challenge score log, one row per finished round (no update/delete: scores are append-only)
+create table if not exists reading_challenge_rounds (
+  id serial primary key,
+  user_id uuid not null references auth.users(id) on delete cascade,
+  played_at timestamptz default now(),
+  jlpt_level text not null check (jlpt_level in ('N1', 'N2', 'N3', 'N4', 'N5')),
+  score numeric(5, 1) not null,
+  tapped_count int not null,
+  correct_count int not null
+);
+
+create index if not exists idx_reading_challenge_rounds_user_id on reading_challenge_rounds(user_id);
+
+alter table reading_challenge_rounds enable row level security;
+
+create policy "Own rounds read"   on reading_challenge_rounds for select using (user_id = auth.uid());
+create policy "Own rounds insert" on reading_challenge_rounds for insert with check (user_id = auth.uid());

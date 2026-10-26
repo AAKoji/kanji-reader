@@ -6,10 +6,12 @@ import WordPopup from './components/WordPopup'
 import VocabList from './components/VocabList'
 import SegmentText from './components/SegmentText'
 import NovelReader from './components/NovelReader'
+import ReadingChallenge from './components/ReadingChallenge'
 import { getPagesReadToday } from './novelProgress'
 import SettingsSheet from './components/SettingsSheet'
 import LoginScreen from './components/LoginScreen'
 import { resyncPushSubscription, unsubscribeFromPush } from './push'
+import { isCorrect, nextReadingLevel } from './readingChallenge'
 
 const TODAY = new Date().toLocaleDateString('ja-JP', {
   year: 'numeric', month: 'long', day: 'numeric', weekday: 'short'
@@ -94,7 +96,7 @@ export default function App() {
     if (!userId) return {}
     const { data, error } = await supabase
       .from('user_words')
-      .select('word_text, save_type, words(reading, meaning, jlpt_level)')
+      .select('word_text, save_type, reading_level, mastered, words(reading, meaning, jlpt_level)')
       .eq('user_id', userId)
 
     if (error) {
@@ -109,6 +111,8 @@ export default function App() {
         reading: row.words?.reading,
         meaning: row.words?.meaning,
         jlpt: row.words?.jlpt_level,
+        reading_level: row.reading_level,
+        mastered: row.mastered,
       }
     })
     setSavedWords(map)
@@ -212,7 +216,16 @@ export default function App() {
 
     setSavedWords(prev => ({
       ...prev,
-      [key]: { save_type: saveType, reading: keyReading, meaning: word.meaning, jlpt: word.jlpt },
+      // Re-saving an existing word keeps its reading level; the upsert above doesn't touch it either
+      [key]: {
+        reading_level: 0,
+        mastered: false,
+        ...prev[key],
+        save_type: saveType,
+        reading: keyReading,
+        meaning: word.meaning,
+        jlpt: word.jlpt,
+      },
     }))
     toast.show(saveType === 'vocab' ? `「${word.text}」を語彙として保存しました` : `「${word.text}」の読み方を保存しました`)
   }
@@ -237,6 +250,46 @@ export default function App() {
       return next
     })
     toast.show(`「${wordText}」を削除しました`)
+  }
+
+  // The result screen is already showing; this only persists. Local levels are updated only
+  // for writes that succeeded, so the next round never starts from a level the database lacks.
+  async function handleRoundFinished(jlptLevel, results) {
+    const levelUpdates = results.map(({ word, result }) => ({
+      wordText: word.text,
+      ...nextReadingLevel(word.readingLevel, result),
+    }))
+
+    const [roundWrite, ...levelWrites] = await Promise.all([
+      supabase.from('reading_challenge_rounds').insert({
+        user_id: userId,
+        jlpt_level: jlptLevel,
+        score: results.reduce((sum, r) => sum + r.points, 0),
+        tapped_count: results.length,
+        correct_count: results.filter(r => isCorrect(r.result)).length,
+      }),
+      ...levelUpdates.map(({ wordText, reading_level, mastered }) => supabase
+        .from('user_words')
+        .update({ reading_level, mastered })
+        .eq('user_id', userId)
+        .eq('word_text', wordText)),
+    ])
+
+    const savedUpdates = levelUpdates.filter((_, i) => !levelWrites[i].error)
+    setSavedWords(prev => {
+      const next = { ...prev }
+      savedUpdates.forEach(({ wordText, reading_level, mastered }) => {
+        if (next[wordText]) next[wordText] = { ...next[wordText], reading_level, mastered }
+      })
+      return next
+    })
+
+    if (roundWrite.error || savedUpdates.length < levelUpdates.length) {
+      toast.show('結果を保存できませんでした')
+      return
+    }
+    const newlyMastered = savedUpdates.filter(u => u.mastered).map(u => `「${u.wordText}」`)
+    if (newlyMastered.length > 0) toast.show(`${newlyMastered.join('')}を習得しました！`)
   }
 
   // Manual cleanup for words saved before the base-form fix, or left inconsistent by it
@@ -330,6 +383,9 @@ export default function App() {
         <button className={`nav-tab ${tab === 'vocab' ? 'active' : ''}`} onClick={() => setTab('vocab')}>
           単語リスト <span className="tab-count">{vocabCount}</span>
         </button>
+        <button className={`nav-tab ${tab === 'challenge' ? 'active' : ''}`} onClick={() => setTab('challenge')}>
+          読みチャレンジ
+        </button>
       </div>
 
       {tab === 'read' && (
@@ -383,6 +439,16 @@ export default function App() {
       {tab === 'vocab' && (
         loading ? <div className="loading">読み込み中…</div> : (
           <VocabList savedWords={savedWords} onDelete={handleDelete} onRename={handleRename} />
+        )
+      )}
+
+      {tab === 'challenge' && (
+        loading ? <div className="loading">読み込み中…</div> : (
+          <ReadingChallenge
+            savedWords={savedWords}
+            userLevel={userLevel}
+            onRoundFinished={handleRoundFinished}
+          />
         )
       )}
 
