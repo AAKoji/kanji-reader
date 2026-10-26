@@ -301,6 +301,7 @@ html.dark[data-boundary-color="red"]   { --boundary-color: #d98f87; }
 }
 .type-vocab    { background: #eeedfe; color: #3c3489; }
 .type-reading  { background: #e1f5ee; color: #0f6e56; }
+.type-mastered { background: #faeeda; color: #854f0b; }
 
 .vocab-rename {
   background: none; border: none; cursor: pointer;

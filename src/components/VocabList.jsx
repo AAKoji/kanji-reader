@@ -4,6 +4,7 @@ const LEVELS = ['N1', 'N2', 'N3', 'N4', 'N5']
 
 export default function VocabList({ savedWords, onDelete, onRename }) {
   const [filters, setFilters] = useState(new Set())
+  const [isMasteredOnly, setIsMasteredOnly] = useState(false)
   const entries = Object.entries(savedWords)
 
   if (entries.length === 0) {
@@ -16,10 +17,11 @@ export default function VocabList({ savedWords, onDelete, onRename }) {
     )
   }
 
-  const hasFilters = filters.size > 0
-  const filtered = hasFilters
-    ? entries.filter(([, e]) => e.jlpt && filters.has(e.jlpt))
-    : entries
+  // Level chips combine with OR among themselves; the mastered chip narrows the result further.
+  const hasFilters = filters.size > 0 || isMasteredOnly
+  const filtered = entries
+    .filter(([, e]) => filters.size === 0 || (e.jlpt && filters.has(e.jlpt)))
+    .filter(([, e]) => !isMasteredOnly || e.mastered)
 
   const toggleFilter = (level) => {
     setFilters(prev => {
@@ -42,15 +44,29 @@ export default function VocabList({ savedWords, onDelete, onRename }) {
             {level}
           </button>
         ))}
+        <button
+          className={`jlpt-chip ${isMasteredOnly ? 'active' : ''}`}
+          onClick={() => setIsMasteredOnly(prev => !prev)}
+        >
+          習得済み
+        </button>
         {hasFilters && (
-          <button className="jlpt-clear" onClick={() => setFilters(new Set())}>クリア</button>
+          <button
+            className="jlpt-clear"
+            onClick={() => {
+              setFilters(new Set())
+              setIsMasteredOnly(false)
+            }}
+          >
+            クリア
+          </button>
         )}
       </div>
 
       {filtered.length === 0 ? (
         <div className="empty-state">
           <div className="empty-icon">🔍</div>
-          選択したレベルの単語はありません。
+          {isMasteredOnly ? '条件に合う習得済みの単語はありません。' : '選択したレベルの単語はありません。'}
         </div>
       ) : (
         <div className="vocab-list">
@@ -65,6 +81,7 @@ export default function VocabList({ savedWords, onDelete, onRename }) {
               </div>
               <div className="vocab-badges">
                 {entry.jlpt && <span className="jlpt-level-tag">{entry.jlpt}</span>}
+                {entry.mastered && <span className="vocab-type-badge type-mastered">習得済み</span>}
                 <span className={`vocab-type-badge ${entry.save_type === 'vocab' ? 'type-vocab' : 'type-reading'}`}>
                   {entry.save_type === 'vocab' ? '語彙' : '読み方'}
                 </span>
