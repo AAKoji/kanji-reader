@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const LEVELS = ['N1', 'N2', 'N3', 'N4', 'N5']
 
-export default function VocabList({ savedWords, onDelete }) {
+export default function VocabList({ savedWords, onDelete, onRename }) {
   const [filters, setFilters] = useState(new Set())
   const entries = Object.entries(savedWords)
 
@@ -69,6 +69,19 @@ export default function VocabList({ savedWords, onDelete }) {
                   {entry.save_type === 'vocab' ? '語彙' : '読み方'}
                 </span>
               </div>
+              <button
+                className="vocab-rename"
+                onClick={() => {
+                  const nextText = window.prompt('正しい辞書形を入力してください', text)
+                  if (nextText === null) return
+                  const nextReading = window.prompt('正しい読み方を入力してください', entry.reading || '')
+                  if (nextReading === null) return
+                  onRename(text, nextText, nextReading)
+                }}
+                aria-label={`${text}の表記・読み方を修正`}
+              >
+                ✏️
+              </button>
               <button
                 className="vocab-delete"
                 onClick={() => onDelete(text)}

@@ -15,6 +15,11 @@ Segment file format, one word per line:
   言われ|いわれ|was told|N5     a word with a popup (the JLPT level may be left empty)
   の                           particle / punctuation, no popup
   ¶                            paragraph break
+
+Two more optional trailing fields hold the word's dictionary/base form, for an inflected
+word whose base form differs from its surface text (both-or-neither; omit for words already
+in base form, e.g. nouns):
+  澄みきって|すみきって|be clear|N2|澄み切る|すみきる
 """
 
 import argparse
@@ -178,14 +183,23 @@ def parse_segment_line(line: str, line_number: int) -> dict:
     fields = line.split("|")
     if len(fields) == 1:
         return {"text": line, "reading": None, "meaning": None}
-    if len(fields) not in (3, 4) or not all(fields[:3]):
-        raise SegmentFileError(f"line {line_number}: expected text|reading|meaning|jlpt, got {line!r}")
+    if len(fields) not in (3, 4, 6) or not all(fields[:3]):
+        raise SegmentFileError(
+            f"line {line_number}: expected text|reading|meaning|jlpt|base|baseReading, got {line!r}"
+        )
     segment = {"text": fields[0], "reading": fields[1], "meaning": fields[2]}
-    jlpt = fields[3] if len(fields) == 4 else ""
+    jlpt = fields[3] if len(fields) in (4, 6) else ""
     if jlpt:
         if jlpt not in JLPT_LEVELS:
             raise SegmentFileError(f"line {line_number}: invalid JLPT level {jlpt!r}")
         segment["jlpt"] = jlpt
+    if len(fields) == 6:
+        base, base_reading = fields[4], fields[5]
+        if not base or not base_reading:
+            raise SegmentFileError(f"line {line_number}: base and baseReading must both be set (use 4 fields to omit)")
+        if base == segment["text"]:
+            raise SegmentFileError(f"line {line_number}: base equals text; omit base/baseReading instead")
+        segment["base"], segment["baseReading"] = base, base_reading
     return segment
 
 

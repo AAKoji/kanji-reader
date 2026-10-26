@@ -22,7 +22,7 @@ export default function SegmentText({ segments, userLevel, boundaryColor, savedW
             </span>
           )
         }
-        const saved = savedWords[seg.text]
+        const saved = savedWords[seg.base || seg.text]
         const cls = saved
           ? saved.save_type === 'vocab' ? 'saved-vocab' : 'saved-reading'
           : ''

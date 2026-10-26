@@ -41,6 +41,12 @@ Rules for the JSON output:
   - "reading": hiragana/katakana reading, or null for particles and punctuation
   - "meaning": English meaning, or null for particles and punctuation
   - "jlpt": JLPT level string "N5", "N4", "N3", "N2", or "N1" — only on words that have reading/meaning
+  - "base": dictionary/base form of the word, included ONLY if it differs from "text" (e.g. text
+    "澄みきって" -> base "澄み切る"). Omit entirely for nouns, particles, and words already in
+    base form. Always use the standard dictionary headword spelling (the conventional kanji/okurigana
+    form a dictionary would use) — never an ad hoc variant — and reuse the exact same base string
+    for every occurrence of the same word in the article.
+  - "baseReading": hiragana reading of "base". Required whenever "base" is present, omitted otherwise.
 - Particles (は、が、を、に、で、の、も、と、から、まで、へ、より), punctuation (。、！？「」…・)
   and grammatical endings must have reading: null and meaning: null (no jlpt field).
 - The article should be 4-5 paragraphs, 60-90 segments total.
@@ -89,6 +95,11 @@ def validate(article: dict) -> None:
         assert "meaning" in seg, f"segment {i} missing meaning field"
         if seg.get("jlpt"):
             assert seg["jlpt"] in valid_jlpt, f"segment {i} has invalid jlpt: {seg['jlpt']}"
+        has_base = seg.get("base") is not None
+        has_base_reading = seg.get("baseReading") is not None
+        assert has_base == has_base_reading, f"segment {i} must have both base and baseReading or neither"
+        if has_base:
+            assert seg["base"] != seg["text"], f"segment {i}: base equals text, should be omitted"
 
 
 def main() -> None:

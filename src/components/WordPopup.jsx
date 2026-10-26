@@ -7,6 +7,11 @@ export default function WordPopup({ word, isSaved, onSave, onDelete, onClose }) 
             <div className="popup-word">{word.text}</div>
             {word.reading && <div className="popup-reading">{word.reading}</div>}
             {word.meaning && <div className="popup-meaning">{word.meaning}</div>}
+            {word.base && word.base !== word.text && (
+              <div className="popup-base-note">
+                辞書形「{word.base}」{word.baseReading ? `（${word.baseReading}）` : ''}として保存されます
+              </div>
+            )}
           </div>
           <button className="popup-close" onClick={onClose} aria-label="閉じる">✕</button>
         </div>
@@ -20,7 +25,7 @@ export default function WordPopup({ word, isSaved, onSave, onDelete, onClose }) 
               {isSaved === 'vocab' ? '語彙として保存済み' : '読み方として保存済み'}
             </div>
             <div className="popup-actions">
-              <button className="popup-btn danger" onClick={() => onDelete(word.text)}>
+              <button className="popup-btn danger" onClick={() => onDelete(word.base || word.text)}>
                 🗑 リストから削除
               </button>
             </div>
