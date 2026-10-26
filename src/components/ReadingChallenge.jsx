@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import {
-  BOARD_SIZE, TAP_SECONDS, ANSWER_SECONDS,
+  BOARD_SIZE, TAP_SECONDS, ANSWER_SECONDS, MASTERED_AT,
   buildPool, drawBoard, judgeAnswer, pointsFor, isCorrect,
 } from '../readingChallenge'
 
@@ -121,6 +121,12 @@ export default function ReadingChallenge({ savedWords, userLevel, onRoundFinishe
         <p className="rc-intro">
           {TAP_SECONDS}秒で読める単語をタップして、そのあと1語{ANSWER_SECONDS}秒で読み方を入力します。
         </p>
+        <ul className="rc-rules">
+          <li>点数は単語のレベルで決まります：N5は1点、N4は2点、N3は3点、N2は4点、N1は5点。</li>
+          <li>ひらがな・カタカナで正解すると満点、漢字で答えると半分の点数です。</li>
+          <li>不正解や時間切れは、同じ点数がマイナスになります。タップしなかった単語は0点です。</li>
+          <li>同じ単語に{MASTERED_AT}回続けて正解すると「習得済み」になり、チャレンジに出なくなります。間違えるとカウントは0に戻ります。習得済みの単語は単語リストで確認できます。</li>
+        </ul>
         <div className="jlpt-filter-row">
           {LEVELS.map(l => (
             <button key={l} className={`jlpt-chip ${level === l ? 'active' : ''}`} onClick={() => setLevel(l)}>

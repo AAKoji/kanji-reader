@@ -651,7 +651,15 @@ button.novel-page-count:hover { color: var(--text-1); }
 .sheet-signout { width: 100%; justify-content: center; }
 
 /* ── Reading challenge ───────────────────────────────────────── */
-.rc-intro { font-size: 14px; color: var(--text-2); line-height: 1.8; margin-bottom: 1rem; }
+.rc-intro { font-size: 14px; color: var(--text-2); line-height: 1.8; margin-bottom: 0.5rem; }
+.rc-rules {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.7;
+  padding-left: 1.2em;
+  margin-bottom: 1rem;
+}
+.rc-rules li { margin-bottom: 4px; }
 .rc-start { width: 100%; justify-content: center; margin-top: 1rem; }
 
 .rc-timer {
