@@ -13,8 +13,7 @@ export default function SegmentText({ segments, userLevel, boundaryColor, savedW
         const aboveLevel = userLevel && seg.jlpt &&
           parseInt(seg.jlpt[1]) < parseInt(userLevel[1])
         if (aboveLevel) {
-          const boundaryActive =
-            (userLevel === 'N4' || userLevel === 'N5') && boundaryColor !== 'off'
+          const boundaryActive = boundaryColor !== 'off'
           const cls = boundaryActive ? 'word-above-level word-boundary' : 'word-above-level'
           return (
             <span key={i} className={cls} onClick={() => onWordClick(seg)}>

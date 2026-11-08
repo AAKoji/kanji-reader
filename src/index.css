@@ -182,7 +182,7 @@ body {
 .word-above-level { cursor: pointer; border-radius: 3px; padding: 0 1px; transition: background 0.1s; }
 .word-above-level:hover { background: var(--bg-muted); }
 
-/* Accent color for N4/N5 hiragana-swapped words (readability aid) */
+/* Accent color for hiragana-swapped words (readability aid) */
 html[data-boundary-color="grey"]  { --boundary-color: #6b6b68; }
 html[data-boundary-color="blue"]  { --boundary-color: #4d6da8; }
 html[data-boundary-color="brown"] { --boundary-color: #8a5a3f; }
